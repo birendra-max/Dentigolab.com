@@ -5,24 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dentigo</title>
-    <meta name="description" content="BravoDent Designs offers precision dental design services including crowns, bridges, implants, and smile makeovers. We support dental laboratories and clinics with high-quality, custom solutions.">
-    <meta name="keywords" content="BravoDent, dental designs, crowns, bridges, implants, smile makeover, dental prosthetics, dental solutions, dental laboratories, dental clinics">
-    <meta property="og:title" content="BravoDent Designs - High-Quality Dental Designs & Solutions">
-    <meta property="og:description" content="BravoDent Designs provides custom dental design services like crowns, bridges, implants, and smile makeovers. We work with dental laboratories and clinics to provide precision and quality.">
-    <meta property="og:image" content="https://bravodentdesigns.com/assets/images/homepage-image.jpg">
-    <meta property="og:url" content="https://bravodentdesigns.com">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="BravoDent Designs - High-Quality Dental Designs & Solutions">
-    <meta name="twitter:description" content="BravoDent Designs offers precision dental design services including crowns, bridges, implants, and smile makeovers. Trusted by dental laboratories and clinics.">
-    <meta name="twitter:image" content="https://bravodentdesigns.com/assets/images/homepage-image.jpg">
-    <link rel="canonical" href="https://bravodentdesigns.com">
-    <link rel="icon" href="public/images/logo.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="public/css/hd.css">
-    <script src="public/js/spinner.js"></script>
     <script src="public/js/jQuery.js"></script>
-    <meta name="author" content="BravoDent Designs">
     <style>
         html {
             margin: 0;
@@ -32,8 +17,11 @@
     </style>
 </head>
 
-<body>
-    <header class='flex items-center justify-between px-6 py-4 bg-indigo-500 from-navy-800 to-gray-900 text-black shadow-lg'>
+<body class="bg-gray-400">
+    <?php
+    include 'inc/topbar.php';
+    ?>
+    <header class="fixed w-full flex items-center justify-between px-6 py-4 bg-gradient-to-r from-gray-800 to-blue-900 text-white shadow-lg z-50">
 
         <div class='flex items-center'>
             <a href="index.php" target="_self" class="mr-6">
@@ -43,19 +31,19 @@
 
         <div class="hidden lg:flex space-x-6">
             <a href='index.php' target="_self"
-                class='text-white text-lg hover:text-blue-800 transition-all duration-300 font-semibold'>Home</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Home</a>
             <a href='AboutUs.php' target="_self"
-                class='text-white text-lg hover:text-blue-800 transition-all duration-300 font-semibold'>About Us</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>About Us</a>
             <a href='Prod&Services.php' target="_self"
-                class='text-white text-lg hover:text-blue-800 transition-all duration-300 font-semibold'>Products & Services</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Products & Services</a>
             <a href='Workflow.php' target="_self"
-                class='text-white text-lg hover:text-blue-800 transition-all duration-300 font-semibold'>Workflow</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Workflow</a>
             <a href='Join_our_Team.php' target="_self"
-                class='text-white text-lg hover:text-blue-800 transition-all duration-300 font-semibold'>Join our Team</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Join our Team</a>
             <a href='FAQ.php' target="_self"
-                class='text-white text-lg hover:text-blue-800 transition-all duration-300 font-semibold'>FAQ</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>FAQ</a>
             <a href='ContactUs.php' target="_self"
-                class='text-white text-lg hover:text-blue-800 transition-all duration-300 font-semibold'>Contact Us</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Contact Us</a>
         </div>
 
         <div class="lg:flex items-center space-x-4">
@@ -73,7 +61,5 @@
             </button>
         </div>
     </header>
-
-
 
     <main>
