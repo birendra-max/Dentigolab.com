@@ -1,4 +1,7 @@
 <?php
+include 'inc/topbar.php';
+?>
+<?php
 include 'inc/hd.php';
 ?>
 
@@ -33,14 +36,14 @@ include 'inc/hd.php';
 
 <!-- About us section  -->
 <section class="flex min-h-screen items-center justify-center text-gray-900">
-    <div class="flex max-w-7xl rounded-xl border border-gray-300 bg-white shadow-lg overflow-hidden">
+    <div class="flex max-w-7xl rounded-xl border border-gray-300 bg-white shadow-lg overflow-hidden transition-transform transform hover:scale-110 duration-500 ease-in-out">
         <!-- Image Section -->
-        <div class="w-1/3">
-            <img src="public/images/home3.webp" alt="Doctor" class="h-full w-full object-cover">
+        <div class="w-1/3 relative">
+            <img src="public/images/home3.webp" alt="Doctor" class="h-full w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out">
         </div>
 
         <!-- Content Section -->
-        <div class="w-2/2 flex flex-col justify-between p-8">
+        <div class="w-2/3 flex flex-col justify-between p-8">
             <div class="space-y-4">
                 <p class="text-sm uppercase text-indigo-600 tracking-widest">Dentistry Solutions</p>
                 <h1 class="text-3xl font-bold leading-tight">Welcome to Dentigo</h1>
@@ -67,6 +70,7 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
+
 
 <!-- Services Section  -->
 <section>
@@ -153,7 +157,6 @@ include 'inc/hd.php';
 </section>
 
 
-
 <!-- Review Section  -->
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-20 mt-8">
@@ -161,29 +164,29 @@ include 'inc/hd.php';
             <!-- Counters -->
             <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="space-y-6">
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4">
+                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
                         <i class="fas fa-box text-4xl text-white"></i>
                         <span class="text-white text-xl font-semibold">+ <span class="count" data-target="5000">0</span> Orders</span>
                     </div>
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4">
+                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
                         <i class="fas fa-user-cog text-4xl text-white"></i>
                         <span class="text-white text-xl font-semibold">+ <span class="count" data-target="50">0</span> Skilled Designers</span>
                     </div>
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4">
+                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
                         <i class="fas fa-clipboard-check text-4xl text-white"></i>
                         <span class="text-white text-xl font-semibold">+ <span class="count" data-target="20">0</span> Experienced Quality Controllers</span>
                     </div>
                 </div>
                 <div class="space-y-6">
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4">
+                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
                         <i class="fas fa-globe text-4xl text-white"></i>
                         <span class="text-white text-xl font-semibold">+ <span class="count" data-target="10">0</span> Countries Covered</span>
                     </div>
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4">
+                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
                         <i class="fas fa-smile text-4xl text-white"></i>
                         <span class="text-white text-xl font-semibold">+ <span class="count" data-target="1000">0</span> Happy Clients Worldwide</span>
                     </div>
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4">
+                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
                         <i class="fas fa-briefcase text-4xl text-white"></i>
                         <span class="text-white text-xl font-semibold">+ <span class="count" data-target="15">0</span> Years of Experience</span>
                     </div>
@@ -223,25 +226,25 @@ include 'inc/hd.php';
     </script>
 </section>
 
-<section class=" py-16 px-4">
+<section class=" py-16 px-12">
     <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
         <!-- Image Section -->
-        <div class="w-full lg:w-5/12 relative">
-            <img src="public/images/computer.avif" class="w-full rounded-lg shadow-xl" alt="service img">
+        <div class="w-full lg:w-6/12 relative">
+            <img src="public/images/computer.avif" class="w-full rounded-lg shadow-xl transform transition duration-300 hover:scale-105" alt="service img">
             <div class="absolute inset-0 flex items-center justify-center">
-                <a class="bg-white text-gray-700 p-4 rounded-full shadow-lg hover:bg-gray-200 transition" 
+                <a class="bg-white text-gray-700 p-4 rounded-full shadow-lg hover:bg-gray-200 transition"
                     href="https://www.youtube.com/embed/KjpuOGDx_4E?si=fNVd64KesOcBrkRn">
                     <i class="fa-solid fa-play text-2xl"></i>
                 </a>
             </div>
         </div>
-        
+
         <!-- Content Section -->
-        <div class="w-full lg:w-7/12 bg-white p-10 rounded-xl shadow-xl">
+        <div class="w-full lg:w-7/12 bg-white p-10 rounded-xl shadow-xl transform transition duration-300 hover:scale-105">
             <span class="bg-gray-700 text-white px-4 py-2 rounded-full text-sm font-semibold">Dentigo</span>
             <h2 class="text-4xl font-bold mt-4 text-gray-800">Why Choose Us</h2>
             <p class="text-gray-600 mt-2">We provide top-quality dental solutions trusted by professionals worldwide.</p>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                 <!-- Reliability -->
                 <div class="flex space-x-4 items-start">
@@ -251,7 +254,7 @@ include 'inc/hd.php';
                         <p class="text-gray-600 text-sm">Trusted by dental professionals for consistent quality and on-time deliveries.</p>
                     </div>
                 </div>
-                
+
                 <!-- Advanced Technology -->
                 <div class="flex space-x-4 items-start">
                     <i class="fa-solid fa-microchip text-4xl text-gray-700"></i>
@@ -260,7 +263,7 @@ include 'inc/hd.php';
                         <p class="text-gray-600 text-sm">Utilizing cutting-edge CAD/CAM systems to ensure accuracy in every design.</p>
                     </div>
                 </div>
-                
+
                 <!-- Certified Expertise -->
                 <div class="flex space-x-4 items-start">
                     <i class="fa-solid fa-user-md text-4xl text-gray-700"></i>
@@ -269,7 +272,7 @@ include 'inc/hd.php';
                         <p class="text-gray-600 text-sm">A team of certified dentists and technicians ensures every product meets global benchmarks.</p>
                     </div>
                 </div>
-                
+
                 <!-- Global Reach -->
                 <div class="flex space-x-4 items-start">
                     <i class="fa-solid fa-globe text-4xl text-gray-700"></i>
@@ -284,19 +287,250 @@ include 'inc/hd.php';
 </section>
 
 
+<section class="max-w-7xl mx-auto bg-white shadow-xl rounded-3xl p-12 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-teal-50 to-blue-50 opacity-15 rounded-3xl"></div>
+    <h2 class="text-4xl font-bold text-gray-800 text-center mb-12 relative z-10">Explore Our Premium Dental Products</h2>
+    <div class="grid lg:grid-cols-3 gap-16 relative z-10">
+        <div class="lg:col-span-2 space-y-8">
+            <ul class="space-y-6">
+                <li class="p-8 bg-white shadow-xl rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-teal-500 hover:text-white hover:transition-all">
+                    <strong class="text-2xl font-medium text-gray-800">Fixed Restorations</strong>
+                    <p class="text-lg text-gray-600">Includes crowns, bridges, veneers, inlays, onlays, and other fixed solutions.</p>
+                </li>
+                <li class="p-8 bg-white shadow-xl rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-teal-500 hover:text-white hover:transition-all">
+                    <strong class="text-2xl font-medium text-gray-800">Implant-Supported Restorations</strong>
+                    <p class="text-lg text-gray-600">Long-lasting, functional, and aesthetic solutions for missing teeth.</p>
+                </li>
+                <li class="p-8 bg-white shadow-xl rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-teal-500 hover:text-white hover:transition-all">
+                    <strong class="text-2xl font-medium text-gray-800">Removable Restorations</strong>
+                    <p class="text-lg text-gray-600">Flexible and comfortable prosthetics tailored to meet various clinical needs.</p>
+                </li>
+                <li class="p-8 bg-white shadow-xl rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-teal-500 hover:text-white hover:transition-all">
+                    <strong class="text-2xl font-medium text-gray-800">Custom Full-Arch Restorations</strong>
+                    <p class="text-lg text-gray-600">Comprehensive solutions for full-mouth reconstructions.</p>
+                </li>
+                <li class="p-8 bg-white shadow-xl rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-teal-500 hover:text-white hover:transition-all">
+                    <strong class="text-2xl font-medium text-gray-800">Orthodontic Appliances</strong>
+                    <p class="text-lg text-gray-600">Custom aligners, retainers, and other appliances.</p>
+                </li>
+                <li class="p-8 bg-white shadow-xl rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-teal-500 hover:text-white hover:transition-all">
+                    <strong class="text-2xl font-medium text-gray-800">3D-Printed Models</strong>
+                    <p class="text-lg text-gray-600">High-precision models and surgical guides.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="flex justify-center items-center">
+            <div class="relative w-96 h-96 rounded-lg overflow-hidden shadow-2xl">
+                <img id="product-image" src="assets/image/d1.jpeg" alt="Product Preview" class="w-full h-full object-cover transition-all duration-500 transform hover:scale-110">
+            </div>
+        </div>
+    </div>
+    <script>
+        function showImage(imageSrc) {
+            document.getElementById('product-image').src = 'assets/image/' + imageSrc;
+        }
+    </script>
+</section>
 
 
+<section class="py-16 text-black">
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold">Our Delivery Options</h2>
+        <p class="text-lg mt-2">Efficient, Flexible, and Designed to Meet Your Needs.</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
+        <!-- Rush Orders -->
+        <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:rotate-3 hover:bg-yellow-100">
+            <div class="text-4xl text-yellow-500 mb-4 animate-pulse">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Rush Orders</h3>
+            <p class="mt-2 text-gray-600">1-2 Hours</p>
+        </div>
+        <!-- Same Day -->
+        <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:-rotate-3 hover:bg-green-100">
+            <div class="text-4xl text-green-500 mb-4 animate-bounce">
+                <i class="fas fa-truck"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Same Day</h3>
+            <p class="mt-2 text-gray-600">6 Hours</p>
+        </div>
+        <!-- Next Day -->
+        <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:rotate-6 hover:bg-blue-100">
+            <div class="text-4xl text-blue-500 mb-4 animate-spin-slow">
+                <i class="fas fa-clock"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Next Day</h3>
+            <p class="mt-2 text-gray-600">12 Hours</p>
+        </div>
+        <!-- Manufacturing Product Delivery -->
+        <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:-rotate-6 hover:bg-red-100">
+            <div class="text-4xl text-red-500 mb-4 animate-wiggle">
+                <i class="fas fa-industry"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Manufacturing Product Delivery</h3>
+            <p class="mt-2 text-gray-600">5-7 Days</p>
+        </div>
+    </div>
+</section>
+
+<style>
+    @keyframes wiggle {
+
+        0%,
+        100% {
+            transform: rotate(-3deg);
+        }
+
+        50% {
+            transform: rotate(3deg);
+        }
+    }
+
+    .animate-wiggle {
+        animation: wiggle 0.3s ease-in-out infinite;
+    }
+
+    @keyframes spin-slow {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .animate-spin-slow {
+        animation: spin-slow 6s linear infinite;
+    }
+</style>
 
 
+<section class="md:py-20 py-6">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">Our Happy Clients</h2>
+        <p class="text-lg text-gray-600 mb-16 mx-auto max-w-2xl">We value our clients and their feedback. Here's what they have to say about working with us!</p>
 
+        <!-- Client Testimonials Slider -->
+        <div id="client-carousel" class="relative w-full max-w-6xl mx-auto overflow-hidden rounded-lg shadow-2xl bg-white">
+            <div class="carousel-inner flex transition-all duration-700 ease-in-out">
+                <!-- Testimonials will be injected here dynamically -->
+            </div>
 
+            <!-- Carousel Controls -->
+            <button id="prev-btn" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-indigo-700 text-white p-4 rounded-full shadow-lg hover:bg-indigo-800 transition duration-300 ease-in-out focus:outline-none">
+                &laquo;
+            </button>
+            <button id="next-btn" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-indigo-700 text-white p-4 rounded-full shadow-lg hover:bg-indigo-800 transition duration-300 ease-in-out focus:outline-none">
+                &raquo;
+            </button>
+        </div>
+    </div>
 
+    <!-- JavaScript for carousel functionality -->
+    <script>
+        const clients = [{
+                name: "Emily Carter (Owner)",
+                address: "California, USA",
+                comments: ["Bravodent's remote assistance has been invaluable, always quick and professional."]
+            },
+            {
+                name: "Michael Adams (Operations Manager)",
+                address: "New York, USA",
+                comments: ["The Bravodent team provides excellent support, ensuring smooth workflow and timely resolutions."],
+            },
+            {
+                name: "Sarah Williams (CAD/CAM Manager)",
+                address: "Texas, USA",
+                comments: ["Thanks to Bravodent, we’ve never faced delays, their remote assistance is a lifesaver."],
+            },
+            {
+                name: "David Brown (Digital Dental Designer)",
+                address: "Florida, USA",
+                comments: ["Bravodent’s team is always available to solve our technical issues, ensuring minimal downtime."],
+            },
+            {
+                name: "Olivia Martin (Laboratory Technician)",
+                address: "Illinois, USA",
+                comments: ["Bravodent offers fast, reliable support that keeps our systems running smoothly every time."],
+            },
+            {
+                name: "Jack Reynolds (Quality Control Specialist)",
+                address: "Georgia, USA",
+                comments: ["I rely on Bravodent’s remote team for quick fixes and guidance, their professionalism is top-notch."]
+            },
+            {
+                name: "Lisa Green (Implant Specialist)",
+                address: "Nevada, USA",
+                comments: ["The remote support provided by Bravodent has been indispensable in managing our practice’s needs."]
+            },
+            {
+                name: "Alan Miller (Removables Specialist)",
+                address: "Ohio, USA",
+                comments: ["Bravodent’s customer service team responds immediately and efficiently resolves any challenges we face."]
+            },
+            {
+                name: "Dr. Michelle Clark",
+                address: "Michigan, USA",
+                comments: ["Bravodent has become an essential partner for us, their support team is always helpful and quick."]
+            },
+            {
+                name: "Dr. Brian Scott",
+                address: "Washington, USA",
+                comments: ["With Bravodent's excellent remote assistance, we’ve streamlined our operations and reduced downtime."]
+            }
+        ];
 
+        const carouselInner = document.querySelector('.carousel-inner');
 
+        // Function to dynamically render testimonials
+        const renderTestimonials = () => {
+            let i = 1;
+            clients.forEach(client => {
+                const testimonialElement = document.createElement('div');
+                testimonialElement.classList.add('carousel-item', 'flex-shrink-0', 'w-full', 'px-6', 'py-8', 'text-center');
 
+                // Constructing HTML for each client
+                testimonialElement.innerHTML = `
+                <div class="flex items-center justify-center mb-6">
+                    <img class="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-xl" src="public/images/user.png" alt="${client.name}">
+                </div>
+                <p class="md:text-xl text-lg text-gray-800 mb-4 italic px-6 leading-relaxed">"${client.comments.join(' ')}"</p>
+                <h3 class="font-semibold md:text-xl text-xl text-gray-900">${client.name}</h3>
+                <p class="text-gray-500">${client.address}</p>
+                <p class="text-gray-500">${i} / 10</p>`;
 
+                carouselInner.appendChild(testimonialElement);
+                i++;
+            });
+        };
 
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        let currentIndex = 0;
 
+        // Function to update the carousel view
+        const updateCarousel = () => {
+            const offset = -100 * currentIndex; // Percentage-based movement
+            carouselInner.style.transform = `translateX(${offset}%)`;
+        };
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex === 0) ? clients.length - 1 : currentIndex - 1;
+            updateCarousel();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex === clients.length - 1) ? 0 : currentIndex + 1;
+            updateCarousel();
+        });
+
+        // Initialize carousel
+        renderTestimonials();
+        updateCarousel();
+    </script>
+</section>
 
 <script>
     window.addEventListener('scroll', function() {
@@ -307,3 +541,7 @@ include 'inc/hd.php';
         }
     })
 </script>
+
+<?php
+include 'inc/ft.php';
+?>

@@ -17,31 +17,28 @@
     </style>
 </head>
 
-<body class="bg-gradient-to-r from-black via-blue-100 to-black">
-    <?php
-    include 'inc/topbar.php';
-    ?>
+<body class="bg-gradient-to-r from-black via-yellow-100 to-black">
     <header class="fixed w-full flex items-center justify-between px-6 py-4 bg-gradient-to-r from-gray-800 to-blue-900 text-white shadow-lg z-50">
 
         <div class='flex items-center'>
             <a href="index.php" target="_self" class="mr-6">
-                <img src="public/images/dentigologo.png" alt="logo" class="w-[80px] md:w-[80px] drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300" />
+                <img src="public/images/dentigo-removebg-preview1.png" alt="logo" class="w-[200px] md:w-[200px] drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300" />
             </a>
         </div>
 
         <div class="hidden lg:flex space-x-6">
             <a href='index.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Home</a>
-            <a href='AboutUs.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>About Us</a>
+                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>Home</a>
+            <a href='About.php' target="_self"
+                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>About Us</a>
             <a href='Prod&Services.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Product & manufacturing</a>
+                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>Product & manufacturing</a>
             <a href='Workflow.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Portfolio & Gallery</a>
+                class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold'>Portfolio & Gallery</a>
             <a href='Join_our_Team.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Digital Workflows</a>
+                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>Digital Workflows</a>
             <a href='FAQ.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Contact</a>
+                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>Contact</a>
         </div>
 
         <div class="lg:flex items-center space-x-4">
