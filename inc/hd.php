@@ -17,7 +17,7 @@
     </style>
 </head>
 
-<body class="bg-gray-400">
+<body class="bg-gradient-to-r from-black via-blue-100 to-black">
     <?php
     include 'inc/topbar.php';
     ?>
@@ -35,21 +35,19 @@
             <a href='AboutUs.php' target="_self"
                 class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>About Us</a>
             <a href='Prod&Services.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Products & Services</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Product & manufacturing</a>
             <a href='Workflow.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Workflow</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Portfolio & Gallery</a>
             <a href='Join_our_Team.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Join our Team</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Digital Workflows</a>
             <a href='FAQ.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>FAQ</a>
-            <a href='ContactUs.php' target="_self"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Contact Us</a>
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Contact</a>
         </div>
 
         <div class="lg:flex items-center space-x-4">
             <a href="https://bravodentclouds.com/" target="_self"
                 class="inline-flex items-center rounded bg-teal-500 px-4 py-2 text-lg font-medium text-black shadow-md hover:bg-teal-600 transition-all duration-300">
-                Login →
+                Login/Signup →
             </a>
 
             <button id="toggleOpen" class='lg:hidden text-white'>
