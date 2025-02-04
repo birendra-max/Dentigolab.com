@@ -2,8 +2,7 @@
 include 'inc/hd.php';
 ?>
 <script>
-    document.title='About | Dentigolab.com' 
-    
+    document.title='About | Dentigolab Designs' 
 </script>
 <br>
 <br>

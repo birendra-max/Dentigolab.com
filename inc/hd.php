@@ -69,7 +69,7 @@
         $(document).ready(function() {
             let pageTitle = document.title;
 
-            if (pageTitle == 'Home | Dentigolab.com') {
+            if (pageTitle == 'Home | Dentigolab Designs') {
                 $('#home').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#home').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
             } else {
@@ -78,7 +78,7 @@
             }
 
 
-            if (pageTitle == 'About | Dentigolab.com') {
+            if (pageTitle == 'About | Dentigolab Designs') {
                 $('#about').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#about').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
             } else {
@@ -87,7 +87,7 @@
             }
 
 
-            if (pageTitle == 'Products & Services | BravoDent Designs') {
+            if (pageTitle == 'Product & Services | Dentigolab Designs') {
                 $('#prodser').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#prodser').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
             } else {
@@ -96,7 +96,7 @@
             }
 
 
-            if (pageTitle == 'Workflow | BravoDent Designs') {
+            if (pageTitle == 'Digital Workflows | Dentigolab Designs') {
                 $('#digitalworkflow').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#digitalworkflow').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
             } else {
@@ -105,7 +105,7 @@
             }
 
 
-            if (pageTitle == 'Join Our Team | BravoDent Designs') {
+            if (pageTitle == 'Portfolio & Gallery | Dentigolab Designs') {
                 $('#portgallery').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#portgallery').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
             } else {
@@ -123,7 +123,7 @@
             // }
 
 
-            if (pageTitle == 'Contact Us | BravoDent Designs') {
+            if (pageTitle == 'Contact | Dentigolab Designs') {
                 $('#contact').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#contact').addClass('text-[#28a745] font-extrabold transition-all ease-in-out duration-300');
             } else {
