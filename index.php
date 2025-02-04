@@ -1,10 +1,10 @@
 <?php
-include 'inc/topbar.php';
-?>
-<?php
 include 'inc/hd.php';
 ?>
 
+<script>
+    document.title='Home | Dentigolab.com' 
+</script>
 <br>
 <br>
 <br>
@@ -407,130 +407,66 @@ include 'inc/hd.php';
 </style>
 
 
-<section class="md:py-20 py-6">
+<section class="md:py-20 py-6 text-black">
     <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-bold text-gray-800 mb-8">Our Happy Clients</h2>
-        <p class="text-lg text-gray-600 mb-16 mx-auto max-w-2xl">We value our clients and their feedback. Here's what they have to say about working with us!</p>
+        <h2 class="text-4xl font-bold mb-8 text-black">Our Happy Clients</h2>
+        <p class="text-lg mb-16 mx-auto max-w-2xl text-black">
+            We value our clients and their feedback. Here's what they have to say about working with us!
+        </p>
 
         <!-- Client Testimonials Slider -->
-        <div id="client-carousel" class="relative w-full max-w-6xl mx-auto overflow-hidden rounded-lg shadow-2xl bg-white">
+        <div id="client-carousel" class="relative w-full max-w-6xl mx-auto overflow-hidden rounded-lg bg-white shadow-2xl">
             <div class="carousel-inner flex transition-all duration-700 ease-in-out">
                 <!-- Testimonials will be injected here dynamically -->
             </div>
-
-            <!-- Carousel Controls -->
-            <button id="prev-btn" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-indigo-700 text-white p-4 rounded-full shadow-lg hover:bg-indigo-800 transition duration-300 ease-in-out focus:outline-none">
-                &laquo;
-            </button>
-            <button id="next-btn" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-indigo-700 text-white p-4 rounded-full shadow-lg hover:bg-indigo-800 transition duration-300 ease-in-out focus:outline-none">
-                &raquo;
-            </button>
         </div>
     </div>
+</section>
 
-    <!-- JavaScript for carousel functionality -->
-    <script>
-        const clients = [{
-                name: "Emily Carter (Owner)",
-                address: "California, USA",
-                comments: ["Bravodent's remote assistance has been invaluable, always quick and professional."]
-            },
-            {
-                name: "Michael Adams (Operations Manager)",
-                address: "New York, USA",
-                comments: ["The Bravodent team provides excellent support, ensuring smooth workflow and timely resolutions."],
-            },
-            {
-                name: "Sarah Williams (CAD/CAM Manager)",
-                address: "Texas, USA",
-                comments: ["Thanks to Bravodent, we’ve never faced delays, their remote assistance is a lifesaver."],
-            },
-            {
-                name: "David Brown (Digital Dental Designer)",
-                address: "Florida, USA",
-                comments: ["Bravodent’s team is always available to solve our technical issues, ensuring minimal downtime."],
-            },
-            {
-                name: "Olivia Martin (Laboratory Technician)",
-                address: "Illinois, USA",
-                comments: ["Bravodent offers fast, reliable support that keeps our systems running smoothly every time."],
-            },
-            {
-                name: "Jack Reynolds (Quality Control Specialist)",
-                address: "Georgia, USA",
-                comments: ["I rely on Bravodent’s remote team for quick fixes and guidance, their professionalism is top-notch."]
-            },
-            {
-                name: "Lisa Green (Implant Specialist)",
-                address: "Nevada, USA",
-                comments: ["The remote support provided by Bravodent has been indispensable in managing our practice’s needs."]
-            },
-            {
-                name: "Alan Miller (Removables Specialist)",
-                address: "Ohio, USA",
-                comments: ["Bravodent’s customer service team responds immediately and efficiently resolves any challenges we face."]
-            },
-            {
-                name: "Dr. Michelle Clark",
-                address: "Michigan, USA",
-                comments: ["Bravodent has become an essential partner for us, their support team is always helpful and quick."]
-            },
-            {
-                name: "Dr. Brian Scott",
-                address: "Washington, USA",
-                comments: ["With Bravodent's excellent remote assistance, we’ve streamlined our operations and reduced downtime."]
-            }
-        ];
+<script>
+    const clients = [
+        { name: "Emily Carter (Owner)", address: "California, USA", comments: ["Bravodent's remote assistance has been invaluable, always quick and professional."] },
+        { name: "Michael Adams (Operations Manager)", address: "New York, USA", comments: ["The Bravodent team provides excellent support, ensuring smooth workflow and timely resolutions."] },
+        { name: "Sarah Williams (CAD/CAM Manager)", address: "Texas, USA", comments: ["Thanks to Bravodent, we’ve never faced delays, their remote assistance is a lifesaver."] },
+        { name: "David Brown (Digital Dental Designer)", address: "Florida, USA", comments: ["Bravodent’s team is always available to solve our technical issues, ensuring minimal downtime."] },
+        { name: "Olivia Martin (Laboratory Technician)", address: "Illinois, USA", comments: ["Bravodent offers fast, reliable support that keeps our systems running smoothly every time."] }
+    ];
 
-        const carouselInner = document.querySelector('.carousel-inner');
+    const carouselInner = document.querySelector('.carousel-inner');
+    let currentIndex = 0;
 
-        // Function to dynamically render testimonials
-        const renderTestimonials = () => {
-            let i = 1;
-            clients.forEach(client => {
-                const testimonialElement = document.createElement('div');
-                testimonialElement.classList.add('carousel-item', 'flex-shrink-0', 'w-full', 'px-6', 'py-8', 'text-center');
+    const renderTestimonials = () => {
+        clients.forEach(client => {
+            const testimonialElement = document.createElement('div');
+            testimonialElement.classList.add('carousel-item', 'flex-shrink-0', 'w-full', 'px-6', 'py-8', 'text-center');
 
-                // Constructing HTML for each client
-                testimonialElement.innerHTML = `
+            testimonialElement.innerHTML = `
                 <div class="flex items-center justify-center mb-6">
                     <img class="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-xl" src="public/images/user.png" alt="${client.name}">
                 </div>
                 <p class="md:text-xl text-lg text-gray-800 mb-4 italic px-6 leading-relaxed">"${client.comments.join(' ')}"</p>
                 <h3 class="font-semibold md:text-xl text-xl text-gray-900">${client.name}</h3>
                 <p class="text-gray-500">${client.address}</p>
-                <p class="text-gray-500">${i} / 10</p>`;
-
-                carouselInner.appendChild(testimonialElement);
-                i++;
-            });
-        };
-
-        const prevBtn = document.getElementById('prev-btn');
-        const nextBtn = document.getElementById('next-btn');
-        let currentIndex = 0;
-
-        // Function to update the carousel view
-        const updateCarousel = () => {
-            const offset = -100 * currentIndex; // Percentage-based movement
-            carouselInner.style.transform = `translateX(${offset}%)`;
-        };
-
-        prevBtn.addEventListener('click', () => {
-            currentIndex = (currentIndex === 0) ? clients.length - 1 : currentIndex - 1;
-            updateCarousel();
+            `;
+            carouselInner.appendChild(testimonialElement);
         });
+    };
 
-        nextBtn.addEventListener('click', () => {
-            currentIndex = (currentIndex === clients.length - 1) ? 0 : currentIndex + 1;
-            updateCarousel();
-        });
+    const updateCarousel = () => {
+        const offset = -100 * currentIndex;
+        carouselInner.style.transform = `translateX(${offset}%)`;
+    };
 
-        // Initialize carousel
-        renderTestimonials();
+    const autoSlide = () => {
+        currentIndex = (currentIndex + 1) % clients.length;
         updateCarousel();
-    </script>
-</section>
+    };
+
+    renderTestimonials();
+    updateCarousel();
+    setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
+</script>
+
 
 <script>
     window.addEventListener('scroll', function() {

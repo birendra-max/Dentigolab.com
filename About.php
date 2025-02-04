@@ -1,7 +1,9 @@
 <?php
 include 'inc/hd.php';
 ?>
-
+<script>
+    document.title='About | Dentigolab.com' 
+</script>
 <br>
 <br>
 <br>

@@ -22,28 +22,28 @@
 
         <div class='flex items-center'>
             <a href="index.php" target="_self" class="mr-6">
-                <img src="public/images/dentigo-removebg-preview1.png" alt="logo" class="w-[200px] md:w-[200px] drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300" />
+                <img src="public/images/dentigologo.png" alt="logo" class="w-[120px] md:w-[120px] drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300" />
             </a>
         </div>
 
         <div class="hidden lg:flex space-x-6">
-            <a href='index.php' target="_self"
-                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>Home</a>
-            <a href='About.php' target="_self"
-                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>About Us</a>
-            <a href='Prod&Services.php' target="_self"
-                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>Product & manufacturing</a>
-            <a href='Workflow.php' target="_self"
-                class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold'>Portfolio & Gallery</a>
-            <a href='Join_our_Team.php' target="_self"
-                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>Digital Workflows</a>
-            <a href='FAQ.php' target="_self"
-                class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold'>Contact</a>
+            <a href='index.php' target="_self" id="home"
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Home</a>
+            <a href='About.php' target="_self" id="about"
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>About Us</a>
+            <a href='Prod&Services.php' target="_self" id="prodser"
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Product & Services</a>
+            <a href='Workflow.php' target="_self" id="portgallery"
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Portfolio & Gallery</a>
+            <a href='Join_our_Team.php' target="_self" id="digitalworkflow"
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Digital Workflows</a>
+            <a href='FAQ.php' target="_self" id="contact"
+                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Contact</a>
         </div>
 
         <div class="lg:flex items-center space-x-4">
             <a href="https://bravodentclouds.com/" target="_self"
-                class="inline-flex items-center rounded bg-teal-500 px-4 py-2 text-lg font-medium text-black shadow-md hover:bg-teal-600 transition-all duration-300">
+                class="inline-flex items-center rounded bg-teal-500 px-4 py-2 text-md font-medium text-black shadow-md hover:bg-teal-600 transition-all duration-300">
                 Login/Signup →
             </a>
 
@@ -56,5 +56,74 @@
             </button>
         </div>
     </header>
+
+    <script>
+        $(document).ready(function() {
+            let pageTitle = document.title;
+
+            if (pageTitle == 'Home | Dentigolab.com') {
+                $('#home').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#home').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            } else {
+                $("#home").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#home').removeClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            }
+
+
+            if (pageTitle == 'About | Dentigolab.com') {
+                $('#about').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#about').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            } else {
+                $("#about").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#about').removeClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            }
+
+
+            if (pageTitle == 'Products & Services | BravoDent Designs') {
+                $('#prodser').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#prodser').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            } else {
+                $("#prodser").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#prodser').removeClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            }
+
+
+            if (pageTitle == 'Workflow | BravoDent Designs') {
+                $('#digitalworkflow').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#digitalworkflow').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            } else {
+                $("#digitalworkflow").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#digitalworkflow').removeClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            }
+
+
+            if (pageTitle == 'Join Our Team | BravoDent Designs') {
+                $('#portgallery').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#portgallery').addClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            } else {
+                $("#portgallery").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#portgallery').removeClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
+            }
+
+
+            // if (pageTitle == 'FAQ | BravoDent Designs') {
+            //     $('#faq').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+            //     $('#faq').addClass('text-[#28a745] font-extrabold transition-all ease-in-out duration-300');
+            // } else {
+            //     $("#faq").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+            //     $('#faq').removeClass('text-[#28a745] font-extrabold transition-all ease-in-out duration-300');
+            // }
+
+
+            if (pageTitle == 'Contact Us | BravoDent Designs') {
+                $('#contact').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#contact').addClass('text-[#28a745] font-extrabold transition-all ease-in-out duration-300');
+            } else {
+                $("#contact").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#contact').removeClass('text-[#28a745] font-extrabold transition-all ease-in-out duration-300');
+            }
+
+        })
+    </script>
 
     <main>
