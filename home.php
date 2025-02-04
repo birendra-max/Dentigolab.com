@@ -227,6 +227,7 @@ include 'inc/hd.php';
     </script>
 </section>
 
+<!-- why choose us -->
 <section class=" py-16 px-12">
     <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
         <!-- Image Section -->
@@ -333,7 +334,7 @@ include 'inc/hd.php';
     </script>
 </section>
 
-
+<!-- Our Delivery Options -->
 <section class="py-16 text-black">
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold">Our Delivery Options</h2>

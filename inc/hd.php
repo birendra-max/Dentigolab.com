@@ -19,7 +19,7 @@
 </head>
 
 <body class="bg-gradient-to-r from-black via-yellow-100 to-black">
-    <header class="fixed w-full flex items-center justify-between px-6 py-4 bg-gradient-to-r from-gray-800 to-blue-900 text-white shadow-lg z-50">
+    <header class="fixed w-full flex items-center justify-between px-6 py-4 bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800 text-white shadow-lg z-50">
 
         <div class='flex items-center'>
             <a href="index.php" target="_self" class="mr-6">
@@ -42,7 +42,7 @@
                 class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Contact</a>
         </div>
 
-        <div class="lg:flex items-center space-x-4">
+        <!-- <div class="lg:flex items-center space-x-4">
             <a href="https://bravodentclouds.com/" target="_self"
                 class="inline-flex items-center rounded bg-teal-500 px-4 py-2 text-md font-medium text-black shadow-md hover:bg-teal-600 transition-all duration-300">
                 Login/Signup →
@@ -55,7 +55,27 @@
                         clip-rule="evenodd"></path>
                 </svg>
             </button>
+        </div> -->
+
+        <div class="flex justify-center">
+            <a class="group inline-flex items-center bg-white/10 border border-white/10 p-1 ps-4 rounded-full shadow-md 
+        focus:outline-none transition duration-300 ease-in-out 
+        hover:bg-gradient-to-r from-teal-500 to-blue-600"
+                href="../figma.html">
+
+                <p class="me-2 text-white text-sm">
+                    Login/Signup
+                </p>
+
+                <span class="group-hover:bg-white/20 py-1.5 px-2.5 flex justify-center items-center gap-x-2 
+            rounded-full bg-white/10 font-semibold text-white text-sm transition duration-300 ease-in-out">
+                    <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                </span>
+            </a>
         </div>
+
     </header>
 
     <script>
