@@ -15,6 +15,14 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
     </style>
+    <script>
+        history.pushState(null, "", window.location.href.replace("index.php", "Home.html"));
+        history.pushState(null, "", window.location.href.replace("about.php", "About.html"));
+        history.pushState(null, "", window.location.href.replace("prod&services.php", "Product&Services.html"));
+        history.pushState(null, "", window.location.href.replace("portfolio&gallery.php", "Portfolio&Gallery.html"));
+        history.pushState(null, "", window.location.href.replace("digital&workflows.php", "Digital&Workflows.html"));
+        history.pushState(null, "", window.location.href.replace("contact.php", "Contact.html"));
+    </script>
 </head>
 
 <body class="bg-gradient-to-r from-black via-yellow-100 to-black">
@@ -29,15 +37,15 @@
         <div class="hidden lg:flex space-x-6">
             <a href='index.php' target="_self" id="home"
                 class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Home</a>
-            <a href='About.php' target="_self" id="about"
+            <a href='about.php' target="_self" id="about"
                 class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>About Us</a>
-            <a href='Prod&Services.php' target="_self" id="prodser"
+            <a href='prod&services.php' target="_self" id="prodser"
                 class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Product & Services</a>
-            <a href='Workflow.php' target="_self" id="portgallery"
+            <a href='portfolio&gallery.php' target="_self" id="portgallery"
                 class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Portfolio & Gallery</a>
-            <a href='Join_our_Team.php' target="_self" id="digitalworkflow"
+            <a href='digital&workflows.php' target="_self" id="digitalworkflow"
                 class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Digital Workflows</a>
-            <a href='FAQ.php' target="_self" id="contact"
+            <a href='contact.php' target="_self" id="contact"
                 class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Contact</a>
         </div>
 
