@@ -8,13 +8,11 @@ include 'inc/hd.php';
 
 <br>
 <br>
-<br>
-<br>
 
 <section class="relative w-full h-[500px] md:h-[600px] lg:h-[400px] flex items-center" id="home">
     <!-- Background Image with Overlay -->
     <div class="absolute inset-0">
-        <img src="public/images/heroimg.png" alt="Background Image" class="object-cover object-center w-full h-full brightness-75">
+        <img src="https://labtodent.com/uploads/blogs//1703166444-digital-dental-lab-atlanta.jpg" alt="Background Image" class="object-cover object-center w-full h-full brightness-75">
     </div>
 
     <!-- Content Section -->

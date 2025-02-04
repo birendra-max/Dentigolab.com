@@ -18,12 +18,12 @@
     </style>
 </head>
 
-<body class="bg-gradient-to-r from-black via-yellow-100 to-black">
+<body class="bg-gradient-to-r from-indigo-100 via-teal-100 to-blue-200">
     <header class="fixed w-full flex items-center justify-between px-6 py-4 bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800 text-white shadow-lg z-50">
 
         <div class='flex items-center'>
             <a href="index.php" target="_self" class="mr-6">
-                <img src="public/images/dentigologo.png" alt="logo" class="w-[120px] md:w-[120px] drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300" />
+                <img src="public/images/dentigologo.png" alt="logo" class="w-[80px] md:w-[80px] drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300" style="filter: drop-shadow(-1px 1px 7px #fafafa);" />
             </a>
         </div>
 

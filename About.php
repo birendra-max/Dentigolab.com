@@ -48,7 +48,7 @@ include 'inc/hd.php';
             <div class="w-full lg:w-7/12 px-4" data-aos="fade-left">
                 <h6 class="text-lg text-teal-600 font-semibold">About Us</h6>
                 <h2 class="text-4xl font-bold text-gray-800 leading-tight mb-4">Who We Are?</h2>
-                <p class="bg-gray-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                <p>
                     Dentigo is a state-of-the-art dental lab with over 50 years of experience serving India, now expanding to serve clients worldwide. Our expertise lies in designing and manufacturing high-quality dental restorations, combining advanced technology with the skills of certified dentists and experienced technicians. Our mission is to support the dental community with reliable solutions that improve patient outcomes.
                 </p>
 
@@ -84,7 +84,7 @@ include 'inc/hd.php';
             <div class="w-full lg:w-1/2 space-y-6">
                 <div class="space-y-2" data-aos="fade-up">
                     <h6 class="text-sm text-gray-600 uppercase font-semibold tracking-wide"></h6>
-                    <h2 class="text-3xl md:text-4xl font-bold text-white">What We Do</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold text-black">What We Do</h2>
                 </div>
 
                 <ul class="flex flex-wrap gap-3" data-aos="fade-up" data-aos-delay="100">
@@ -94,7 +94,7 @@ include 'inc/hd.php';
                     <li class="bg-white shadow-md px-4 py-2 rounded-lg text-gray-700 font-medium">Global Reach</li>
                 </ul>
 
-                <p class="text-white text-lg leading-relaxed" data-aos="fade-up" data-aos-delay="150">
+                <p class="text-black text-lg leading-relaxed" data-aos="fade-up" data-aos-delay="150">
                     We specialize in comprehensive dental solutions, including designing and manufacturing crowns, bridges, dentures, aligners, and implant-supported restorations. By leveraging advanced digital workflows and modern technology, we ensure precise, durable, and aesthetic products that meet international standards.
                 </p>
             </div>
@@ -110,7 +110,7 @@ include 'inc/hd.php';
 </section>
 
 <!-- Meet Our Team -->
-<section class="py-24">
+<section class="py-24 mt-12">
     <div class="mx-auto max-w-6xl px-6 lg:px-8 text-center">
         <!-- Section Title -->
         <div class="mb-16">
@@ -127,7 +127,7 @@ include 'inc/hd.php';
                         class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
                 </div>
                 <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Manish Kumar</h4>
-                <span class="text-white group-hover:text-gray-900">Founder & CEO</span>
+                <span class="group-hover:text-gray-900">Founder & CEO</span>
             </div>
 
             <!-- Team Member -->
@@ -137,7 +137,7 @@ include 'inc/hd.php';
                         class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
                 </div>
                 <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Miss. Poonam</h4>
-                <span class="text-white group-hover:text-gray-900">Design Lead</span>
+                <span class=" group-hover:text-gray-900">Design Lead</span>
             </div>
 
             <!-- Team Member -->
@@ -147,7 +147,7 @@ include 'inc/hd.php';
                         class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
                 </div>
                 <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Dr. Abhishek Kaushik</h4>
-                <span class="text-white group-hover:text-gray-900">Head of Operations</span>
+                <span class=" group-hover:text-gray-900">Head of Operations</span>
             </div>
 
             <!-- Team Member -->
@@ -157,7 +157,7 @@ include 'inc/hd.php';
                         class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
                 </div>
                 <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Dev Yadav</h4>
-                <span class="text-white group-hover:text-gray-900">Head of Sales</span>
+                <span class="group-hover:text-gray-900">Head of Sales</span>
             </div>
         </div>
     </div>
@@ -265,6 +265,212 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
+
+<!-- Our Seamless Process -->
+<section class="py-24 bg-gradient-to-r from-indigo-100 via-teal-100 to-blue-200">
+    <div class="container mx-auto px-6 lg:px-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+            <!-- Left Column: Process Steps -->
+            <div class="space-y-12">
+                <h2 class="text-4xl font-extrabold text-gray-800 text-center lg:text-left leading-tight">
+                    Our Seamless Process
+                </h2>
+                <p class="text-lg text-gray-600 text-center lg:text-left mb-8">
+                    Our approach is a blend of **cutting-edge technology**, **premium materials**, and **expert craftsmanship** to deliver top-notch results.
+                </p>
+
+                <!-- Process Step 1 -->
+                <div class="flex items-center space-x-6 transition-all duration-300 hover:scale-105 hover:bg-indigo-200 p-6 rounded-lg shadow-xl bg-white">
+                    <div class="w-14 h-14 flex items-center justify-center bg-teal-500 text-white rounded-full">
+                        <span class="text-lg font-semibold">1</span>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-gray-800">Advanced Technology</h4>
+                        <p class="text-gray-600 mt-2">
+                            We utilize the latest technology to ensure precise, reliable, and efficient outcomes for every project.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Process Step 2 -->
+                <div class="flex items-center space-x-6 transition-all duration-300 hover:scale-105 hover:bg-indigo-200 p-6 rounded-lg shadow-xl bg-white">
+                    <div class="w-14 h-14 flex items-center justify-center bg-blue-500 text-white rounded-full">
+                        <span class="text-lg font-semibold">2</span>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-gray-800">Premium Materials</h4>
+                        <p class="text-gray-600 mt-2">
+                            Only the best materials are chosen to ensure long-lasting and aesthetically pleasing results.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Process Step 3 -->
+                <div class="flex items-center space-x-6 transition-all duration-300 hover:scale-105 hover:bg-indigo-200 p-6 rounded-lg shadow-xl bg-white">
+                    <div class="w-14 h-14 flex items-center justify-center bg-purple-500 text-white rounded-full">
+                        <span class="text-lg font-semibold">3</span>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-gray-800">Skilled Experts</h4>
+                        <p class="text-gray-600 mt-2">
+                            Our team of certified professionals ensures excellence in every step of the process, guaranteeing top-quality results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Image Section -->
+            <div class="relative w-full h-80 lg:h-auto overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
+                <img src="public/images/about6.webp" alt="Our process" class="object-cover w-full h-full" />
+                <div class="absolute inset-0 bg-black opacity-25 hover:opacity-0 transition-all duration-300"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Our Vision -->
+<section class="py-16" data-aos="fade-up">
+    <div class="container mx-auto px-8">
+        <div class="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0">
+
+            <!-- Left Side Content -->
+            <div class="w-full lg:w-2/3">
+                <div class="text-center lg:text-left">
+                    <div class="mb-6" data-aos="fade-up">
+                        <h6 class="text-xl font-semibold text-blue-600">Our Vision</h6>
+                        <h2 class="text-3xl font-bold text-gray-800">Our Commitment to Quality</h2>
+                    </div>
+
+                    <ul class="flex flex-wrap justify-center lg:justify-start space-x-6 mb-6" data-aos="fade-up" data-aos-delay="100">
+                        <li class="text-blue-800 font-semibold bg-blue-200 px-6 py-2 rounded-full shadow-md">Reliability</li>
+                        <li class="text-blue-800 font-semibold bg-blue-200 px-6 py-2 rounded-full shadow-md">Advanced Technology</li>
+                        <li class="text-blue-800 font-semibold bg-blue-200 px-6 py-2 rounded-full shadow-md">Certified Expertise</li>
+                        <li class="text-blue-800 font-semibold bg-blue-200 px-6 py-2 rounded-full shadow-md">Global Reach</li>
+                    </ul>
+
+                    <p class="text-lg text-gray-600 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="150">
+                        Dentigo ensures all products meet ISO and CE certifications, emphasizing quality, innovation, and reliability. We continuously improve and innovate to support our clients and deliver the best solutions.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right Side Image -->
+            <div class="w-full lg:w-1/3 flex justify-center lg:justify-end">
+                <div class="max-w-md shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                    <img src="public/images/about7.webp" alt="Image" class="w-full h-auto object-cover">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class=" py-16" data-aos="fade-up">
+  <div class="container mx-auto px-6">
+    <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
+
+      <!-- Left Side Image -->
+      <div class="w-full lg:w-1/2">
+        <img src="https://staging.boostdigitalmarketing.com/wp-content/uploads/2023/02/UticaDentalLabV4-13.png" alt="Image" class="w-full h-auto object-cover transition-all transform hover:scale-105">
+      </div>
+
+      <!-- Right Side Content (Dropdown List) -->
+      <div class="w-full lg:w-1/2 space-y-6">
+        <h5 class="text-2xl font-bold text-gray-800">The Dentigo Advantage</h5>
+        <div class="space-y-4">
+          <!-- Dropdown Item 1 -->
+          <div>
+            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('precision')">
+              <span>Unmatched Precision</span>
+              <svg id="precision-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div id="precision" class="hidden mt-4 pl-6 text-gray-600">
+              Engineered for accuracy and aesthetics, our restorations ensure a perfect fit and long-lasting results every time.
+            </div>
+          </div>
+
+          <!-- Dropdown Item 2 -->
+          <div>
+            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('technology')">
+              <span>Leading Technology</span>
+              <svg id="technology-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div id="technology" class="hidden mt-4 pl-6 text-gray-600">
+              We leverage advanced CAD/CAM systems like 3Shape to deliver superior precision and efficiency.
+            </div>
+          </div>
+
+          <!-- Dropdown Item 3 -->
+          <div>
+            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('standards')">
+              <span>Global Standards</span>
+              <svg id="standards-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div id="standards" class="hidden mt-4 pl-6 text-gray-600">
+              With FDA registration, HIPAA compliance, and FDA-approved materials, we guarantee safety and reliability.
+            </div>
+          </div>
+
+          <!-- Dropdown Item 4 -->
+          <div>
+            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('turnaround')">
+              <span>Fast Turnaround</span>
+              <svg id="turnaround-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div id="turnaround" class="hidden mt-4 pl-6 text-gray-600">
+              Delivering cases in 4-5 working days, we prioritize your time and practice needs.
+            </div>
+          </div>
+
+          <!-- Dropdown Item 5 -->
+          <div>
+            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('care')">
+              <span>Patient-Focused Care</span>
+              <svg id="care-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div id="care" class="hidden mt-4 pl-6 text-gray-600">
+              Our less than 1% remake rate reflects our commitment to delivering restorations that exceed expectations.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleDropdown(id) {
+    const content = document.getElementById(id);
+    const icon = document.getElementById(id + '-icon');
+    const isVisible = content.classList.contains('hidden');
+    
+    // Toggle the visibility of content
+    content.classList.toggle('hidden');
+    
+    // Rotate the icon
+    if (isVisible) {
+      icon.classList.add('rotate-180');
+    } else {
+      icon.classList.remove('rotate-180');
+    }
+  }
+</script>
+
+
+
 
 <br>
 <br>
