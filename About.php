@@ -2,33 +2,24 @@
 include 'inc/hd.php';
 ?>
 <script>
-    document.title='About | Dentigolab Designs' 
+    document.title = 'About | Dentigolab Designs'
 </script>
 <br>
 <br>
 <br>
 
-<!-- About Us Section -->
-<section class="relative py-16 bg-[url('public/images/1805468.jpg')] bg-cover bg-center bg-no-repeat">
-    <div class="max-w-7xl mx-auto md:px-12 lg:px-20 text-center w-fit bg-gray-900/80 py-8">
-        <!-- Decorative Line -->
-        <div class="flex justify-center mb-4">
-            <div class="h-1 w-24 bg-green-500 dark:bg-green-400 rounded"></div>
-        </div>
+<div class="relative h-[300px] w-full flex items-center justify-center bg-cover bg-center text-center px-5"
+    style="background-image:url(https://dentcare-website-s3-bucket-01.s3.eu-north-1.amazonaws.com/storage/assets/uploads/PN3Bb03.webp);">
+    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
 
-        <!-- Section Title -->
-        <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-6">
-            About Us
-        </h2>
-
-        <!-- Description -->
-        <p class="md:text-lg text-sm leading-relaxed max-w-3xl mx-auto text-white">
-            BravoDent is a dental design center based in India, offering CAD/CAM solutions for dental labs and clinics worldwide, including the USA, Canada, and more.
-            We are committed to delivering high-quality designs for crowns, bridges, implants, and other dental needs.
-        </p>
+    <div class="z-50 flex flex-col justify-center text-white w-full h-screen">
+        <h1 class="text-5xl">About Us</h1>
+        <p>Providing world-class dental designs, manufacturing & equipment solutions worldwide – Made in India.</p>
     </div>
-</section>
-<!-- About Us Section -->
+</div>
+
+
+
 
 <?php
 include 'inc/ft.php';
