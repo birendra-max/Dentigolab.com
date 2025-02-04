@@ -3,8 +3,9 @@ include 'inc/hd.php';
 ?>
 
 <script>
-    document.title='Home | Dentigolab Designs' 
+    document.title = 'Home | Dentigolab Designs'
 </script>
+
 <br>
 <br>
 <br>
@@ -424,12 +425,31 @@ include 'inc/hd.php';
 </section>
 
 <script>
-    const clients = [
-        { name: "Emily Carter (Owner)", address: "California, USA", comments: ["Bravodent's remote assistance has been invaluable, always quick and professional."] },
-        { name: "Michael Adams (Operations Manager)", address: "New York, USA", comments: ["The Bravodent team provides excellent support, ensuring smooth workflow and timely resolutions."] },
-        { name: "Sarah Williams (CAD/CAM Manager)", address: "Texas, USA", comments: ["Thanks to Bravodent, we’ve never faced delays, their remote assistance is a lifesaver."] },
-        { name: "David Brown (Digital Dental Designer)", address: "Florida, USA", comments: ["Bravodent’s team is always available to solve our technical issues, ensuring minimal downtime."] },
-        { name: "Olivia Martin (Laboratory Technician)", address: "Illinois, USA", comments: ["Bravodent offers fast, reliable support that keeps our systems running smoothly every time."] }
+    const clients = [{
+            name: "Emily Carter (Owner)",
+            address: "California, USA",
+            comments: ["Bravodent's remote assistance has been invaluable, always quick and professional."]
+        },
+        {
+            name: "Michael Adams (Operations Manager)",
+            address: "New York, USA",
+            comments: ["The Bravodent team provides excellent support, ensuring smooth workflow and timely resolutions."]
+        },
+        {
+            name: "Sarah Williams (CAD/CAM Manager)",
+            address: "Texas, USA",
+            comments: ["Thanks to Bravodent, we’ve never faced delays, their remote assistance is a lifesaver."]
+        },
+        {
+            name: "David Brown (Digital Dental Designer)",
+            address: "Florida, USA",
+            comments: ["Bravodent’s team is always available to solve our technical issues, ensuring minimal downtime."]
+        },
+        {
+            name: "Olivia Martin (Laboratory Technician)",
+            address: "Illinois, USA",
+            comments: ["Bravodent offers fast, reliable support that keeps our systems running smoothly every time."]
+        }
     ];
 
     const carouselInner = document.querySelector('.carousel-inner');

@@ -8,6 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="public/js/jQuery.js"></script>
+    <link rel="shortcut icon" href="public/images/dentigologo.png" type="image/x-icon">
     <style>
         html {
             margin: 0;
@@ -15,14 +16,6 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
     </style>
-    <script>
-        history.pushState(null, "", window.location.href.replace("index.php", "Home.html"));
-        history.pushState(null, "", window.location.href.replace("about.php", "About.html"));
-        history.pushState(null, "", window.location.href.replace("prod&services.php", "Product&Services.html"));
-        history.pushState(null, "", window.location.href.replace("portfolio&gallery.php", "Portfolio&Gallery.html"));
-        history.pushState(null, "", window.location.href.replace("digital&workflows.php", "Digital&Workflows.html"));
-        history.pushState(null, "", window.location.href.replace("contact.php", "Contact.html"));
-    </script>
 </head>
 
 <body class="bg-gradient-to-r from-black via-yellow-100 to-black">

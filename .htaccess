@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /dentigolab.com/
+
+# Redirect root domain to home.php
+RewriteRule ^$ home.php [L]
+
+# Ensure index.php also redirects to home.php
+RewriteRule ^index\.php$ home.php [L,R=301]
+
