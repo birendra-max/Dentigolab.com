@@ -42,25 +42,6 @@
 
 </body>
 <script>
-    var toggleOpen = document.getElementById('toggleOpen');
-    var toggleClose = document.getElementById('toggleClose');
-    var collapseMenu = document.getElementById('collapseMenu');
-
-    function handleClick() {
-        if (collapseMenu.style.display === 'block') {
-            collapseMenu.style.display = 'none';
-            document.getElementById('reqestcase').classList.remove('hidden');
-            document.getElementById('chatbot').classList.remove('hidden');
-        } else {
-            collapseMenu.style.display = 'block';
-            document.getElementById('reqestcase').classList.add('hidden');
-            document.getElementById('chatbot').classList.add('hidden');
-        }
-    }
-
-    toggleOpen.addEventListener('click', handleClick);
-    toggleClose.addEventListener('click', handleClick);
-
 
     $(document).ready(function() {
         let pageTitle = document.title;

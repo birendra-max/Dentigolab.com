@@ -3,8 +3,281 @@ include 'inc/hd.php';
 ?>
 
 <script>
-    document.title='Digital Workflows | Dentigolab Designs' 
+    document.title = 'Digital Workflows | Dentigolab Designs'
 </script>
 <br>
 <br>
 <br>
+
+
+<!-- Hero -->
+<div class="bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800">
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-gradient-to-b from-violet-600/10 via-transparent">
+
+        <!-- Title -->
+        <div class="max-w-3xl text-center mx-auto">
+            <h1 class="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+                Digital Workflow
+            </h1>
+        </div>
+        <!-- End Title -->
+
+        <div class="max-w-3xl text-center mx-auto">
+            <p class="text-lg text-white/70">Providing world-class dental designs, manufacturing & equipment solutions worldwide – Made in India.</p>
+        </div>
+    </div>
+</div>
+<!-- End Hero -->
+
+<section class=" py-20" data-aos="fade-up">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col lg:flex-row items-center lg:justify-between gap-16">
+
+            <!-- Left Content -->
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <div data-aos="fade-up">
+                    <h6 class="text-lg font-semibold text-blue-600 uppercase tracking-widest">Your Digital Dental Partner</h6>
+                    <h2 class="text-5xl font-bold text-gray-900 leading-tight mt-2">
+                        Collaborate with <span class="text-blue-700">Dentigolab</span> <br>
+                        <span class="text-gray-700">Simplifying Dental Solutions Globally</span>
+                    </h2>
+                </div>
+
+                <p class="mt-6 text-gray-600 text-lg leading-relaxed" data-aos="fade-up" data-aos-delay="100">
+                    At Dentigolab, we streamline the collaboration process for digital designs, manufacturing, and online purchases. Whether you’re a digital partner or a lab, we ensure **precision, quality, and efficiency** every step of the way.
+                </p>
+
+                <!-- Feature Pills -->
+                <div class="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start" data-aos="fade-up" data-aos-delay="150">
+                    <span class="px-5 py-2 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-800 transition-all">Reliability</span>
+                    <span class="px-5 py-2 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-800 transition-all">Advanced Technology</span>
+                    <span class="px-5 py-2 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-800 transition-all">Certified Expertise</span>
+                    <span class="px-5 py-2 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-800 transition-all">Global Reach</span>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="lg:w-1/2 flex justify-center relative">
+                <div class="relative group overflow-hidden rounded-lg shadow-2xl border border-gray-200">
+                    <img src="public/images/colla.png" alt="Collaboration" class="w-full max-w-md rounded-lg transition-transform transform group-hover:scale-105">
+
+                    <!-- Decorative Effects -->
+                    <div class="absolute -top-6 -left-6 w-24 h-24 bg-blue-400 rounded-full opacity-20 animate-pulse"></div>
+                    <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-300 rounded-full opacity-10 animate-pulse"></div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-blue-200 opacity-0 group-hover:opacity-50 transition-all"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-gray-50 py-20">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col lg:flex-row gap-12 items-center">
+
+            <!-- Left: Image -->
+            <div class="lg:w-1/2 flex flex-col items-center relative space-y-6 mb-8 lg:mb-0">
+                <img src="public/images/col2.avif" alt="Research lab"
+                    class="w-full lg:w-4/5 rounded-lg shadow-lg transform hover:scale-105 transition duration-300" data-aos="fade-right">
+            </div>
+
+            <!-- Right: Steps Content -->
+            <div class="lg:w-1/2 w-full" x-data="{ openStep: null }">
+                <span class="bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-widest">
+                    How to Collaborate with Us
+                </span>
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-900 mt-4">Steps for Collaboration</h2>
+
+                <div class="mt-8 space-y-4">
+
+                    <!-- Step 1 -->
+                    <div class="bg-white rounded-lg shadow-md transition">
+                        <button @click="openStep === 1 ? openStep = null : openStep = 1"
+                            class="w-full flex items-center justify-between p-6 text-left">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-blue-100 text-blue-700 flex items-center justify-center rounded-full">
+                                    <i class="lucide lucide-user-plus w-6 h-6"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold text-gray-900">Step 1: Get Started with a Trial</h4>
+                            </div>
+                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
+                                :class="{ 'rotate-180': openStep === 1 }"></i>
+                        </button>
+                        <div x-show="openStep === 1" x-collapse class="px-6 pb-6 text-gray-600">
+                            <p>Submit your first case for a free trial and experience the accuracy of our CAD/CAM solutions.</p>
+                            <p>Upload scans for crowns, bridges, veneers, or implants.</p>
+                            <p>Receive a trial design to evaluate our quality and TAT.</p>
+                            <p>Request a product trial to test the superior quality of our manufacturing.</p>
+                            <p>Choose from crowns, clear aligners, implant bars, or other products.</p>
+                            <p>We’ll send you a sample product to ensure it meets your standards.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="bg-white rounded-lg shadow-md transition">
+                        <button @click="openStep === 2 ? openStep = null : openStep = 2"
+                            class="w-full flex items-center justify-between p-6 text-left">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-green-100 text-green-700 flex items-center justify-center rounded-full">
+                                    <i class="lucide lucide-upload w-6 h-6"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold text-gray-900">Step 2: Seamless Case Submission</h4>
+                            </div>
+                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
+                                :class="{ 'rotate-180': openStep === 2 }"></i>
+                        </button>
+                        <div x-show="openStep === 2" x-collapse class="px-6 pb-6 text-gray-600">
+                            <p>Use our Dentigolab Portal to submit your digital scans or case details.</p>
+                            <p>Easy drag-and-drop functionality for uploads.</p>
+                            <p>Specify your design preferences, restoration type, or product details.</p>
+                            <p>Track case progress and receive real-time updates on your dashboard.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="bg-white rounded-lg shadow-md transition">
+                        <button @click="openStep === 3 ? openStep = null : openStep = 3"
+                            class="w-full flex items-center justify-between p-6 text-left">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-yellow-100 text-yellow-700 flex items-center justify-center rounded-full">
+                                    <i class="lucide lucide-cpu w-6 h-6"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold text-gray-900">Step 3: Design & Manufacture</h4>
+                            </div>
+                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
+                                :class="{ 'rotate-180': openStep === 3 }"></i>
+                        </button>
+                        <div x-show="openStep === 3" x-collapse class="px-6 pb-6 text-gray-600">
+                            <p>Our skilled designers create precise, aesthetic, and functional CAD designs tailored to your case.</p>
+                            <p>Our state-of-the-art lab produces crowns, bridges, aligners, and other products using FDA-approved materials.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="bg-white rounded-lg shadow-md transition">
+                        <button @click="openStep === 4 ? openStep = null : openStep = 4"
+                            class="w-full flex items-center justify-between p-6 text-left">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-purple-100 text-purple-700 flex items-center justify-center rounded-full">
+                                    <i class="lucide lucide-check-circle w-6 h-6"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold text-gray-900">Step 4: Review & Approve</h4>
+                            </div>
+                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
+                                :class="{ 'rotate-180': openStep === 4 }"></i>
+                        </button>
+                        <div x-show="openStep === 4" x-collapse class="px-6 pb-6 text-gray-600">
+                            <p>Preview the designs or products before final delivery.</p>
+                            <p>Request adjustments or modifications at no additional charge during the trial.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="bg-white rounded-lg shadow-md transition">
+                        <button @click="openStep === 5 ? openStep = null : openStep = 5"
+                            class="w-full flex items-center justify-between p-6 text-left">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-red-100 text-red-700 flex items-center justify-center rounded-full">
+                                    <i class="lucide lucide-truck w-6 h-6"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold text-gray-900">Step 5: Delivery & Support</h4>
+                            </div>
+                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
+                                :class="{ 'rotate-180': openStep === 5 }"></i>
+                        </button>
+                        <div x-show="openStep === 5" x-collapse class="px-6 pb-6 text-gray-600">
+                            <p>Designs and products are delivered within industry-leading turnaround times.</p>
+                            <p>Our support team is available 24/7 to assist with any questions or concerns.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Alpine.js for dropdowns -->
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x/dist/cdn.min.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>
+
+
+
+<section class="py-20">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-900">Why Choose Dentigolab?</h2>
+            <a href="about.php" class="mt-4 inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline">
+                Discover Now
+                <i class="fas fa-arrow-right w-5 h-5"></i>
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-xl">
+                <a href="#" class="flex items-center gap-2 mb-4">
+                    <i class="fas fa-cogs w-8 h-8 text-blue-600"></i> <!-- End-to-End Solutions Icon -->
+                    <h5 class="text-xl font-semibold text-gray-900">End-to-End Solutions</h5>
+                </a>
+                <p class="text-gray-600 mt-2">From digital designs to product manufacturing, we handle it all.</p>
+                <a href="#" class="mt-4 text-blue-600 font-semibold hover:underline flex items-center gap-1">
+                    Learn More <i class="fas fa-arrow-right w-5 h-5"></i>
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-xl">
+                <a href="#" class="flex items-center gap-2 mb-4">
+                    <i class="fas fa-gift w-8 h-8 text-green-600"></i> <!-- Free Trials Icon -->
+                    <h5 class="text-xl font-semibold text-gray-900">Free Trials</h5>
+                </a>
+                <p class="text-gray-600 mt-2">Experience our quality before committing.</p>
+                <a href="#" class="mt-4 text-blue-600 font-semibold hover:underline flex items-center gap-1">
+                    Learn More <i class="fas fa-arrow-right w-5 h-5"></i>
+                </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-xl">
+                <a href="#" class="flex items-center gap-2 mb-4">
+                    <i class="fas fa-globe w-8 h-8 text-yellow-600"></i> <!-- Global Reach Icon -->
+                    <h5 class="text-xl font-semibold text-gray-900">Global Reach</h5>
+                </a>
+                <p class="text-gray-600 mt-2">Collaborate with us from anywhere in the world.</p>
+                <a href="#" class="mt-4 text-blue-600 font-semibold hover:underline flex items-center gap-1">
+                    Learn More <i class="fas fa-arrow-right w-5 h-5"></i>
+                </a>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center transform transition-transform hover:scale-105 hover:shadow-xl">
+                <a href="#" class="flex items-center gap-2 mb-4">
+                    <i class="fas fa-headset w-8 h-8 text-purple-600"></i> <!-- Dedicated Support Icon -->
+                    <h5 class="text-xl font-semibold text-gray-900">Dedicated Support</h5>
+                </a>
+                <p class="text-gray-600 mt-2">Our team ensures smooth communication and collaboration.</p>
+                <a href="#" class="mt-4 text-blue-600 font-semibold hover:underline flex items-center gap-1">
+                    Learn More <i class="fas fa-arrow-right w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Font Awesome CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+<br>
+<br>
+<br>
+
+<?php
+include 'inc/ft.php';
+?>

@@ -34,18 +34,18 @@ include 'inc/hd.php';
 </section>
 
 <!-- About us section  -->
-<section class="flex min-h-screen items-center justify-center text-gray-900">
-    <div class="flex max-w-7xl rounded-xl border border-gray-300 bg-white shadow-lg overflow-hidden transition-transform transform hover:scale-110 duration-500 ease-in-out">
+<section class="flex min-h-screen items-center justify-center text-gray-900 px-8">
+    <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-gray-300 bg-white shadow-lg overflow-hidden transition-transform transform hover:scale-110 duration-500 ease-in-out">
         <!-- Image Section -->
-        <div class="w-1/3 relative">
+        <div class="w-full md:w-1/3 relative">
             <img src="public/images/home3.webp" alt="Doctor" class="h-full w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out">
         </div>
 
         <!-- Content Section -->
-        <div class="w-2/3 flex flex-col justify-between p-8">
+        <div class="w-full md:w-2/3 flex flex-col justify-between p-6 md:p-8">
             <div class="space-y-4">
                 <p class="text-sm uppercase text-indigo-600 tracking-widest">Dentistry Solutions</p>
-                <h1 class="text-3xl font-bold leading-tight">Welcome to Dentigo</h1>
+                <h1 class="text-2xl md:text-3xl font-bold leading-tight">Welcome to Dentigo</h1>
                 <p class="text-gray-700">
                     Dentigo provides top-quality dental Designs, Manufacturing, and Equipment solutions worldwide. Based in India, we proudly serve dental labs with reliable and efficient services.
                 </p>
@@ -69,6 +69,7 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
+
 
 
 <!-- Services Section  -->

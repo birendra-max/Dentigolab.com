@@ -19,67 +19,94 @@
 </head>
 
 <body class="bg-gradient-to-r from-indigo-100 via-teal-100 to-blue-200">
-    <header class="fixed w-full flex items-center justify-between px-6 py-4 bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800 text-white shadow-lg z-50">
 
-        <div class='flex items-center'>
-            <a href="index.php" target="_self" class="mr-6">
-                <img src="public/images/dentigologo.png" alt="logo" class="w-[80px] md:w-[80px] drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300" style="filter: drop-shadow(-1px 1px 7px #fafafa);" />
-            </a>
-        </div>
+    <header class='flex shadow-lg px-8 sm:px-12 bg-black bg-opacity-70 min-h-[90px] tracking-wider'>
 
-        <div class="hidden lg:flex space-x-6">
-            <a href='index.php' target="_self" id="home"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Home</a>
-            <a href='about.php' target="_self" id="about"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>About Us</a>
-            <a href='prod&services.php' target="_self" id="prodser"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Product & Services</a>
-            <a href='portfolio&gallery.php' target="_self" id="portgallery"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Portfolio & Gallery</a>
-            <a href='digital&workflows.php' target="_self" id="digitalworkflow"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Digital Workflows</a>
-            <a href='contact.php' target="_self" id="contact"
-                class='text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold'>Contact</a>
-        </div>
 
-        <!-- <div class="lg:flex items-center space-x-4">
-            <a href="https://bravodentclouds.com/" target="_self"
-                class="inline-flex items-center rounded bg-teal-500 px-4 py-2 text-md font-medium text-black shadow-md hover:bg-teal-600 transition-all duration-300">
-                Login/Signup →
-            </a>
+        <div class='flex flex-wrap items-center justify-between gap-8 w-full'>
+            <a href="index.php" target="_self" class="max-sm:hidden"><img src="public/images/dentigologo.png" alt="logo" class='w-[150px]' /></a>
+            <a href="index.php" target="_self" class="hidden max-sm:block"><img src="public/images/dentigologo.png" alt="logo" class='w-[120px]' /></a>
 
-            <button id="toggleOpen" class='lg:hidden text-white'>
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </button>
-        </div> -->
-
-        <div class="flex justify-center">
-            <a class="group inline-flex items-center bg-white/10 border border-white/10 p-1 ps-4 rounded-full shadow-md 
-        focus:outline-none transition duration-300 ease-in-out 
-        hover:bg-gradient-to-r from-teal-500 to-blue-600"
-                href="../figma.html">
-
-                <p class="me-2 text-white text-sm">
-                    Login/Signup
-                </p>
-
-                <span class="group-hover:bg-white/20 py-1.5 px-2.5 flex justify-center items-center gap-x-2 
-            rounded-full bg-white/10 font-semibold text-white text-sm transition duration-300 ease-in-out">
-                    <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="m9 18 6-6-6-6" />
+            <div id="collapseMenu" class='max-lg:hidden lg:block'>
+                <button id="toggleClose" class='lg:hidden fixed top-2 right-8 z-[50] rounded-full bg-white w-10 h-10 flex items-center justify-center border'>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-black" viewBox="0 0 320.591 320.591">
+                        <path d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z" data-original="#000000"></path>
+                        <path d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z" data-original="#000000"></path>
                     </svg>
-                </span>
-            </a>
-        </div>
+                </button>
 
+                <ul class='lg:flex gap-x-4 max-lg:space-y-4 max-lg:fixed max-lg:bg-white max-lg:w-3/4 max-lg:min-w-[70%] max-lg:top-0 max-lg:left-0 max-lg:p-8 max-lg:h-full max-lg:shadow-xl max-lg:overflow-auto z-[999]'>
+                    <li class='mb-8 hidden max-lg:block'>
+                        <a href="javascript:void(0)" target="_self"><img src="public/images/logo.png" alt="logo" class='w-[250px]' /></a>
+                    </li>
+                    <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
+                        <a href='index.php' target="_self"
+                            class='text-black block text-[18px] hover:text-[#28a745] hover:font-extrabold transition-all ease-in-out duration-300 font-bold' id="home">Home</a>
+                    </li>
+                    <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
+                        <a href='about.php' target="_self"
+                            class='text-black block text-[18px] hover:text-[#28a745] hover:font-extrabold transition-all ease-in-out duration-300 font-bold' id="about">About Us</a>
+                    </li>
+                    <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
+                        <a href='Prod&Services.php' target="_self"
+                            class='text-black block text-[18px] hover:text-[#28a745] hover:font-extrabold transition-all ease-in-out duration-300 font-bold' id="prodser">Products & Services</a>
+                    </li>
+                    <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
+                        <a href='digital&workflows.php' target="_self"
+                            class='text-black block text-[18px] hover:text-[#28a745] hover:font-extrabold transition-all ease-in-out duration-300 font-bold' id="portalworkflow"> Digital Workflows</a>
+                    </li>
+
+                    <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
+                        <a href='portfolio&gallery.php' target="_self"
+                            class='text-black block text-[18px] hover:text-[#28a745] hover:font-extrabold transition-all ease-in-out duration-300 font-bold' id="jsoinus">Portfolio & Gallery.php</a>
+                    </li>
+
+                    <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
+                        <a href='contact.php' target="_self"
+                            class='text-black block text-[18px] hover:text-[#28a745] hover:font-extrabold transition-all ease-in-out duration-300 font-bold' id="faq">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class='flex max-lg:ml-auto space-x-6'>
+                <a href="https://bravodentclouds.com/" target="_self"
+                    class="inline-flex items-center rounded cursor-pointer bg-[#273ef1] px-4 md:px-6 py-3 text-white transition [box-shadow:rgb(171,_196,245)-10px_10px] hover:[box-shadow:rgb(171,_196,_245)0px_0px] md:text-xl text-xl">
+                    Login →
+                </a>
+
+                <button id="toggleOpen" class='lg:hidden'>
+                    <svg class="w-8 h-8" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
     </header>
 
+
     <script>
+        var toggleOpen = document.getElementById('toggleOpen');
+        var toggleClose = document.getElementById('toggleClose');
+        var collapseMenu = document.getElementById('collapseMenu');
+
+        function handleClick() {
+            if (collapseMenu.style.display === 'block') {
+                collapseMenu.style.display = 'none';
+                document.getElementById('reqestcase').classList.remove('hidden');
+                document.getElementById('chatbot').classList.remove('hidden');
+            } else {
+                collapseMenu.style.display = 'block';
+                document.getElementById('reqestcase').classList.add('hidden');
+                document.getElementById('chatbot').classList.add('hidden');
+            }
+        }
+
+        toggleOpen.addEventListener('click', handleClick);
+        toggleClose.addEventListener('click', handleClick);
         $(document).ready(function() {
+
             let pageTitle = document.title;
 
             if (pageTitle == 'Home | Dentigolab Designs') {
@@ -125,15 +152,6 @@
                 $("#portgallery").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#portgallery').removeClass('text-teal-500 text-lg font-extrabold transition-all ease-in-out duration-300');
             }
-
-
-            // if (pageTitle == 'FAQ | BravoDent Designs') {
-            //     $('#faq').removeClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
-            //     $('#faq').addClass('text-[#28a745] font-extrabold transition-all ease-in-out duration-300');
-            // } else {
-            //     $("#faq").addClass('text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold');
-            //     $('#faq').removeClass('text-[#28a745] font-extrabold transition-all ease-in-out duration-300');
-            // }
 
 
             if (pageTitle == 'Contact | Dentigolab Designs') {
