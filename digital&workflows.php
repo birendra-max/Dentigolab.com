@@ -5,9 +5,6 @@ include 'inc/hd.php';
 <script>
     document.title = 'Digital Workflows | Dentigolab Designs'
 </script>
-<br>
-<br>
-<br>
 
 
 <!-- Hero -->
@@ -73,7 +70,7 @@ include 'inc/hd.php';
 </section>
 
 
-<section class="bg-gray-50 py-20">
+<section class=" py-20">
     <div class="container mx-auto px-6">
         <div class="flex flex-col lg:flex-row gap-12 items-center">
 
