@@ -457,10 +457,8 @@ include 'inc/hd.php';
     const icon = document.getElementById(id + '-icon');
     const isVisible = content.classList.contains('hidden');
     
-    // Toggle the visibility of content
     content.classList.toggle('hidden');
     
-    // Rotate the icon
     if (isVisible) {
       icon.classList.add('rotate-180');
     } else {
