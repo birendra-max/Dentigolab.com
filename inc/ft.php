@@ -1,9 +1,9 @@
 </main>
 <div class="relative overflow-hidden border-b w-full dark:border-gray-700 dark:bg-gray-900">
-    <div class="px-6 py-8 sm:px-6 sm:py-20">
+    <div class="px-6 py-8 sm:px-6 sm:py-4">
         <div class="max-w-2xl mx-auto text-center">
             <a href="https://pagedone.io/" class="flex justify-center">
-                <img src="public/images/dentigologo.png" alt="Logo" class="w-[180px] sm:w-[300px] transition-transform duration-300 hover:scale-105" style="filter: drop-shadow(-2px 0px 3px #25d4d1);">
+                <img src="public/images/dentigologo.png" alt="Logo" class="w-[180px] sm:w-[300px] transition-transform duration-300 hover:scale-105">
             </a>
             <p class="mb-6 text-base text-indigo-200 md:text-lg">
                 Providing world-class dental designs, manufacturing & equipment solutions worldwide – Made in India.
@@ -34,6 +34,7 @@
                 <li><a href="#" class=" text-gray-500 hover:text-white">Resources</a></li>
                 <li><a href="blogs.php" class=" text-gray-500 hover:text-white">Blogs</a></li>
                 <li><a href="#" class=" text-gray-500 hover:text-white">Support</a></li>
+                <li><a href="#" class=" text-gray-500 hover:text-white">24/6</a></li>
             </ul>
             <div class="flex space-x-10 justify-center items-center py-4">
                 <!-- Facebook -->

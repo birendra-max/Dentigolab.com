@@ -55,17 +55,6 @@ include 'inc/hd.php';
                     <li class="bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold">Certified Expertise</li>
                     <li class="bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold">Global Reach</li>
                 </ul>
-
-                <!-- Buttons -->
-                <div>
-                    <a class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:shadow-blue-700/50 py-3 px-6" href="prod&services.php">
-                        Get Our Services
-                        <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="m9 18 6-6-6-6" />
-                        </svg>
-                    </a>
-                </div>
-                <!-- End Buttons -->
             </div>
         </div>
     </div>
@@ -93,6 +82,17 @@ include 'inc/hd.php';
                 <p class="text-black text-lg leading-relaxed" data-aos="fade-up" data-aos-delay="150">
                     We specialize in comprehensive dental solutions, including designing and manufacturing crowns, bridges, dentures, aligners, and implant-supported restorations. By leveraging advanced digital workflows and modern technology, we ensure precise, durable, and aesthetic products that meet international standards.
                 </p>
+
+                <!-- Buttons -->
+                <div>
+                    <a class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:shadow-blue-700/50 py-3 px-6" href="prod&services.php">
+                        Get Our Services
+                        <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- End Buttons -->
             </div>
 
             <!-- Image Content -->
@@ -159,66 +159,7 @@ include 'inc/hd.php';
     </div>
 </section>
 
-<!-- Why Choose Us -->
-<section class=" py-16 px-12">
-    <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
-        <!-- Image Section -->
-        <div class="w-full lg:w-6/12 relative">
-            <img src="public/images/computer.avif" class="w-full rounded-lg shadow-xl transform transition duration-300 hover:scale-105" alt="service img">
-            <div class="absolute inset-0 flex items-center justify-center">
-                <a class="bg-white text-gray-700 p-4 rounded-full shadow-lg hover:bg-gray-200 transition"
-                    href="https://www.youtube.com/embed/KjpuOGDx_4E?si=fNVd64KesOcBrkRn">
-                    <i class="fa-solid fa-play text-2xl"></i>
-                </a>
-            </div>
-        </div>
 
-        <!-- Content Section -->
-        <div class="w-full lg:w-7/12 bg-white p-10 rounded-xl shadow-xl transform transition duration-300 hover:scale-105">
-            <span class="bg-gray-700 text-white px-4 py-2 rounded-full text-sm font-semibold">Dentigo</span>
-            <h2 class="text-4xl font-bold mt-4 text-gray-800">Why Choose Us</h2>
-            <p class="text-gray-600 mt-2">We provide top-quality dental solutions trusted by professionals worldwide.</p>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                <!-- Reliability -->
-                <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-check-circle text-4xl text-gray-700"></i>
-                    <div>
-                        <h6 class="text-xl font-semibold text-gray-800">Reliability</h6>
-                        <p class="text-gray-600 text-sm">Trusted by dental professionals for consistent quality and on-time deliveries.</p>
-                    </div>
-                </div>
-
-                <!-- Advanced Technology -->
-                <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-microchip text-4xl text-gray-700"></i>
-                    <div>
-                        <h6 class="text-xl font-semibold text-gray-800">Advanced Technology</h6>
-                        <p class="text-gray-600 text-sm">Utilizing cutting-edge CAD/CAM systems to ensure accuracy in every design.</p>
-                    </div>
-                </div>
-
-                <!-- Certified Expertise -->
-                <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-user-md text-4xl text-gray-700"></i>
-                    <div>
-                        <h6 class="text-xl font-semibold text-gray-800">Certified Expertise</h6>
-                        <p class="text-gray-600 text-sm">A team of certified dentists and technicians ensures every product meets global benchmarks.</p>
-                    </div>
-                </div>
-
-                <!-- Global Reach -->
-                <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-globe text-4xl text-gray-700"></i>
-                    <div>
-                        <h6 class="text-xl font-semibold text-gray-800">Global Reach</h6>
-                        <p class="text-gray-600 text-sm">Serving dental labs and clinics worldwide with tailored and efficient solutions.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Our Delivery Options -->
 <section class="py-16 text-black">
@@ -364,103 +305,103 @@ include 'inc/hd.php';
 </section>
 
 <section class=" py-16" data-aos="fade-up">
-  <div class="container mx-auto px-6">
-    <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
 
-      <!-- Left Side Image -->
-      <div class="w-full lg:w-1/2">
-        <img src="https://staging.boostdigitalmarketing.com/wp-content/uploads/2023/02/UticaDentalLabV4-13.png" alt="Image" class="w-full h-auto object-cover transition-all transform hover:scale-105">
-      </div>
-
-      <!-- Right Side Content (Dropdown List) -->
-      <div class="w-full lg:w-1/2 space-y-6">
-        <h5 class="text-2xl font-bold text-gray-800">The Dentigo Advantage</h5>
-        <div class="space-y-4">
-          <!-- Dropdown Item 1 -->
-          <div>
-            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('precision')">
-              <span>Unmatched Precision</span>
-              <svg id="precision-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg>
-            </button>
-            <div id="precision" class="hidden mt-4 pl-6 text-gray-600">
-              Engineered for accuracy and aesthetics, our restorations ensure a perfect fit and long-lasting results every time.
+            <!-- Left Side Image -->
+            <div class="w-full lg:w-1/2">
+                <img src="https://staging.boostdigitalmarketing.com/wp-content/uploads/2023/02/UticaDentalLabV4-13.png" alt="Image" class="w-full h-auto object-cover transition-all transform hover:scale-105">
             </div>
-          </div>
 
-          <!-- Dropdown Item 2 -->
-          <div>
-            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('technology')">
-              <span>Leading Technology</span>
-              <svg id="technology-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg>
-            </button>
-            <div id="technology" class="hidden mt-4 pl-6 text-gray-600">
-              We leverage advanced CAD/CAM systems like 3Shape to deliver superior precision and efficiency.
-            </div>
-          </div>
+            <!-- Right Side Content (Dropdown List) -->
+            <div class="w-full lg:w-1/2 space-y-6">
+                <h5 class="text-2xl font-bold text-gray-800">The Dentigo Advantage</h5>
+                <div class="space-y-4">
+                    <!-- Dropdown Item 1 -->
+                    <div>
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('precision')">
+                            <span>Unmatched Precision</span>
+                            <svg id="precision-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="precision" class="hidden mt-4 pl-6 text-gray-600">
+                            Engineered for accuracy and aesthetics, our restorations ensure a perfect fit and long-lasting results every time.
+                        </div>
+                    </div>
 
-          <!-- Dropdown Item 3 -->
-          <div>
-            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('standards')">
-              <span>Global Standards</span>
-              <svg id="standards-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg>
-            </button>
-            <div id="standards" class="hidden mt-4 pl-6 text-gray-600">
-              With FDA registration, HIPAA compliance, and FDA-approved materials, we guarantee safety and reliability.
-            </div>
-          </div>
+                    <!-- Dropdown Item 2 -->
+                    <div>
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('technology')">
+                            <span>Leading Technology</span>
+                            <svg id="technology-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="technology" class="hidden mt-4 pl-6 text-gray-600">
+                            We leverage advanced CAD/CAM systems like 3Shape to deliver superior precision and efficiency.
+                        </div>
+                    </div>
 
-          <!-- Dropdown Item 4 -->
-          <div>
-            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('turnaround')">
-              <span>Fast Turnaround</span>
-              <svg id="turnaround-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg>
-            </button>
-            <div id="turnaround" class="hidden mt-4 pl-6 text-gray-600">
-              Delivering cases in 4-5 working days, we prioritize your time and practice needs.
-            </div>
-          </div>
+                    <!-- Dropdown Item 3 -->
+                    <div>
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('standards')">
+                            <span>Global Standards</span>
+                            <svg id="standards-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="standards" class="hidden mt-4 pl-6 text-gray-600">
+                            With FDA registration, HIPAA compliance, and FDA-approved materials, we guarantee safety and reliability.
+                        </div>
+                    </div>
 
-          <!-- Dropdown Item 5 -->
-          <div>
-            <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('care')">
-              <span>Patient-Focused Care</span>
-              <svg id="care-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg>
-            </button>
-            <div id="care" class="hidden mt-4 pl-6 text-gray-600">
-              Our less than 1% remake rate reflects our commitment to delivering restorations that exceed expectations.
+                    <!-- Dropdown Item 4 -->
+                    <div>
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('turnaround')">
+                            <span>Fast Turnaround</span>
+                            <svg id="turnaround-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="turnaround" class="hidden mt-4 pl-6 text-gray-600">
+                            Delivering cases in 4-5 working days, we prioritize your time and practice needs.
+                        </div>
+                    </div>
+
+                    <!-- Dropdown Item 5 -->
+                    <div>
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('care')">
+                            <span>Patient-Focused Care</span>
+                            <svg id="care-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <div id="care" class="hidden mt-4 pl-6 text-gray-600">
+                            Our less than 1% remake rate reflects our commitment to delivering restorations that exceed expectations.
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+
         </div>
-      </div>
-
     </div>
-  </div>
 </section>
 
 <script>
-  function toggleDropdown(id) {
-    const content = document.getElementById(id);
-    const icon = document.getElementById(id + '-icon');
-    const isVisible = content.classList.contains('hidden');
-    
-    content.classList.toggle('hidden');
-    
-    if (isVisible) {
-      icon.classList.add('rotate-180');
-    } else {
-      icon.classList.remove('rotate-180');
+    function toggleDropdown(id) {
+        const content = document.getElementById(id);
+        const icon = document.getElementById(id + '-icon');
+        const isVisible = content.classList.contains('hidden');
+
+        content.classList.toggle('hidden');
+
+        if (isVisible) {
+            icon.classList.add('rotate-180');
+        } else {
+            icon.classList.remove('rotate-180');
+        }
     }
-  }
 </script>
 
 

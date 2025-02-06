@@ -7,70 +7,72 @@ include 'inc/hd.php';
 </script>
 
 
-<section class="relative w-full h-[500px] md:h-[600px] lg:h-[600px] flex items-center" id="home">
+<section class="relative w-full min-h-screen flex items-center justify-center bg-gray-900" id="home">
     <div class="absolute inset-0">
-        <img src="https://labtodent.com/uploads/blogs//1703166444-digital-dental-lab-atlanta.jpg" alt="Background Image" class="object-cover object-center w-full h-full brightness-60">
+        <img src="https://royalimplant.com/blogs/wp-content/uploads/2022/05/1-2-1600x800.jpg"
+            alt="Background Image"
+            class="object-cover object-center w-full h-full brightness-50">
     </div>
 
-    <div class="relative z-10 w-full max-w-8xl mx-auto flex flex-col md:flex-row items-center justify-between px-2 md:px-12 bg-cover bg-center bg-opacity-50 md:mb-32">
-        <div class="md:w-1/2 text-center md:text-left space-y-6 backdrop-blur-lg bg-black bg-opacity-40 rounded-lg p-2 md:p-12">
-            <p class="text-sm font-semibold text-[#c8a876] uppercase tracking-wide mb-3">
-                Introducing Dent
+    <div class="relative z-10 w-full max-w-7xl mx-auto text-center px-2 py-8 md:px-12">
+        <!-- Hero Content -->
+        <div class="bg-black bg-opacity-70 backdrop-blur-sm rounded-3xl p-10 md:p-16 shadow-2xl">
+            <p class="text-sm font-semibold text-[#f4c77d] uppercase tracking-widest mb-3">
+                Welcome to Dentigo
             </p>
-            <h1 class="text-white font-extrabold md:text-3xl text-xl leading-tight mb-6 tracking-wide">
-                ✔️ Outsource <span class="text-[#c8a876]">Digital Dental Design & Manufacturing</span> – Trusted by Leading Labs & Clinics
+            <h1 class="text-white font-extrabold text-2xl md:text-6xl leading-tight mb-5 tracking-wide">
+                Elevating <span class="text-[#f4c77d]">Dental Design & Manufacturing</span> with Excellence
             </h1>
-            <p class="text-lg text-gray-300 mb-6">
-                Creating beautiful, confident smiles with precision and care, tailored to your lab or clinic's needs.
+            <p class="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
+                Trusted by industry leaders, we combine innovation and precision to create high-quality dental solutions.
             </p>
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="prod&services.php" class="px-8 py-3 bg-[#f4c77d] text-black font-semibold rounded-lg shadow-lg hover:bg-[#eab662] hover:scale-105 transition-all">
+                    Explore Services
+                </a>
+                <a href="whychooseus.php" class="px-8 py-3 bg-[#e94057] text-white font-semibold rounded-lg shadow-lg hover:bg-[#d2374a] hover:scale-105 transition-all">
+                    <i class="fas fa-thumbs-up mr-2"></i>Why Choose Us
+                </a>
+                <a href="faq.php" class="px-8 py-3 bg-[#f27121] text-white font-semibold rounded-lg shadow-lg hover:bg-[#e76c1f] hover:scale-105 transition-all">
+                    <i class="fas fa-question-circle mr-2"></i>FAQ
+                </a>
+            </div>
+        </div>
 
-            <a href="prod&services.php" class="inline-block px-8 py-3 bg-[#c8a876] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#b78d50] hover:scale-105 transition-all duration-300 ease-in-out">
-                Explore Our Services
-            </a>
-
-            <a href="whychooseus.php" class=" md:ml-2 inline-block px-8 py-3 bg-[#e94057] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#d2374a] hover:scale-105 transition-all duration-300 ease-in-out">
-                <i class="fas fa-thumbs-up mr-2"></i>
-                Why Choose Us
-            </a>
-
-            <a href="whychooseus.php" class=" md:ml-2  inline-block px-8 py-3 bg-[#f27121] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#e76c1f] hover:scale-105 transition-all duration-300 ease-in-out">
-                <i class="fas fa-question-circle mr-2"></i>
-                FAQ
-            </a>
-
+        <!-- Key Features -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+            <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
+                <div class="w-16 h-16 flex items-center justify-center bg-[#f4c77d] rounded-full mb-4">
+                    <i class="fas fa-cogs text-2xl text-black"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-[#f4c77d] mb-3">Precision Engineering</h3>
+                <p class="text-gray-300 text-sm">
+                    Cutting-edge technology and expert craftsmanship deliver top-tier dental designs.
+                </p>
+            </div>
+            <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
+                <div class="w-16 h-16 flex items-center justify-center bg-[#4caf50] rounded-full mb-4">
+                    <i class="fas fa-exchange-alt text-2xl text-white"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-green-400 mb-3">Seamless Integration</h3>
+                <p class="text-gray-300 text-sm">
+                    Effortlessly incorporate our services into your lab or clinic's workflow.
+                </p>
+            </div>
+            <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
+                <div class="w-16 h-16 flex items-center justify-center bg-[#3b82f6] rounded-full mb-4">
+                    <i class="fas fa-handshake text-2xl text-white"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-400 mb-3">Reliable Partnership</h3>
+                <p class="text-gray-300 text-sm">
+                    Committed to your success, we build lasting relationships based on trust and quality.
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="md:-mt-32 md:py-0 py-4">
-    <div class="max-w-7xl mx-auto px-4 text-center">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-            <!-- Box 1: Design First -->
-            <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:rotate-3 hover:bg-yellow-100">
-                <p class="text-lg text-gray-800">
-                    Get exactly what you need—start with design, see the quality for yourself, and when you're ready, take the next step to manufacturing. No pressure, just a smooth process.
-                </p>
-                <p class="font-semibold">We focus on quality from day one.</p>
-            </div>
 
-            <!-- Box 2: True Outsourcing -->
-            <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:-rotate-3 hover:bg-green-100">
-                <p class="text-lg text-gray-800">
-                    Seamless outsourcing, just like having your in-house team. True outsourcing is about integration, reliability, and trust, not just cost-cutting.
-                </p>
-                <p class="font-semibold">Your team, our expertise.</p>
-            </div>
-
-            <!-- Box 3: Partnership & Collaboration -->
-            <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:rotate-6 hover:bg-blue-100">
-                <p class="text-lg text-gray-800">
-                    We are not just a dental outsourcing provider—we are your extended team, ensuring precision, reliability, and seamless collaboration in every case. Let’s build a partnership where quality, trust, and growth go hand in hand.
-                </p>
-                <p class="font-semibold">Let's build a partnership where quality, trust, and growth go hand in hand.</p>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <!-- About us section  -->
@@ -266,6 +268,67 @@ include 'inc/hd.php';
 </section>
 
 
+<!-- Why Choose Us -->
+<section class=" py-16 px-12">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
+        <!-- Image Section -->
+        <div class="w-full lg:w-6/12 relative">
+            <img src="public/images/computer.avif" class="w-full rounded-lg shadow-xl transform transition duration-300 hover:scale-105" alt="service img">
+            <div class="absolute inset-0 flex items-center justify-center">
+                <a class="bg-white text-gray-700 p-4 rounded-full shadow-lg hover:bg-gray-200 transition"
+                    href="https://www.youtube.com/embed/KjpuOGDx_4E?si=fNVd64KesOcBrkRn">
+                    <i class="fa-solid fa-play text-2xl"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="w-full lg:w-7/12 bg-white p-10 rounded-xl shadow-xl transform transition duration-300 hover:scale-105">
+            <span class="bg-gray-700 text-white px-4 py-2 rounded-full text-sm font-semibold">Dentigo</span>
+            <h2 class="text-4xl font-bold mt-4 text-gray-800">Why Choose Us</h2>
+            <p class="text-gray-600 mt-2">We provide top-quality dental solutions trusted by professionals worldwide.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <!-- Reliability -->
+                <div class="flex space-x-4 items-start">
+                    <i class="fa-solid fa-check-circle text-4xl text-gray-700"></i>
+                    <div>
+                        <h6 class="text-xl font-semibold text-gray-800">Reliability</h6>
+                        <p class="text-gray-600 text-sm">Trusted by dental professionals for consistent quality and on-time deliveries.</p>
+                    </div>
+                </div>
+
+                <!-- Advanced Technology -->
+                <div class="flex space-x-4 items-start">
+                    <i class="fa-solid fa-microchip text-4xl text-gray-700"></i>
+                    <div>
+                        <h6 class="text-xl font-semibold text-gray-800">Advanced Technology</h6>
+                        <p class="text-gray-600 text-sm">Utilizing cutting-edge CAD/CAM systems to ensure accuracy in every design.</p>
+                    </div>
+                </div>
+
+                <!-- Certified Expertise -->
+                <div class="flex space-x-4 items-start">
+                    <i class="fa-solid fa-user-md text-4xl text-gray-700"></i>
+                    <div>
+                        <h6 class="text-xl font-semibold text-gray-800">Certified Expertise</h6>
+                        <p class="text-gray-600 text-sm">A team of certified dentists and technicians ensures every product meets global benchmarks.</p>
+                    </div>
+                </div>
+
+                <!-- Global Reach -->
+                <div class="flex space-x-4 items-start">
+                    <i class="fa-solid fa-globe text-4xl text-gray-700"></i>
+                    <div>
+                        <h6 class="text-xl font-semibold text-gray-800">Global Reach</h6>
+                        <p class="text-gray-600 text-sm">Serving dental labs and clinics worldwide with tailored and efficient solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Our Delivery Options -->
 <section class="py-8 text-black px-2">
     <div class="text-center mb-12">
@@ -340,6 +403,7 @@ include 'inc/hd.php';
     }
 </style>
 
+<!-- Make the testminola first litel bit  -->
 
 <section class="md:py-20 py-6 text-black px-4">
     <div class="container mx-auto text-center">
@@ -417,7 +481,7 @@ include 'inc/hd.php';
 
     renderTestimonials();
     updateCarousel();
-    setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
+    setInterval(autoSlide, 2000); // Auto-slide every 3 seconds
 </script>
 
 

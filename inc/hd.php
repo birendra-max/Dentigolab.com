@@ -42,29 +42,29 @@
                     </li>
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
                         <a href='index.php' target="_self"
-                            class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold' id="home">Home</a>
+                            class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold' id="home">Home</a>
                     </li>
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
                         <a href='about.php' target="_self"
-                            class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold' id="about">About Us</a>
+                            class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold' id="about">About Us</a>
                     </li>
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
                         <a href='Prod&Services.php' target="_self"
-                            class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold' id="prodser">Products & Services</a>
+                            class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold' id="prodser">Products & Services</a>
                     </li>
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
                         <a href='digital&workflows.php' target="_self"
-                            class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold' id="digitalworkflow"> Digital Workflows</a>
+                            class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold' id="digitalworkflow"> Digital Workflows</a>
                     </li>
 
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
                         <a href='portfolio&gallery.php' target="_self"
-                            class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold' id="portgallery">Portfolio & Gallery</a>
+                            class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold' id="portgallery">Portfolio & Gallery</a>
                     </li>
 
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
                         <a href='whychooseus.php' target="_self"
-                            class='text-white text-sm hover:text-teal-500 transition-all duration-300 font-semibold' id="wcu">Why Choose Us</a>
+                            class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold' id="wcu">Why Choose Us</a>
                     </li>
 
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
