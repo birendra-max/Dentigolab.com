@@ -19,13 +19,11 @@ include 'inc/hd.php';
         <!-- End Title -->
 
         <div class="max-w-3xl text-center mx-auto">
-            <p class="text-lg text-white/70">Providing world-class dental designs, manufacturing & equipment solutions worldwide – Made in India.</p>
+            <p class="text-lg text-white/70">High-Precision Digital Dental Designs – Crowns, Bridges, Implants & More</p>
         </div>
     </div>
 </div>
 <!-- End Hero -->
-
-
 
 <section class="py-12">
     <div class="container mx-auto px-6">
@@ -33,7 +31,7 @@ include 'inc/hd.php';
         <div class="grid md:grid-cols-2 gap-12">
             <!-- Left Side Image & Feature -->
             <div class="relative group overflow-hidden rounded-lg shadow-lg">
-                <img src="public/images/serr.avif" class="w-full rounded-lg transform transition duration-300 group-hover:scale-105" alt="Feature img">
+                <img src="public/images/serr.avif" class="w-full h-full rounded-lg transform transition duration-300 group-hover:scale-105" alt="Feature img">
                 <div class="absolute bottom-4 left-4 bg-white p-6 rounded-lg shadow-lg w-3/4">
                     <div class="flex items-center space-x-4">
                         <div class="text-blue-500 text-3xl">
@@ -95,6 +93,18 @@ include 'inc/hd.php';
                     <div>
                         <h5 class="text-xl font-semibold">Case Management Tools</h5>
                         <p class="text-sm text-gray-600">Real-time updates through our Dentigolab Portal for tracking and managing your cases efficiently.</p>
+                        <a href="#" class="text-blue-500 font-semibold flex items-center mt-2 hover:text-blue-700">
+                            Read More <span class="ml-2">&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg flex items-center space-x-4 group hover:shadow-xl transition">
+                    <div class="text-blue-500 text-3xl">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div>
+                        <h5 class="text-xl font-semibold">Outsource with Confidence</h5>
+                        <p class="text-sm text-gray-600">We Design, You Deliver! Get High-Quality Restorations at Competitive Prices. Let’s Work Together – Start Outsourcing Today!</p>
                         <a href="#" class="text-blue-500 font-semibold flex items-center mt-2 hover:text-blue-700">
                             Read More <span class="ml-2">&rarr;</span>
                         </a>

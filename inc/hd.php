@@ -23,7 +23,7 @@
 
 <body class="bg-gradient-to-r from-indigo-100 via-teal-100 to-blue-200">
 
-    <header class='flex shadow-lg px-4 sm:px-12 bg-black bg-opacity-70 min-h-[90px] tracking-wider'>
+    <header class='sticky top-0 z-50 flex shadow-lg px-4 sm:px-12 bg-black  min-h-[90px] tracking-wider'>
         <div class='flex flex-wrap items-center justify-between gap-3 w-full'>
             <a href="index.php" target="_self" class="max-sm:hidden"><img src="public/images/dentigologo.png" alt="logo" class='w-[100px]' /></a>
             <a href="index.php" target="_self" class="hidden max-sm:block"><img src="public/images/dentigologo.png" alt="logo" class='w-[70px]' /></a>
@@ -100,7 +100,7 @@
                 </button>
 
                 <!-- Mobile Menu Toggle -->
-                <button id="toggleOpen" class="lg:hidden block">
+                <button id="toggleOpen" class="lg:hidden bg-white ">
                     <svg class="w-8 h-8" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
