@@ -1,19 +1,41 @@
 </main>
+<div class="relative overflow-hidden border-b w-full dark:border-gray-700 dark:bg-gray-900">
+    <div class="px-6 py-8 sm:px-6 sm:py-20">
+        <div class="max-w-2xl mx-auto text-center">
+            <a href="https://pagedone.io/" class="flex justify-center">
+                <img src="public/images/dentigologo.png" alt="Logo" class="w-[180px] sm:w-[300px] transition-transform duration-300 hover:scale-105" style="filter: drop-shadow(-2px 0px 3px #25d4d1);">
+            </a>
+            <p class="mb-6 text-base text-indigo-200 md:text-lg">
+                Providing world-class dental designs, manufacturing & equipment solutions worldwide – Made in India.
+            </p>
+        </div>
+    </div>
+    <svg viewBox="0 0 1024 1024"
+        class="absolute left-1/2 z-10 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+        aria-hidden="true">
+        <circle cx="512" cy="512" r="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity="0.7">
+        </circle>
+        <defs>
+            <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+                <stop stop-color="#3b82f6"></stop>
+                <stop offset="1" stop-color="#1d4ed8"></stop>
+            </radialGradient>
+        </defs>
+    </svg>
+</div>
+
 
 <footer class="w-full py-14 bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-4">
         <div class="max-w-3xl mx-auto">
-            <a href="https://pagedone.io/" class="flex justify-center ">
-                <img src="public/images/dentigologo.png" alt="Logo" class="w-[180px] sm:w-[200px] transition-all duration-300 hover:scale-110">
-            </a>
-            <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
-                <li><a href="#" class="text-gray-500 hover:text-white">Pagedone</a></li>
-                <li><a href="#" class=" text-gray-500 hover:text-white">Products</a></li>
+            <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-4 mb-2 border-b border-gray-200">
+                <li><a href="privacy&policy.php" class="text-gray-500 hover:text-white"> Privacy Policy</a></li>
+                <li><a href="prod&services.php" class=" text-gray-500 hover:text-white">Products</a></li>
                 <li><a href="#" class=" text-gray-500 hover:text-white">Resources</a></li>
-                <li><a href="#" class=" text-gray-500 hover:text-white">Blogs</a></li>
+                <li><a href="blogs.php" class=" text-gray-500 hover:text-white">Blogs</a></li>
                 <li><a href="#" class=" text-gray-500 hover:text-white">Support</a></li>
             </ul>
-            <div class="flex space-x-10 justify-center items-center mb-14">
+            <div class="flex space-x-10 justify-center items-center py-4">
                 <!-- Facebook -->
                 <a href="#" class="block text-gray-500 transition-all duration-500 hover:text-indigo-600">
                     <svg class="w-[1.25rem] h-[1.25rem]" viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,4 +63,5 @@
 
 
 </body>
+
 </html>

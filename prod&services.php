@@ -5,9 +5,6 @@ include 'inc/hd.php';
 <script>
     document.title = 'Product & Services | Dentigolab Designs'
 </script>
-<br>
-<br>
-<br>
 
 <!-- Hero -->
 <div class="bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800">

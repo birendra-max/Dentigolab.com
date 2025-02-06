@@ -24,16 +24,16 @@ include 'inc/hd.php';
                 Creating beautiful, confident smiles with precision and care, tailored to your lab or clinic's needs.
             </p>
 
-            <a href="#contactUs" class="inline-block px-8 py-3 bg-[#c8a876] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#b78d50] hover:scale-105 transition-all duration-300 ease-in-out">
+            <a href="prod&services.php" class="inline-block px-8 py-3 bg-[#c8a876] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#b78d50] hover:scale-105 transition-all duration-300 ease-in-out">
                 Explore Our Services
             </a>
 
-            <a href="#contactUs" class=" md:ml-2 inline-block px-8 py-3 bg-[#e94057] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#d2374a] hover:scale-105 transition-all duration-300 ease-in-out">
+            <a href="whychooseus.php" class=" md:ml-2 inline-block px-8 py-3 bg-[#e94057] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#d2374a] hover:scale-105 transition-all duration-300 ease-in-out">
                 <i class="fas fa-thumbs-up mr-2"></i>
                 Why Choose Us
             </a>
 
-            <a href="#contactUs" class=" md:ml-2  inline-block px-8 py-3 bg-[#f27121] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#e76c1f] hover:scale-105 transition-all duration-300 ease-in-out">
+            <a href="whychooseus.php" class=" md:ml-2  inline-block px-8 py-3 bg-[#f27121] text-white font-semibold rounded-full shadow-lg transform hover:bg-[#e76c1f] hover:scale-105 transition-all duration-300 ease-in-out">
                 <i class="fas fa-question-circle mr-2"></i>
                 FAQ
             </a>
