@@ -88,3 +88,59 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
+
+
+<section class="max-w-6xl mx-auto px-6 py-12 flex flex-col lg:flex-row items-center gap-10">
+    <!-- Image Section -->
+    <div class="w-full lg:w-1/2">
+        <img src="your-image-url.jpg" alt="FAQ Image" class="w-full rounded-2xl shadow-lg">
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="w-full lg:w-1/2">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">📖 Frequently Asked Questions</h2>
+        <p class="text-gray-600 mb-8">
+            At <span class="font-semibold text-blue-600">Dentigo</span>, we prioritize excellence and transparency. Whether you're a dental technician, lab owner, or clinician, explore answers to commonly asked questions.
+        </p>
+
+        <div class="space-y-6">
+            <!-- Design & Digital Workflow -->
+            <div class="bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
+                <h3 class="text-2xl font-semibold text-blue-700 mb-4">🦷 Design & Digital Workflow</h3>
+                <details class="group border rounded-lg p-4 bg-gray-50 hover:bg-blue-50 transition">
+                    <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
+                        What design services do you offer?
+                        <span class="transition-transform group-open:rotate-180">🔽</span>
+                    </summary>
+                    <p class="text-gray-700 mt-2 leading-relaxed">We provide comprehensive CAD/CAM 3Shape designing, covering crowns, bridges, veneers, dentures, aligners, implant restorations, and appliances for high precision and reliability.</p>
+                </details>
+                <details class="group border rounded-lg p-4 bg-gray-50 hover:bg-blue-50 transition">
+                    <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
+                        How do I send my case files?
+                        <span class="transition-transform group-open:rotate-180">🔽</span>
+                    </summary>
+                    <p class="text-gray-700 mt-2 leading-relaxed">Simply upload your STL, DICOM, or digital impressions through our secure online portal.</p>
+                </details>
+            </div>
+
+            <!-- Manufacturing & Production -->
+            <div class="bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
+                <h3 class="text-2xl font-semibold text-blue-700 mb-4">🏭 Manufacturing & Production</h3>
+                <details class="group border rounded-lg p-4 bg-gray-50 hover:bg-blue-50 transition">
+                    <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
+                        What types of restorations do you manufacture?
+                        <span class="transition-transform group-open:rotate-180">🔽</span>
+                    </summary>
+                    <p class="text-gray-700 mt-2 leading-relaxed">We produce crowns, bridges, veneers, implant prosthetics, full-arch restorations, dentures, and aligners with high-precision craftsmanship.</p>
+                </details>
+                <details class="group border rounded-lg p-4 bg-gray-50 hover:bg-blue-50 transition">
+                    <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
+                        Which materials do you use?
+                        <span class="transition-transform group-open:rotate-180">🔽</span>
+                    </summary>
+                    <p class="text-gray-700 mt-2 leading-relaxed">We work with Zirconia, E.max, PFM, Metal Alloys, PMMA, Acrylic, Composite Resins, and PEEK to meet diverse clinical needs.</p>
+                </details>
+            </div>
+        </div>
+    </div>
+</section>
