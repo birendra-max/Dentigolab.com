@@ -48,31 +48,37 @@ include 'inc/hd.php';
         </div>
     </div>
 
-    <div class="container mx-auto flex flex-col lg:flex-row gap-8 mt-8">
+    <div class="container mx-auto flex flex-col lg:flex-row gap-4 mt-8">
         <!-- First Section: Gradient Section -->
-        <div class="bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-400 text-white py-16 px-8 rounded-lg shadow-lg w-full lg:w-1/2">
+        <div class="bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-400 text-white py-16 px-2 rounded-lg shadow-lg w-full lg:w-1/2">
             <div class="max-w-6xl mx-auto text-center">
-                <h2 class="text-2xl font-extrabold leading-tight mb-4 sm:text-3xl md:text-4xl">📋 Join Dentigo – Let’s Create Success Together!</h2>
+                <h2 class="text-2xl font-extrabold leading-tight mb-4 sm:text-3xl md:text-2xl">📋 Join Dentigo – Let’s Create Success Together!</h2>
                 <p class="text-md mb-8 sm:text-lg lg:text-xl">
                     We’re not just another provider—we’re your partner in growth. Tell us a little about yourself, and let’s build something extraordinary together!
                 </p>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
-                        <h3 class="text-2xl font-semibold mb-4">🤝 Looking to Partner with Us?</h3>
+                        <h3 class="text-xl font-semibold mb-4">🤝 Looking to Partner with Us?</h3>
                         <p class="mb-4">Want to discuss a project or bulk orders? We’re happy to assist.</p>
                     </div>
 
                     <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
-                        <h3 class="text-2xl font-semibold mb-4">🔧 Need Custom Solutions?</h3>
+                        <h3 class="text-xl font-semibold mb-4">🔧 Need Custom Solutions?</h3>
                         <p class="mb-4">Let’s find the right fit for your needs. We’re here to tailor solutions just for you!</p>
                     </div>
 
                     <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
-                        <h3 class="text-2xl font-semibold mb-4">💬 Have Technical Queries?</h3>
+                        <h3 class="text-xl font-semibold mb-4">💬 Have Technical Queries?</h3>
                         <p class="mb-4">Our expert team is ready to guide you. Feel free to reach out for support!</p>
                     </div>
                 </div>
+            </div>
+            <!-- Design CTA -->
+            <div class="bg-white p-6 mt-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 md:mt-48">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">📩 Try Our Design – No Obligation, Just Quality!</h3>
+                <p class="text-gray-700 mb-4">Get your first case designed with Dentigo by signing up now! No strings attached.</p>
+                <a href="#signup-form" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition duration-300">Sign Up Today</a>
             </div>
         </div>
 
@@ -103,7 +109,7 @@ include 'inc/hd.php';
                             <!-- Country Code Dropdown -->
                             <select id="country-code" name="country-code" required
                                 class="p-4 border border-gray-300 rounded-l-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm w-[40%]">
-                                <!-- Options will be dynamically added by JavaScript -->
+                                <option value="">Select Country Code</option> <!-- Placeholder Option -->
                             </select>
 
                             <!-- Phone Number Input -->
@@ -111,6 +117,43 @@ include 'inc/hd.php';
                                 class="flex-1 p-4 border-t border-b border-r border-gray-300 rounded-r-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
                         </div>
                     </div>
+
+                    <!-- jQuery (ensure jQuery is included in your project) -->
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+                    <script>
+                        $(document).ready(function() {
+                            // Use AJAX to fetch country data from RestCountries API
+                            $.ajax({
+                                url: 'https://restcountries.com/v3.1/all', // RestCountries API endpoint
+                                type: 'GET',
+                                success: function(data) {
+                                    const countrySelect = $('#country-code');
+
+                                    // Loop through the countries and populate the select options
+                                    data.forEach(function(country) {
+                                        const countryCode = country.idd ? country.idd.suffixes[0] : ''; // Get the calling code if available
+                                        const countryName = country.name.common; // Get the country's name
+
+                                        if (countryCode) {
+                                            // Create a new option element
+                                            const option = $('<option></option>')
+                                                .attr('value', `+${countryCode}`) // Add the '+' symbol to the code
+                                                .text(`${countryName} (+${countryCode})`); // Display the country name and calling code
+
+                                            // Append the option to the select dropdown
+                                            countrySelect.append(option);
+                                        }
+                                    });
+                                },
+                                error: function(xhr, status, error) {
+                                    console.error('Error fetching country data:', error);
+                                }
+                            });
+                        });
+                    </script>
+
+
                 </div>
 
                 <!-- Clinic/Lab Name and Location -->
@@ -175,12 +218,6 @@ include 'inc/hd.php';
                     </div>
                 </div>
 
-                <!-- Design CTA -->
-                <div class="bg-white p-6 mt-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">📩 Try Our Design – No Obligation, Just Quality!</h3>
-                    <p class="text-gray-700 mb-4">Get your first case designed with Dentigo by signing up now! No strings attached.</p>
-                    <a href="#signup-form" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition duration-300">Sign Up Today</a>
-                </div>
 
                 <!-- Submit Button -->
                 <div class="w-full mt-8 text-center">
