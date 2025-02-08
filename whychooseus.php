@@ -90,57 +90,68 @@ include 'inc/hd.php';
 </section>
 
 
-<section class="max-w-6xl mx-auto px-6 py-12 flex flex-col lg:flex-row items-center gap-10">
+<section class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
     <!-- Image Section -->
-    <div class="w-full lg:w-1/2">
-        <img src="your-image-url.jpg" alt="FAQ Image" class="w-full rounded-2xl shadow-lg">
+    <div class="relative">
+        <img src="https://media.istockphoto.com/id/1349998432/photo/3d-render-of-faqs-business-concept.jpg?s=612x612&w=0&k=20&c=qhvy7I8jjnyAagxavLXVwSsvbsErceBVyIqF2eyHxWw=" 
+            alt="FAQ Image" class="w-full rounded-2xl shadow-xl">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-2xl"></div>
     </div>
 
     <!-- FAQ Section -->
-    <div class="w-full lg:w-1/2">
-        <h2 class="text-4xl font-bold text-gray-900 mb-6">📖 Frequently Asked Questions</h2>
-        <p class="text-gray-600 mb-8">
-            At <span class="font-semibold text-blue-600">Dentigo</span>, we prioritize excellence and transparency. Whether you're a dental technician, lab owner, or clinician, explore answers to commonly asked questions.
+    <div>
+        <h2 class="text-4xl font-extrabold text-gray-900">📖 Frequently Asked Questions</h2>
+        <p class="text-lg text-gray-600 mt-4 leading-relaxed">
+            At <span class="font-semibold text-blue-600">Dentigo</span>, we ensure clarity and excellence in all we do. Whether you're a dental technician, lab owner, or clinician, find answers here!
         </p>
 
-        <div class="space-y-6">
-            <!-- Design & Digital Workflow -->
-            <div class="bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
+        <div class="mt-8 space-y-6">
+            <!-- FAQ Category -->
+            <div class="bg-white shadow-md rounded-2xl p-6 border border-gray-200 transition hover:shadow-lg">
                 <h3 class="text-2xl font-semibold text-blue-700 mb-4">🦷 Design & Digital Workflow</h3>
-                <details class="group border rounded-lg p-4 bg-gray-50 hover:bg-blue-50 transition">
+                <details class="group border rounded-lg p-5 bg-gray-50 hover:bg-blue-50 transition">
                     <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
                         What design services do you offer?
                         <span class="transition-transform group-open:rotate-180">🔽</span>
                     </summary>
-                    <p class="text-gray-700 mt-2 leading-relaxed">We provide comprehensive CAD/CAM 3Shape designing, covering crowns, bridges, veneers, dentures, aligners, implant restorations, and appliances for high precision and reliability.</p>
+                    <p class="text-gray-700 mt-3 leading-relaxed">We provide CAD/CAM 3Shape designing for crowns, bridges, veneers, dentures, aligners, implant restorations, and more.</p>
                 </details>
-                <details class="group border rounded-lg p-4 bg-gray-50 hover:bg-blue-50 transition">
+                <details class="group border rounded-lg p-5 bg-gray-50 hover:bg-blue-50 transition mt-3">
                     <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
-                        How do I send my case files?
+                        Can I review the design before manufacturing?
                         <span class="transition-transform group-open:rotate-180">🔽</span>
                     </summary>
-                    <p class="text-gray-700 mt-2 leading-relaxed">Simply upload your STL, DICOM, or digital impressions through our secure online portal.</p>
+                    <p class="text-gray-700 mt-3 leading-relaxed">Absolutely! We share the design for approval before moving to production.</p>
                 </details>
             </div>
 
-            <!-- Manufacturing & Production -->
-            <div class="bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
+            <!-- Another Category -->
+            <div class="bg-white shadow-md rounded-2xl p-6 border border-gray-200 transition hover:shadow-lg">
                 <h3 class="text-2xl font-semibold text-blue-700 mb-4">🏭 Manufacturing & Production</h3>
-                <details class="group border rounded-lg p-4 bg-gray-50 hover:bg-blue-50 transition">
-                    <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
-                        What types of restorations do you manufacture?
-                        <span class="transition-transform group-open:rotate-180">🔽</span>
-                    </summary>
-                    <p class="text-gray-700 mt-2 leading-relaxed">We produce crowns, bridges, veneers, implant prosthetics, full-arch restorations, dentures, and aligners with high-precision craftsmanship.</p>
-                </details>
-                <details class="group border rounded-lg p-4 bg-gray-50 hover:bg-blue-50 transition">
+                <details class="group border rounded-lg p-5 bg-gray-50 hover:bg-blue-50 transition">
                     <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
                         Which materials do you use?
                         <span class="transition-transform group-open:rotate-180">🔽</span>
                     </summary>
-                    <p class="text-gray-700 mt-2 leading-relaxed">We work with Zirconia, E.max, PFM, Metal Alloys, PMMA, Acrylic, Composite Resins, and PEEK to meet diverse clinical needs.</p>
+                    <p class="text-gray-700 mt-3 leading-relaxed">We work with Zirconia, E.max, PFM, Metal Alloys, PMMA, Acrylic, Composite Resins, and PEEK.</p>
+                </details>
+            </div>
+
+            <!-- Shipping & Payments -->
+            <div class="bg-white shadow-md rounded-2xl p-6 border border-gray-200 transition hover:shadow-lg">
+                <h3 class="text-2xl font-semibold text-blue-700 mb-4">🚚 Shipping & Payments</h3>
+                <details class="group border rounded-lg p-5 bg-gray-50 hover:bg-blue-50 transition">
+                    <summary class="cursor-pointer text-lg font-medium text-gray-900 flex justify-between items-center">
+                        Which countries do you ship to?
+                        <span class="transition-transform group-open:rotate-180">🔽</span>
+                    </summary>
+                    <p class="text-gray-700 mt-3 leading-relaxed">We offer global shipping with reliable courier partners.</p>
                 </details>
             </div>
         </div>
+
+        <p class="text-gray-600 mt-10 text-center">
+            📩 Still have questions? <a href="#" class="text-blue-600 font-semibold hover:underline">Contact our team today!</a>
+        </p>
     </div>
 </section>

@@ -21,7 +21,8 @@
     </style>
 </head>
 
-<body class="bg-gradient-to-r from-indigo-100 via-teal-100 to-blue-200">
+<body class="bg-white">
+
 
     <header class='sticky top-0 z-50 flex shadow-lg px-4 sm:px-12 bg-black  min-h-[90px] tracking-wider'>
         <div class='flex flex-wrap items-center justify-between gap-3 w-full'>
@@ -112,6 +113,12 @@
         </div>
     </header>
 
+    <style>
+        ul li a:hover {
+            filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
+        }
+    </style>
+
 
     <script>
         var toggleOpen = document.getElementById('toggleOpen');
@@ -138,9 +145,9 @@
 
             if (pageTitle == 'Home | Dentigolab Designs') {
                 $('#home').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
-                $('#home').addClass('text-teal-500 text-md font-extrabold transition-all ease-in-out duration-300');
+                $('#home').addClass('text-teal-500 text-md font-extrabold hover:shadow-xl transition-all ease-in-out duration-300');
             } else {
-                $("#home").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $("#home").addClass('text-white text-md hover:text-teal-500 hover:shadow-xl transition-all duration-300 font-semibold');
                 $('#home').removeClass('text-teal-500 text-md font-extrabold transition-all ease-in-out duration-300');
             }
 
