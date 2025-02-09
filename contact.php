@@ -12,7 +12,7 @@ include 'inc/hd.php';
         <p class="text-lg text-gray-600">We believe in strong partnerships and seamless communication. Whether you have a question, need support, or are looking to collaborate, we’re here for you!</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-16">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-8xl mx-auto mt-16">
         <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:scale-105">
             <h3 class="text-2xl font-semibold text-gray-800 mb-4">Contact Info</h3>
             <div class="space-y-3">
@@ -40,11 +40,19 @@ include 'inc/hd.php';
             </ul>
         </div>
 
+
         <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:scale-105">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Location</h3>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Location</h3>
             <div class="rounded-2xl overflow-hidden shadow-md">
                 <iframe src="https://www.google.com/maps/embed?" width="100%" height="200" style="border:0;" allowfullscreen=""></iframe>
             </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:scale-105">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Join Dentigo – Let’s Create Success Together!</h2>
+            <p class="text-md mb-8">
+                We’re not just another provider—we’re your partner in growth. Tell us a little about yourself, and let’s build something extraordinary together!
+            </p>
         </div>
     </div>
 
@@ -52,15 +60,12 @@ include 'inc/hd.php';
         <!-- First Section: Gradient Section -->
         <div class="bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-400 text-white py-16 px-2 rounded-lg shadow-lg w-full lg:w-1/2">
             <div class="max-w-6xl mx-auto text-center">
-                <h2 class="text-2xl font-extrabold leading-tight mb-4 sm:text-3xl md:text-2xl">📋 Join Dentigo – Let’s Create Success Together!</h2>
-                <p class="text-md mb-8 sm:text-lg lg:text-xl">
-                    We’re not just another provider—we’re your partner in growth. Tell us a little about yourself, and let’s build something extraordinary together!
-                </p>
+                <h2 class="text-3xl font-bold mb-4">🤝 Looking to Partner with Us?</h2>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">🤝 Looking to Partner with Us?</h3>
-                        <p class="mb-4">Want to discuss a project or bulk orders? We’re happy to assist.</p>
+                        <h3 class="text-xl font-semibold mb-4">💼 Want to discuss a project or bulk orders?</h3>
+                        <p class="mb-4">We’re happy to assist.</p>
                     </div>
 
                     <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
@@ -74,18 +79,22 @@ include 'inc/hd.php';
                     </div>
                 </div>
             </div>
+
             <!-- Design CTA -->
-            <div class="bg-white p-6 mt-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 md:mt-48">
+            <div class="bg-white p-6 mt-16 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
                 <h3 class="text-2xl font-semibold text-gray-800 mb-4">📩 Try Our Design – No Obligation, Just Quality!</h3>
                 <p class="text-gray-700 mb-4">Get your first case designed with Dentigo by signing up now! No strings attached.</p>
                 <a href="#signup-form" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition duration-300">Sign Up Today</a>
             </div>
+
         </div>
+
 
         <!-- Second Section: Form Section -->
         <div class="container mx-auto rounded-xl shadow-lg max-w-3xl w-full lg:w-1/2 p-4">
-            <h2 class="text-2xl font-extrabold text-gray-800 mb-6 text-center sm:text-xl">Start Your Digital Dental Design Journey – We’re Here to Help!</h2>
-            <p class="text-lg text-gray-600 mb-12 text-center sm:text-md">Partner with us for top-quality dental designs. Just fill in your details, and let’s create something great together!</p>
+            <h2 class="text-2xl font-extrabold text-gray-800 mb-6 text-center sm:text-xl">Try Our Digital Dental Design – Get Started Today!
+            </h2>
+            <p class="text-lg text-gray-600 mb-12 text-center sm:text-md">Discover exceptional digital dental design with our trial service. See the quality, precision, and efficiency firsthand before making any commitment. Provide the details below to get started with your trial case</p>
 
             <form class="max-w-4xl mx-auto space-y-8" id="samplerequest" method="post">
                 <!-- Name, Email, Phone in one line -->

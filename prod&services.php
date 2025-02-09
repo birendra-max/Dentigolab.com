@@ -6,6 +6,24 @@ include 'inc/hd.php';
     document.title = 'Product & Services | Dentigolab Designs'
 </script>
 
+<!-- Hero -->
+<div class="bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800">
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-gradient-to-b from-violet-600/10 via-transparent">
+
+        <!-- Title -->
+        <div class="max-w-3xl text-center mx-auto">
+            <h1 class="block font-medium text-gray-200 text-2xl sm:text-5xl md:text-6xl lg:text-3xl">
+                Welcome to Dentigo – Precision & Excellence in Every Restoration
+            </h1>
+        </div>
+        <!-- End Title -->
+
+        <div class="max-w-3xl text-center mx-auto">
+            <p class="text-md text-white/70">At Dentigo, we understand that every restoration is more than just a product—it’s a patient’s smile, confidence, and comfort. As skilled dental technicians, we are committed to delivering high-precision dental restorations that combine craftsmanship, advanced technology, and expert knowledge. Whether you need crowns, bridges, implants, or digital solutions, we ensure every case meets the highest standards of accuracy, strength, and aesthetics.</p>
+        </div>
+    </div>
+</div>
+<!-- End Hero -->
 
 <section class="relative w-full py-16 text-white" id="free-trial">
     <div class="max-w-7xl mx-auto px-6 md:px-12 text-center">
@@ -73,6 +91,73 @@ include 'inc/hd.php';
     </div>
 </section>
 
+
+<section>
+    <div class="bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-400 text-white py-16 px-4 rounded-lg shadow-lg mt-12">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Expertise – Where Art Meets Science</h2>
+            <p class="text-lg mb-12">At Dentigo, precision and excellence are at the heart of every restoration we create. Here's a closer look at what we offer:</p>
+
+            <!-- Expertise List -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
+                    <h3 class="text-xl font-semibold mb-4">🦷 Fixed Restorations</h3>
+                    <p>Crowns, Bridges, Veneers, Inlays & Onlays crafted with superior fit and aesthetics.</p>
+                </div>
+
+                <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
+                    <h3 class="text-xl font-semibold mb-4">🦷 Implant Restorations</h3>
+                    <p>Custom Abutments, Implant-Supported Crowns, Full-Arch Restorations designed for long-term success.</p>
+                </div>
+
+                <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
+                    <h3 class="text-xl font-semibold mb-4">🦷 Removable Prosthetics</h3>
+                    <p>Complete & Partial Dentures, Flexible Valplast Dentures for ultimate comfort and function.</p>
+                </div>
+
+                <div class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
+                    <h3 class="text-xl font-semibold mb-4">🦷 Orthodontic Appliances</h3>
+                    <p>Clear Aligners, Retainers, Splints & Night Guards for patient-specific orthodontic care.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <section class="bg-white py-16 px-6 rounded-lg shadow-lg mt-12">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Why Choose Dentigo?</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-6 bg-gray-50 text-gray-800 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-3">✔ Flexible Solutions</h3>
+                    <p>Choose between DESIGN services or full-scale MANUFACTURING depending on your needs.</p>
+                </div>
+                <div class="p-6 bg-gray-50 text-gray-800 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-3">✔ Scalable Growth</h3>
+                    <p>Start with a few cases, evaluate our work, and expand your orders as required.</p>
+                </div>
+                <div class="p-6 bg-gray-50 text-gray-800 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-3">✔ Dedicated Account Assistance</h3>
+                    <p>Every order is managed with personal attention to ensure the highest level of service.</p>
+                </div>
+                <div class="p-6 bg-gray-50 text-gray-800 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-3">✔ Proven Expertise</h3>
+                    <p>Our team has extensive experience in providing high-quality restorations to leading dental labs worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="bg-blue-600 text-white py-16 px-6 rounded-lg shadow-lg mt-12">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-4">📩 Have Questions? Let’s Talk!</h3>
+            <p class="text-lg mb-8">Contact us today and let’s discuss how we can support your lab’s success with top-quality dental restorations. We’re excited to collaborate with you!</p>
+            <a href="#contact-form" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition duration-300">Contact Us</a>
+        </div>
+    </section>
+
+</section>
 
 
 

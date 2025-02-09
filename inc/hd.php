@@ -190,18 +190,18 @@
 
             if (pageTitle == 'Contact | Dentigolab Designs') {
                 $('#contact').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
-                $('#contact').addClass('text-[#28a745] text-md font-extrabold transition-all ease-in-out duration-300');
+                $('#contact').addClass('text-teal-500 text-md font-extrabold transition-all ease-in-out duration-300');
             } else {
                 $("#contact").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
-                $('#contact').removeClass('text-[#28a745] text-md font-extrabold transition-all ease-in-out duration-300');
+                $('#contact').removeClass('text-teal-500 text-md font-extrabold transition-all ease-in-out duration-300');
             }
 
             if (pageTitle == 'Why Choose Us | Dentigolab Designs') {
                 $('#wcu').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
-                $('#wcu').addClass('text-[#28a745] text-md font-extrabold transition-all ease-in-out duration-300');
+                $('#wcu').addClass('text-teal-500 text-md font-extrabold transition-all ease-in-out duration-300');
             } else {
                 $("#wcu").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
-                $('#wcu').removeClass('text-[#28a745] text-md font-extrabold transition-all ease-in-out duration-300');
+                $('#wcu').removeClass('text-teal-500 text-md font-extrabold transition-all ease-in-out duration-300');
             }
 
         })
