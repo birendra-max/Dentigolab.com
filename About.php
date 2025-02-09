@@ -333,89 +333,105 @@ include 'inc/hd.php';
     </div>
 </section>
 
-<section class=" py-16" data-aos="fade-up">
+<section class="py-16" data-aos="fade-up">
     <div class="container mx-auto px-6">
         <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
 
             <!-- Left Side Image -->
             <div class="w-full lg:w-1/2">
-                <img src="https://staging.boostdigitalmarketing.com/wp-content/uploads/2023/02/UticaDentalLabV4-13.png" alt="Image" class="w-full h-auto object-cover transition-all transform hover:scale-105">
+                <img src="https://staging.boostdigitalmarketing.com/wp-content/uploads/2023/02/UticaDentalLabV4-13.png" alt="Dental Lab" class="w-full h-auto object-cover rounded-lg shadow-lg transition-transform transform hover:scale-105 duration-300 ease-in-out">
             </div>
 
             <!-- Right Side Content (Dropdown List) -->
             <div class="w-full lg:w-1/2 space-y-6">
-                <h5 class="text-2xl font-bold text-gray-800">The Dentigo Advantage</h5>
+                <h2 class="text-3xl font-extrabold text-gray-800 mb-8">The Dentigo Advantage</h2>
                 <div class="space-y-4">
+
                     <!-- Dropdown Item 1 -->
-                    <div>
-                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('precision')">
+                    <div class="border-b border-gray-200">
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-50 rounded-md transition-all ease-in-out focus:outline-none" onclick="toggleDropdown('precision')">
                             <span>Unmatched Precision</span>
                             <svg id="precision-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>
                         </button>
-                        <div id="precision" class="hidden mt-4 pl-6 text-gray-600">
+                        <div id="precision" class="hidden mt-4 pl-6 text-gray-600 text-sm">
                             Engineered for accuracy and aesthetics, our restorations ensure a perfect fit and long-lasting results every time.
                         </div>
                     </div>
 
                     <!-- Dropdown Item 2 -->
-                    <div>
-                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('technology')">
+                    <div class="border-b border-gray-200">
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-50 rounded-md transition-all ease-in-out focus:outline-none" onclick="toggleDropdown('technology')">
                             <span>Leading Technology</span>
                             <svg id="technology-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>
                         </button>
-                        <div id="technology" class="hidden mt-4 pl-6 text-gray-600">
+                        <div id="technology" class="hidden mt-4 pl-6 text-gray-600 text-sm">
                             We leverage advanced CAD/CAM systems like 3Shape to deliver superior precision and efficiency.
                         </div>
                     </div>
 
                     <!-- Dropdown Item 3 -->
-                    <div>
-                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('standards')">
+                    <div class="border-b border-gray-200">
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-50 rounded-md transition-all ease-in-out focus:outline-none" onclick="toggleDropdown('standards')">
                             <span>Global Standards</span>
                             <svg id="standards-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>
                         </button>
-                        <div id="standards" class="hidden mt-4 pl-6 text-gray-600">
+                        <div id="standards" class="hidden mt-4 pl-6 text-gray-600 text-sm">
                             With FDA registration, HIPAA compliance, and FDA-approved materials, we guarantee safety and reliability.
                         </div>
                     </div>
 
                     <!-- Dropdown Item 4 -->
-                    <div>
-                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('turnaround')">
+                    <div class="border-b border-gray-200">
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-50 rounded-md transition-all ease-in-out focus:outline-none" onclick="toggleDropdown('turnaround')">
                             <span>Fast Turnaround</span>
                             <svg id="turnaround-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>
                         </button>
-                        <div id="turnaround" class="hidden mt-4 pl-6 text-gray-600">
+                        <div id="turnaround" class="hidden mt-4 pl-6 text-gray-600 text-sm">
                             Delivering cases in 4-5 working days, we prioritize your time and practice needs.
                         </div>
                     </div>
 
                     <!-- Dropdown Item 5 -->
                     <div>
-                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-200 rounded-md focus:outline-none" onclick="toggleDropdown('care')">
+                        <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-50 rounded-md transition-all ease-in-out focus:outline-none" onclick="toggleDropdown('care')">
                             <span>Patient-Focused Care</span>
                             <svg id="care-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>
                         </button>
-                        <div id="care" class="hidden mt-4 pl-6 text-gray-600">
+                        <div id="care" class="hidden mt-4 pl-6 text-gray-600 text-sm">
                             Our less than 1% remake rate reflects our commitment to delivering restorations that exceed expectations.
                         </div>
                     </div>
+
                 </div>
             </div>
 
         </div>
     </div>
 </section>
+
+<script>
+    function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        const icon = document.getElementById(id + '-icon');
+
+        // Toggle visibility of the dropdown content
+        dropdown.classList.toggle('hidden');
+
+        // Toggle the icon rotation
+        icon.classList.toggle('rotate-180');
+    }
+</script>
+
 
 <script>
     function toggleDropdown(id) {
