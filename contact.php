@@ -48,7 +48,7 @@ include 'inc/hd.php';
         </div>
     </div>
 
-    <div class="container mx-auto flex flex-col lg:flex-row gap-4 mt-8">
+    <div class="container mx-auto flex flex-col lg:flex-row gap-4 mt-24">
         <!-- First Section: Gradient Section -->
         <div class="bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-400 text-white py-16 px-2 rounded-lg shadow-lg w-full lg:w-1/2">
             <div class="max-w-6xl mx-auto text-center">
@@ -83,8 +83,8 @@ include 'inc/hd.php';
         </div>
 
         <!-- Second Section: Form Section -->
-        <div class="container mx-auto p-8 bg-gray-50 rounded-xl shadow-lg max-w-3xl w-full lg:w-1/2">
-            <h2 class="text-4xl font-extrabold text-gray-800 mb-6 text-center sm:text-3xl">Start Your Digital Dental Design Journey – We’re Here to Help!</h2>
+        <div class="container mx-auto p-4 bg-gray-50 rounded-xl shadow-lg max-w-3xl w-full lg:w-1/2">
+            <h2 class="text-2xl font-extrabold text-gray-800 mb-6 text-center sm:text-xl">Start Your Digital Dental Design Journey – We’re Here to Help!</h2>
             <p class="text-lg text-gray-600 mb-12 text-center sm:text-md">Partner with us for top-quality dental designs. Just fill in your details, and let’s create something great together!</p>
 
             <!-- Form -->
@@ -106,55 +106,48 @@ include 'inc/hd.php';
                     <div class="w-full md:w-1/3">
                         <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
                         <div class="flex mt-1">
-                            <!-- Country Code Dropdown -->
                             <select id="country-code" name="country-code" required
-                                class="p-4 border border-gray-300 rounded-l-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm w-[40%]">
-                                <option value="">Select Country Code</option> <!-- Placeholder Option -->
+                                class="p-4 border border-gray-300 rounded-l-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm w-[70%]">
+                                <option value="" id="codeshow" selected disabled>Country Code</option>
+                                
                             </select>
 
-                            <!-- Phone Number Input -->
                             <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required
                                 class="flex-1 p-4 border-t border-b border-r border-gray-300 rounded-r-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
                         </div>
                     </div>
-
-                    <!-- jQuery (ensure jQuery is included in your project) -->
-                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-                    <script>
-                        $(document).ready(function() {
-                            // Use AJAX to fetch country data from RestCountries API
-                            $.ajax({
-                                url: 'https://restcountries.com/v3.1/all', // RestCountries API endpoint
-                                type: 'GET',
-                                success: function(data) {
-                                    const countrySelect = $('#country-code');
-
-                                    // Loop through the countries and populate the select options
-                                    data.forEach(function(country) {
-                                        const countryCode = country.idd ? country.idd.suffixes[0] : ''; // Get the calling code if available
-                                        const countryName = country.name.common; // Get the country's name
-
-                                        if (countryCode) {
-                                            // Create a new option element
-                                            const option = $('<option></option>')
-                                                .attr('value', `+${countryCode}`) // Add the '+' symbol to the code
-                                                .text(`${countryName} (+${countryCode})`); // Display the country name and calling code
-
-                                            // Append the option to the select dropdown
-                                            countrySelect.append(option);
-                                        }
-                                    });
-                                },
-                                error: function(xhr, status, error) {
-                                    console.error('Error fetching country data:', error);
-                                }
-                            });
-                        });
-                    </script>
-
-
                 </div>
+
+                <script>
+                    $(document).ready(function() {
+                        $.ajax({
+                            url: "https://restcountries.com/v3.1/all",
+                            method: "GET",
+                            success: function(data) {
+                                const countries = data.map(country => ({
+                                    name: country.name.common,
+                                    dialingCode: country.idd?.root ?
+                                        country.idd.root + (country.idd.suffixes ? country.idd.suffixes[0] : "") : "N/A"
+                                }));
+
+                                // Sort countries alphabetically
+                                countries.sort((a, b) => a.name.localeCompare(b.name));
+
+                                const countryList = $("#country-code");
+                                if (countryList.length) {
+                                    countries.forEach(country => {
+                                        countryList.append(
+                                            `<option value="${country.dialingCode}">${country.name} (${country.dialingCode})</option>`
+                                        );
+                                    });
+                                }
+                            },
+                            error: function(error) {
+                                console.error("Error fetching country data:", error);
+                            }
+                        });
+                    });
+                </script>
 
                 <!-- Clinic/Lab Name and Location -->
                 <div class="w-full md:flex md:space-x-8 flex-col md:flex-row">
