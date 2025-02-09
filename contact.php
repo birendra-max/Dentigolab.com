@@ -83,38 +83,41 @@ include 'inc/hd.php';
         </div>
 
         <!-- Second Section: Form Section -->
-        <div class="container mx-auto p-4 bg-gray-50 rounded-xl shadow-lg max-w-3xl w-full lg:w-1/2">
+        <div class="container mx-auto rounded-xl shadow-lg max-w-3xl w-full lg:w-1/2 p-4">
             <h2 class="text-2xl font-extrabold text-gray-800 mb-6 text-center sm:text-xl">Start Your Digital Dental Design Journey – We’re Here to Help!</h2>
             <p class="text-lg text-gray-600 mb-12 text-center sm:text-md">Partner with us for top-quality dental designs. Just fill in your details, and let’s create something great together!</p>
 
-            <!-- Form -->
-            <form class="flex flex-wrap gap-8" id="samplerequest">
+            <form class="max-w-4xl mx-auto space-y-8" id="samplerequest" method="post">
                 <!-- Name, Email, Phone in one line -->
-                <div class="w-full md:flex md:space-x-8 flex-col md:flex-row">
-                    <div class="w-full md:w-1/3">
-                        <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <!-- Full Name -->
+                    <div class="space-y-2">
+                        <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
                         <input type="text" id="name" name="name" placeholder="Enter your name" required
-                            class="mt-1 block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
+                            class="w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
                     </div>
 
-                    <div class="w-full md:w-1/3">
-                        <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">Business Email Address</label>
+                    <!-- Business Email Address -->
+                    <div class="space-y-2">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Business Email Address</label>
                         <input type="email" id="email" name="email" placeholder="Enter your email address" required
-                            class="mt-1 block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
+                            class="w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
                     </div>
+                </div>
 
-                    <div class="w-full md:w-1/3">
-                        <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
-                        <div class="flex mt-1">
-                            <select id="country-code" name="country-code" required
-                                class="p-4 border border-gray-300 rounded-l-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm w-[70%]">
-                                <option value="" id="codeshow" selected disabled>Country Code</option>
-                                
-                            </select>
+                <!-- Phone Number -->
+                <div class="space-y-2">
+                    <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                    <div class="flex w-full gap-2">
+                        <!-- Country Code Full Width (takes the full width) -->
+                        <select id="country-code" name="country-code" required
+                            class="w-full sm:w-1/4 p-4 border border-gray-300 shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm rounded-l-lg">
+                            <option value="" id="codeshow" selected disabled>Country Code</option>
+                        </select>
 
-                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required
-                                class="flex-1 p-4 border-t border-b border-r border-gray-300 rounded-r-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
-                        </div>
+                        <!-- Phone Number input Half Width -->
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required
+                            class="w-full sm:w-3/4 p-4 border border-gray-300 shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500 rounded-r-lg">
                     </div>
                 </div>
 
@@ -137,10 +140,21 @@ include 'inc/hd.php';
                                 if (countryList.length) {
                                     countries.forEach(country => {
                                         countryList.append(
-                                            `<option value="${country.dialingCode}">${country.name} (${country.dialingCode})</option>`
+                                            `<option value="${country.dialingCode}" data-display="${country.dialingCode}">
+                            ${country.name} (${country.dialingCode})
+                        </option>`
                                         );
                                     });
                                 }
+
+                                // When user selects a country, update the select box to show only the country code
+                                countryList.on("change", function() {
+                                    const selectedOption = $(this).find(":selected");
+                                    const countryCode = selectedOption.data("display");
+
+                                    // Update the selected option text dynamically
+                                    selectedOption.text(countryCode);
+                                });
                             },
                             error: function(error) {
                                 console.error("Error fetching country data:", error);
@@ -150,76 +164,86 @@ include 'inc/hd.php';
                 </script>
 
                 <!-- Clinic/Lab Name and Location -->
-                <div class="w-full md:flex md:space-x-8 flex-col md:flex-row">
-                    <div class="w-full md:w-1/2">
-                        <label for="clinic" class="block text-sm font-semibold text-gray-700 mb-2">Clinic/Lab Name</label>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="space-y-2">
+                        <label for="clinic" class="block text-sm font-medium text-gray-700">Clinic/Lab Name</label>
                         <input type="text" id="clinic" name="clinic" placeholder="Enter your clinic or lab name" required
-                            class="mt-1 block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
+                            class="w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
                     </div>
 
-                    <div class="w-full md:w-1/2">
-                        <label for="location" class="block text-sm font-semibold text-gray-700 mb-2">Location</label>
+                    <div class="space-y-2">
+                        <label for="location" class="block text-sm font-medium text-gray-700">Location</label>
                         <input type="text" id="location" name="location" placeholder="City & Country" required
-                            class="mt-1 block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
+                            class="w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-green-500 focus:border-green-500 text-sm placeholder-gray-500">
                     </div>
                 </div>
 
-                <!-- Service You Need -->
-                <div class="w-full mt-8">
-                    <label for="services" class="block text-sm font-semibold text-gray-700 mb-4">Services Required</label>
+                <!-- Services You Need -->
+                <div class="w-full">
+                    <label for="services" class="block text-sm font-medium text-gray-700 mb-4">Services Required</label>
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service1" value="CAD Software Used (3Shape, Exocad)" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service1" value="CAD Software Used (3Shape, Exocad)"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">CAD Software (3Shape, Exocad)</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service2" value="Trial Case Type (Crown & Bridge, Implant, Denture)" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service2" value="Trial Case Type (Crown & Bridge, Implant, Denture)"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Trial Case Type</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service3" value="Preferred Contact Type (Light, Medium, Heavy)" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service3" value="Preferred Contact Type (Light, Medium, Heavy)"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Preferred Contact</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service4" value="Occlusion Specifications (Occlusion Type)" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service4" value="Occlusion Specifications (Occlusion Type)"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Occlusion Specifications</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service5" value="Pontic Design (Ridge lap, Ovate, Modified)" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service5" value="Pontic Design (Ridge lap, Ovate, Modified)"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Pontic Design</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service6" value="Anatomy Type (Primary, Secondary, Adjacent)" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service6" value="Anatomy Type (Primary, Secondary, Adjacent)"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Anatomy Type</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service7" value="Connector Design (Standard, High-Strength)" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service7" value="Connector Design (Standard, High-Strength)"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Connector Design</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service8" value="Cutback & Layering Preferences" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service8" value="Cutback & Layering Preferences"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Cutback & Layering</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service9" value="Libraries Used (Anatomy)" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service9" value="Libraries Used (Anatomy)"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Libraries Used</span>
                         </label>
                         <label class="flex items-center space-x-2">
-                            <input type="checkbox" name="service10" value="Additional Design Instructions" class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
+                            <input type="checkbox" name="service10" value="Additional Design Instructions"
+                                class="h-5 w-5 text-green-500 border-gray-300 rounded focus:ring-green-500">
                             <span class="text-gray-700">Additional Instructions</span>
                         </label>
                     </div>
                 </div>
 
-
                 <!-- Submit Button -->
-                <div class="w-full mt-8 text-center">
+                <div class="w-full text-center">
                     <button type="submit" id="sendrequest"
                         class="px-8 py-4 bg-green-600 text-white font-semibold rounded-lg shadow-lg hover:bg-green-700 focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition duration-300">
                         Submit Your Request
                     </button>
                 </div>
             </form>
+
         </div>
     </div>
 
