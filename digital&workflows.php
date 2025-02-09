@@ -7,64 +7,45 @@ include 'inc/hd.php';
 </script>
 
 
-<!-- Hero -->
-<div class="bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800">
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-gradient-to-b from-violet-600/10 via-transparent">
-
-        <!-- Title -->
-        <div class="max-w-3xl text-center mx-auto">
-            <h1 class="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Digital Workflow
-            </h1>
-        </div>
-        <!-- End Title -->
-
-        <div class="max-w-3xl text-center mx-auto">
-            <p class="text-lg text-white/70">Providing world-class dental designs, manufacturing & equipment solutions worldwide – Made in India.</p>
-        </div>
-    </div>
-</div>
-<!-- End Hero -->
-
-<section class=" py-20" data-aos="fade-up">
-    <div class="container mx-auto px-6">
-        <div class="flex flex-col lg:flex-row items-center lg:justify-between gap-16">
+<section class="py-24 relative" data-aos="fade-up">
+    <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+        <div class="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
 
             <!-- Left Content -->
-            <div class="lg:w-1/2 text-center lg:text-left">
-                <div data-aos="fade-up">
-                    <h6 class="text-lg font-semibold text-blue-600 uppercase tracking-widest">Your Digital Dental Partner</h6>
-                    <h2 class="text-5xl font-bold text-gray-900 leading-tight mt-2">
-                        Collaborate with <span class="text-blue-700">Dentigolab</span> <br>
-                        <span class="text-gray-700">Simplifying Dental Solutions Globally</span>
-                    </h2>
+            <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+                <div class="w-full flex-col justify-center items-start gap-8 flex">
+                    <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                        <h2 class="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                            Collaborate with <span class="text-blue-600">Dentigolab</span>
+                        </h2>
+                        <p class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                            At Dentigolab, we streamline the collaboration process for digital designs, manufacturing, and online purchases. Whether you’re a digital partner or a lab, we ensure <strong>precision, quality, and efficiency</strong> every step of the way.
+                        </p>
+                    </div>
+
+                    <!-- Feature Pills -->
+                    <div class="mt-8 flex flex-wrap gap-2 justify-center lg:justify-start" data-aos="fade-up" data-aos-delay="150">
+                        <span class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all transform hover:scale-105">Reliability</span>
+                        <span class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all transform hover:scale-105">Advanced Technology</span>
+                        <span class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all transform hover:scale-105">Certified Expertise</span>
+                        <span class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all transform hover:scale-105">Global Reach</span>
+                    </div>
                 </div>
 
-                <p class="mt-6 text-gray-600 text-lg leading-relaxed" data-aos="fade-up" data-aos-delay="100">
-                    At Dentigolab, we streamline the collaboration process for digital designs, manufacturing, and online purchases. Whether you’re a digital partner or a lab, we ensure **precision, quality, and efficiency** every step of the way.
-                </p>
-
-                <!-- Feature Pills -->
-                <div class="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start" data-aos="fade-up" data-aos-delay="150">
-                    <span class="px-5 py-2 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-800 transition-all">Reliability</span>
-                    <span class="px-5 py-2 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-800 transition-all">Advanced Technology</span>
-                    <span class="px-5 py-2 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-800 transition-all">Certified Expertise</span>
-                    <span class="px-5 py-2 bg-blue-700 text-white rounded-full shadow-md hover:bg-blue-800 transition-all">Global Reach</span>
-                </div>
+                <!-- Action Button -->
+                <button
+                    class="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+                    <span class="px-1.5 text-white text-sm font-medium leading-6">Read More</span>
+                </button>
             </div>
 
             <!-- Right Image -->
-            <div class="lg:w-1/2 flex justify-center relative">
-                <div class="relative group overflow-hidden rounded-lg shadow-2xl border border-gray-200">
-                    <img src="public/images/colla.png" alt="Collaboration" class="w-full max-w-md rounded-lg transition-transform transform group-hover:scale-105">
-
-                    <!-- Decorative Effects -->
-                    <div class="absolute -top-6 -left-6 w-24 h-24 bg-blue-400 rounded-full opacity-20 animate-pulse"></div>
-                    <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-300 rounded-full opacity-10 animate-pulse"></div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-blue-200 opacity-0 group-hover:opacity-50 transition-all"></div>
+            <div class="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
+                <div class="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
+                    <img class="rounded-xl object-cover" src="public/images/teeth1.jpg" alt="about Us image" />
                 </div>
+                <img class="sm:ml-0 ml-auto rounded-xl object-cover" src="public/images/teeth2.jpg" alt="about Us image" />
             </div>
-
         </div>
     </div>
 </section>
