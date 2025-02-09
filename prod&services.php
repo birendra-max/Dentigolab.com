@@ -27,11 +27,6 @@ include 'inc/hd.php';
 
 <section class="relative w-full py-16 text-white" id="free-trial">
     <div class="max-w-7xl mx-auto px-6 md:px-12 text-center">
-        <h2 class="text-4xl font-extrabold text-[#f4c77d] mb-6">Try Our Services – Start with a Free Trial!</h2>
-        <p class="text-lg text-black max-w-3xl mx-auto mb-10">
-            Choosing the right dental outsourcing partner is crucial. That’s why we offer a <span class="text-[#f4c77d] font-semibold">FREE trial case</span>—test our quality and service before making a commitment.
-        </p>
-
         <!-- Features Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
@@ -83,8 +78,13 @@ include 'inc/hd.php';
             </div>
         </div>
 
+        <h2 class="text-4xl font-extrabold text-[#f4c77d] mb-6 mt-8">Try Our Services – Start with a Free Trial!</h2>
+        <p class="text-lg text-black max-w-3xl mx-auto mb-10">
+            Choosing the right dental outsourcing partner is crucial. That’s why we offer a <span class="text-[#f4c77d] font-semibold">FREE trial case</span>—test our quality and service before making a commitment.
+        </p>
+
         <div class="mt-12">
-            <a href="free-trial.php" class="px-8 py-3 bg-[#f4c77d] text-black font-semibold rounded-full shadow-xl hover:bg-[#eab662] hover:scale-105 transition-all">
+            <a href="contact.php" class="px-8 py-3 bg-[#f4c77d] text-black font-semibold rounded-full shadow-xl hover:bg-[#eab662] hover:scale-105 transition-all">
                 Start Your Free Trial
             </a>
         </div>
@@ -124,7 +124,7 @@ include 'inc/hd.php';
     </div>
 
     <!-- Benefits Section -->
-    <section class="bg-white py-16 px-6 rounded-lg shadow-lg mt-12">
+    <section class="py-16 px-6 mt-12">
         <div class="max-w-6xl mx-auto text-center">
             <h2 class="text-3xl font-semibold text-gray-800 mb-6">Why Choose Dentigo?</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -153,7 +153,7 @@ include 'inc/hd.php';
         <div class="max-w-4xl mx-auto text-center">
             <h3 class="text-3xl font-semibold mb-4">📩 Have Questions? Let’s Talk!</h3>
             <p class="text-lg mb-8">Contact us today and let’s discuss how we can support your lab’s success with top-quality dental restorations. We’re excited to collaborate with you!</p>
-            <a href="#contact-form" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition duration-300">Contact Us</a>
+            <a href="contact.php" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition duration-300">Contact Us</a>
         </div>
     </section>
 
@@ -246,6 +246,38 @@ include 'inc/hd.php';
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="relative py-20 bg-white">
+    <div class="container mx-auto px-6 lg:px-12">
+        <div class="flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 lg:space-x-16">
+
+            <!-- Text Section -->
+            <div class="w-full lg:w-6/12 text-center lg:text-left">
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-900 leading-tight mb-6">
+                    High-Precision Digital Dental Designs
+                </h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Unlock the future of dental restoration with cutting-edge digital workflows that ensure precision, quality, and reliability.
+                </p>
+                <ul class="list-disc pl-6 space-y-4 text-lg text-gray-700 opacity-80">
+                    <li>🔹 High-Precision Digital Dental Designs – Crowns, Bridges, Implants & More</li>
+                    <li>🔹 Outsource with Confidence – We Design, You Deliver!</li>
+                    <li>🔹 Get High-Quality Restorations at Competitive Prices</li>
+                    <li>🔹 Let’s Work Together – Start Outsourcing Today!</li>
+                    <li>📩 Let’s Work Together! Get in touch to discuss outsourcing your dental designs & products today.</li>
+                </ul>
+            </div>
+
+            <!-- Call-to-Action Button Section -->
+            <div class="w-full lg:w-6/12 text-center">
+                <a href="contact.php" class="bg-teal-600 text-white px-8 py-4 rounded-full text-xl font-semibold shadow-md hover:shadow-xl hover:bg-teal-700 transition-all duration-300 transform hover:scale-105">
+                    Contact Us Today
+                </a>
             </div>
         </div>
     </div>

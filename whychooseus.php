@@ -6,6 +6,43 @@ include 'inc/hd.php';
     document.title = 'Why Choose Us | Dentigolab Designs'
 </script>
 
+<section class="py-20">
+    <div class="container mx-auto px-6 lg:px-12">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Why Choose Us</h2>
+            <p class="text-lg text-gray-600">We provide reliable, efficient, and high-quality dental restoration solutions designed to meet your needs.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-12">
+            <!-- Feature 1 -->
+            <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                <div class="text-teal-600 text-4xl mb-4">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h4 class="text-xl font-semibold text-gray-800 mb-2">Reliable Outsourcing Partner</h4>
+                <p class="text-gray-600 text-center">We are a trusted partner for dental labs, providing consistent and high-quality restorations that you can depend on.</p>
+            </div>
+            <!-- Feature 2 -->
+            <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                <div class="text-teal-600 text-4xl mb-4">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h4 class="text-xl font-semibold text-gray-800 mb-2 text-center">Affordable, Fast & High-Quality Restorations</h4>
+                <p class="text-gray-600 text-center">Get restorations that meet your budget and time constraints, without compromising on quality.</p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                <div class="text-teal-600 text-4xl mb-4">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <h4 class="text-xl font-semibold text-gray-800 mb-2">Full Digital Workflow</h4>
+                <p class="text-gray-600 text-center">Our seamless digital workflow enhances efficiency, ensuring quick turnaround times and precise restorations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <section class="relative w-full py-16 text-white" id="why-choose-us">
     <div class="max-w-7xl mx-auto px-6 md:px-12 text-center">
         <h2 class="text-4xl font-extrabold text-[#f4c77d] mb-6">Why Choose Us?</h2>
@@ -93,7 +130,7 @@ include 'inc/hd.php';
 <section class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
     <!-- Image Section -->
     <div class="relative">
-        <img src="https://media.istockphoto.com/id/1349998432/photo/3d-render-of-faqs-business-concept.jpg?s=612x612&w=0&k=20&c=qhvy7I8jjnyAagxavLXVwSsvbsErceBVyIqF2eyHxWw=" 
+        <img src="https://media.istockphoto.com/id/1349998432/photo/3d-render-of-faqs-business-concept.jpg?s=612x612&w=0&k=20&c=qhvy7I8jjnyAagxavLXVwSsvbsErceBVyIqF2eyHxWw="
             alt="FAQ Image" class="w-full rounded-2xl shadow-xl">
         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-2xl"></div>
     </div>

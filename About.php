@@ -6,42 +6,69 @@ include 'inc/hd.php';
 </script>
 
 <!-- Hero -->
-<div class="bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800">
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-gradient-to-b from-violet-600/10 via-transparent">
+<div class="bg-gray-900 text-white py-24">
+    <div class="max-w-screen-xl mx-auto px-8 lg:px-16 space-y-16">
 
-        <!-- Title -->
-        <div class="max-w-3xl text-center mx-auto">
-            <h1 class="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+        <!-- Title Section -->
+        <div class="text-center space-y-4">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-violet-600">
                 About Us
             </h1>
+            <!-- About Us Text -->
+            <div class="text-center max-w-3xl mx-auto">
+                <p class="text-xl text-gray-300 mb-8">
+                    At Dentigo, we help dental professionals across the world enhance their practice by providing top-quality CAD/CAM designs and custom prosthetics. We focus on precision, speed, and delivering excellence at competitive prices.
+                </p>
+            </div>
         </div>
-        <!-- End Title -->
 
-        <div class="max-w-3xl text-center mx-auto">
-            <p class="text-lg text-white/70">Providing world-class dental designs, manufacturing & equipment solutions worldwide – Made in India.</p>
+        <!-- Why Choose Us Section -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 text-center">
+            <div class="bg-gradient-to-r from-teal-600 to-teal-400 rounded-xl p-6 shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                <i class="fas fa-user-md text-4xl text-white mb-4"></i>
+                <h3 class="text-2xl font-semibold text-white">Experienced & Professional Team</h3>
+                <p class="text-lg text-gray-300">Bringing precision and quality to your dental designs.</p>
+            </div>
+
+            <div class="bg-gradient-to-r from-teal-600 to-teal-400 rounded-xl p-6 shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                <i class="fas fa-handshake text-4xl text-white mb-4"></i>
+                <h3 class="text-2xl font-semibold text-white">Reliable Outsourcing Partner</h3>
+                <p class="text-lg text-gray-300">We are your trusted partner in delivering high-quality restorations.</p>
+            </div>
+
+            <div class="bg-gradient-to-r from-teal-600 to-teal-400 rounded-xl p-6 shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                <i class="fas fa-clock text-4xl text-white mb-4"></i>
+                <h3 class="text-2xl font-semibold text-white">Fast & Affordable</h3>
+                <p class="text-lg text-gray-300">Get high-quality restorations with quick turnaround times at affordable prices.</p>
+            </div>
         </div>
     </div>
 </div>
+
 <!-- End Hero -->
 
 <!-- Who We Are? -->
-<section class="relative py-20 ">
+<section class="relative py-20">
     <div class="container mx-auto px-6 lg:px-12">
-        <div class="flex flex-wrap items-center">
+        <div class="flex items-center space-x-12">
             <!-- Image Section -->
-            <div class="w-full lg:w-5/12 mb-10 lg:mb-0" data-aos="fade-right">
-                <div class="relative overflow-hidden rounded-lg shadow-lg">
-                    <img src="public/images/about2.jpg" alt="About Image"
-                        class="rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
-                    <div class="absolute -bottom-8 -right-0 w-28 h-28 overflow-hidden rounded-lg shadow-md">
-                        <img src="public/images/about3.webp" alt="Overlay Image"
-                            class="rounded-lg transform transition duration-500 hover:scale-110">
+            <div class="overflow-hidden w-1/2">
+                <div class="px-8 md:px-12 mx-auto lg:py-12 h-svh flex flex-col justify-center bg-zinc-50">
+                    <div class="flex flex-row mx-auto">
+                        <!--- Starts component -->
+                        <a href="#_">
+                            <img src="public/images/about2.jpg" class="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_">
+                        </a>
+                        <a href="#_">
+                            <img src="public/images/about3.webp" class="rounded-xl -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_">
+                        </a>
+                        <!--- Ends component -->
                     </div>
                 </div>
             </div>
 
             <!-- Text Section -->
-            <div class="w-full lg:w-7/12 px-4" data-aos="fade-left">
+            <div class="w-1/2 px-4" data-aos="fade-left">
                 <h6 class="text-lg text-teal-600 font-semibold">About Us</h6>
                 <h2 class="text-4xl font-bold text-gray-800 leading-tight mb-4">Who We Are?</h2>
                 <p>
@@ -59,6 +86,8 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
+
+
 
 <!-- What We Do -->
 <section class="-mt-32" data-aos="fade-up">
@@ -139,11 +168,11 @@ include 'inc/hd.php';
             <!-- Team Member -->
             <div class="group text-center transform transition duration-500 hover:scale-105">
                 <div class="relative mb-5">
-                    <img src="https://pagedone.io/asset/uploads/1696238411.png" alt="Dr. Abhishek Kaushik"
+                    <img src="https://pagedone.io/asset/uploads/1696238411.png" alt="Dr Shatakshi Rastogi"
                         class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
                 </div>
-                <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Dr. Abhishek Kaushik</h4>
-                <span class=" group-hover:text-gray-900">Head of Operations</span>
+                <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Dr Shatakshi Rastogi</h4>
+                <span class=" group-hover:text-gray-900">BDS, MDS (ENDODONTIST)</span>
             </div>
 
             <!-- Team Member -->
@@ -405,6 +434,51 @@ include 'inc/hd.php';
 </script>
 
 
+<section class="bg-white py-20">
+    <div class="container mx-auto px-6 lg:px-12">
+        <div class="flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 lg:space-x-12">
+
+            <!-- Form Section -->
+            <div class="w-full lg:w-6/12 text-center lg:text-left">
+                <h2 class="text-3xl font-semibold text-gray-800 mb-4">📞 Let’s Talk Business!</h2>
+                <div class="border-b-4 border-teal-500 w-16 mb-6 mx-auto lg:mx-0"></div>
+                <p class="text-lg text-gray-600 mb-6">
+                    Fill out the form below to outsource your dental design & manufacturing with Dentigo. Our team will get back to you as soon as possible with a tailored solution!
+                </p>
+
+                <!-- Form Start -->
+                <form action="mailto:[Your Email]" method="post" enctype="text/plain" class="space-y-6">
+
+                    <!-- Email Input -->
+                    <div>
+                        <label for="email" class="text-lg text-gray-700 font-medium">📩 Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" class="w-full px-4 py-3 mt-2 rounded-md bg-gray-100 text-gray-800 focus:outline-none focus:ring-2 focus:ring-teal-500" required>
+                    </div>
+
+                    <!-- Website Input -->
+                    <div>
+                        <label for="website" class="text-lg text-gray-700 font-medium">🌍 Your Website</label>
+                        <input type="url" id="website" name="website" placeholder="Enter your website" class="w-full px-4 py-3 mt-2 rounded-md bg-gray-100 text-gray-800 focus:outline-none focus:ring-2 focus:ring-teal-500">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit" class="bg-gradient-to-r from-teal-500 to-violet-500 text-white px-8 py-4 rounded-full text-xl font-semibold shadow-lg transform hover:scale-105 transition-all duration-300">
+                            Submit Your Info
+                        </button>
+                    </div>
+                </form>
+                <!-- Form End -->
+            </div>
+
+            <!-- Right Side Image Section -->
+            <div class="w-full lg:w-6/12 flex justify-center lg:justify-end">
+                <img src="https://cdn.shulex-voc.com/shulex/upload/2024-06-28/1eb69cab-1135-4e1b-9e02-38204c7aeec9.jpg" alt="Dental Design" class="rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 max-w-full h-auto">
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
 <br>
