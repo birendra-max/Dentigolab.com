@@ -126,7 +126,7 @@ include 'inc/hd.php';
     <!-- Benefits Section -->
     <section class="py-16 px-6 mt-12">
         <div class="max-w-6xl mx-auto text-center">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Why Choose Dentigo?</h2>
+            <h2 class="text-3xl font-semibold text-gray-800 mb-6">Welcome to Dentigo – Precision & Excellence in Every Restoration</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div class="p-6 bg-gray-50 text-gray-800 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105">
                     <h3 class="text-xl font-semibold text-blue-600 mb-3">✔ Flexible Solutions</h3>
@@ -252,36 +252,50 @@ include 'inc/hd.php';
 </section>
 
 
-<section class="relative py-20 bg-white">
+<section class="relative py-20">
     <div class="container mx-auto px-6 lg:px-12">
         <div class="flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 lg:space-x-16">
 
-            <!-- Text Section -->
-            <div class="w-full lg:w-6/12 text-center lg:text-left">
-                <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-900 leading-tight mb-6">
+            <!-- Text Section with Professional Styling -->
+            <div class="w-full lg:w-6/12 text-center lg:text-left bg-white p-10 lg:p-16 rounded-lg shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <h2 class="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6 transform transition-all duration-500 hover:text-teal-600">
                     High-Precision Digital Dental Designs
                 </h2>
-                <p class="text-lg text-gray-600 mb-6">
+                <p class="text-lg lg:text-xl text-gray-800 mb-8 max-w-lg mx-auto lg:mx-0 opacity-80">
                     Unlock the future of dental restoration with cutting-edge digital workflows that ensure precision, quality, and reliability.
                 </p>
-                <ul class="list-disc pl-6 space-y-4 text-lg text-gray-700 opacity-80">
+                <ul class="list-none pl-0 space-y-6 text-lg lg:text-xl text-gray-700 opacity-80">
                     <li>🔹 High-Precision Digital Dental Designs – Crowns, Bridges, Implants & More</li>
                     <li>🔹 Outsource with Confidence – We Design, You Deliver!</li>
                     <li>🔹 Get High-Quality Restorations at Competitive Prices</li>
                     <li>🔹 Let’s Work Together – Start Outsourcing Today!</li>
-                    <li>📩 Let’s Work Together! Get in touch to discuss outsourcing your dental designs & products today.</li>
                 </ul>
             </div>
 
-            <!-- Call-to-Action Button Section -->
-            <div class="w-full lg:w-6/12 text-center">
-                <a href="contact.php" class="bg-teal-600 text-white px-8 py-4 rounded-full text-xl font-semibold shadow-md hover:shadow-xl hover:bg-teal-700 transition-all duration-300 transform hover:scale-105">
-                    Contact Us Today
-                </a>
+            <!-- Call-to-Action Button Section with Larger Background Image -->
+            <div class="w-full lg:w-6/12 h-[500px] lg:h-[600px] bg-cover bg-center rounded-lg overflow-hidden relative transform transition-transform duration-500 hover:scale-105" style="background-image: url('public/images/d1.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-900 opacity-50">
+                </div>
+
+                <div class="absolute bottom-6 left-6 bg-white p-10 rounded-lg shadow-2xl w-5/6 lg:w-3/4 max-w-lg">
+                    <div class="flex items-center space-x-6">
+                        <div class="text-teal-500 text-4xl">
+                            <i class="fas fa-digital-tachograph"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-2xl font-semibold text-gray-800"> Let’s Work Together!</h5>
+                            <p class="text-lg text-gray-600 mt-2">Get in touch to discuss outsourcing your dental designs & products today.</p>
+                            <a href="contact.php" class="text-teal-500 font-semibold flex items-center mt-4 hover:text-teal-700 transition-colors duration-300">
+                                Contact Us Today <span class="ml-2">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 
 <br>
