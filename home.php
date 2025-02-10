@@ -7,80 +7,37 @@ include 'inc/hd.php';
 </script>
 
 
-<section class="relative w-full min-h-screen flex items-center justify-center bg-gray-900" id="home">
-    <div class="absolute inset-0">
-        <img src="https://royalimplant.com/blogs/wp-content/uploads/2022/05/1-2-1600x800.jpg"
-            alt="Background Image"
-            class="object-cover object-center w-full h-full brightness-50">
+<section class="relative w-full h-[80vh] flex items-center justify-center bg-gray-900 px-4 py-4" id="home">
+    <div class="absolute inset-0 h-full">
+        <img src="public/images/Product Design Final home Dentigo.jpg" alt="Background Image" class="w-full h-full object-cover  object-center brightness-50">
     </div>
 
-    <div class="relative z-10 w-full max-w-7xl mx-auto text-center px-2 py-8 md:px-12">
-        <!-- Hero Content -->
-        <div class="bg-black bg-opacity-70 backdrop-blur-sm rounded-3xl p-10 md:p-16 shadow-2xl">
-            <p class="text-sm font-semibold text-[#f4c77d] uppercase tracking-widest mb-3">
-                Welcome to Dentigo
-            </p>
-            <h1 class="text-white font-extrabold text-2xl md:text-6xl leading-tight mb-5 tracking-wide">
-                Elevating <span class="text-[#f4c77d]">Dental Design & Manufacturing</span> with Excellence
-            </h1>
-            <p class="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
-                Trusted by industry leaders, we combine innovation and precision to create high-quality dental solutions.
-            </p>
-            <div class="flex flex-wrap justify-center gap-6">
-                <a href="prod&services.php" class="px-8 py-3 bg-[#f4c77d] text-black font-semibold rounded-lg shadow-lg hover:bg-[#eab662] hover:scale-105 transition-all">
+    <div class="relative z-10 w-full max-w-7xl mx-auto text-center px-4 py-2 md:px-8">
+        <div class="bg-black bg-opacity-70 backdrop-blur-sm rounded-3xl p-6 md:p-8 shadow-2xl">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Welcome to Dentigo</h2>
+            <p class="text-md text-gray-300 mb-4">High-quality dental solutions tailored for your needs.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="prod&services.php" class="px-6 py-2 bg-[#f4c77d] text-black font-semibold rounded-lg shadow-lg hover:bg-[#eab662] hover:scale-105 transition-all">
                     Explore Services
                 </a>
-                <a href="whychooseus.php" class="px-8 py-3 bg-[#e94057] text-white font-semibold rounded-lg shadow-lg hover:bg-[#d2374a] hover:scale-105 transition-all">
+                <a href="whychooseus.php" class="px-6 py-2 bg-[#e94057] text-white font-semibold rounded-lg shadow-lg hover:bg-[#d2374a] hover:scale-105 transition-all">
                     <i class="fas fa-thumbs-up mr-2"></i>Why Choose Us
                 </a>
-                <a href="faq.php" class="px-8 py-3 bg-[#f27121] text-white font-semibold rounded-lg shadow-lg hover:bg-[#e76c1f] hover:scale-105 transition-all">
+                <a href="faq.php" class="px-6 py-2 bg-[#f27121] text-white font-semibold rounded-lg shadow-lg hover:bg-[#e76c1f] hover:scale-105 transition-all">
                     <i class="fas fa-question-circle mr-2"></i>FAQ
                 </a>
-            </div>
-        </div>
-
-        <!-- Key Features -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-            <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#f4c77d] rounded-full mb-4">
-                    <i class="fas fa-cogs text-2xl text-black"></i>
-                </div>
-                <h3 class="text-xl font-semibold text-[#f4c77d] mb-3">Precision Engineering</h3>
-                <p class="text-gray-300 text-sm">
-                    Cutting-edge technology and expert craftsmanship deliver top-tier dental designs.
-                </p>
-            </div>
-            <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#4caf50] rounded-full mb-4">
-                    <i class="fas fa-exchange-alt text-2xl text-white"></i>
-                </div>
-                <h3 class="text-xl font-semibold text-green-400 mb-3">Seamless Integration</h3>
-                <p class="text-gray-300 text-sm">
-                    Effortlessly incorporate our services into your lab or clinic's workflow.
-                </p>
-            </div>
-            <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#3b82f6] rounded-full mb-4">
-                    <i class="fas fa-handshake text-2xl text-white"></i>
-                </div>
-                <h3 class="text-xl font-semibold text-blue-400 mb-3">Reliable Partnership</h3>
-                <p class="text-gray-300 text-sm">
-                    Committed to your success, we build lasting relationships based on trust and quality.
-                </p>
             </div>
         </div>
     </div>
 </section>
 
 
-
-
 <!-- About us section  -->
-<section class="flex min-h-screen items-center justify-center text-gray-900 md:px-0 px-4 py-8">
+<section class="flex min-h-screen items-center justify-center text-gray-900 md:px-0 px-4 py-8 mt-24">
     <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-gray-300 bg-white shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-500 ease-in-out">
         <!-- Image Section -->
-        <div class="w-full md:w-1/3 relative">
-            <img src="public/images/home3.webp" alt="Doctor" class="h-full w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out">
+        <div class="w-full md:w-1/3 relative h-[65vh]">
+            <img src="public/images/dentigo.jpg" alt="Doctor" class="h-full w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out">
         </div>
 
         <!-- Content Section -->
@@ -123,149 +80,181 @@ include 'inc/hd.php';
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
                 <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-desktop"></i>
+                    <i class="fas fa-desktop text-blue-500"></i>
                 </div>
                 <h6 class="text-xl font-semibold text-gray-800">Complete Dental Solutions</h6>
                 <p class="text-gray-600 mt-2">Offering a full range of dental services, including designs, manufacturing, and equipment.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-capsules"></i>
+                <div class="text-blue-500 text-5xl mb-4">
+                    <i class="fas fa-capsules text-blue-500"></i>
                 </div>
                 <h6 class="text-xl font-semibold text-gray-800">Digital Workflow Integration</h6>
                 <p class="text-gray-600 mt-2">Using advanced CAD/CAM systems and 3D printing to streamline workflows.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-suitcase-medical"></i>
+                <div class="text-blue-500 text-5xl mb-4">
+                    <i class="fas fa-suitcase-medical text-blue-500"></i>
                 </div>
                 <h6 class="text-xl font-semibold text-gray-800">Outsourcing Support</h6>
                 <p class="text-gray-600 mt-2">Simplifying outsourcing processes for international dental labs.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-stethoscope"></i>
+                <div class="text-blue-500 text-5xl mb-4">
+                    <i class="fas fa-stethoscope text-blue-500"></i>
                 </div>
                 <h6 class="text-xl font-semibold text-gray-800">Affordable Pricing</h6>
                 <p class="text-gray-600 mt-2">Providing competitive pricing while maintaining top-quality standards.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-microscope"></i>
+                <div class="text-blue-500 text-5xl mb-4">
+                    <i class="fas fa-microscope text-blue-500"></i>
                 </div>
                 <h6 class="text-xl font-semibold text-gray-800">Experienced Team</h6>
                 <p class="text-gray-600 mt-2">A team of skilled professionals with expertise in digital workflows.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-flask"></i> <!-- Flasks icon -->
+                <div class="text-blue-500 text-5xl mb-4">
+                    <i class="fas fa-flask text-blue-500"></i> <!-- Flasks icon -->
                 </div>
 
                 <h6 class="text-xl font-semibold text-gray-800">Custom Workflow Integration</h6>
                 <p class="text-gray-600 mt-2">Adapting workflows to meet client needs.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-cogs"></i>
+                <div class="text-blue-500 text-5xl mb-4">
+                    <i class="fas fa-cogs text-blue-500"></i>
                 </div>
                 <h6 class="text-xl font-semibold text-gray-800">Flexible Material Options</h6>
                 <p class="text-gray-600 mt-2">Offering diverse material choices to meet specific patient and clinical requirements.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-graduation-cap"></i>
+                <div class="text-blue-500 text-5xl mb-4">
+                    <i class="fas fa-graduation-cap text-blue-500"></i>
                 </div>
                 <h6 class="text-xl font-semibold text-gray-800">Training & Skill Development</h6>
                 <p class="text-gray-600 mt-2">Ongoing training programs for our team to stay updated with the latest dental technologies.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
             <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
                 <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-handshake"></i>
+                    <i class="fas fa-handshake text-blue-500"></i>
                 </div>
                 <h6 class="text-xl font-semibold text-gray-800">Commitment to Partnerships</h6>
                 <p class="text-gray-600 mt-2">Building trust and long-term relationships with clients through consistent service and reliable solutions.</p>
-                <a href="#" class="text-green-600 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Review Section  -->
-<section class="py-8">
-    <div class="container mx-auto px-6 lg:px-20 mt-8">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-            <!-- Counters -->
-            <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="space-y-6">
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
-                        <i class="fas fa-box text-4xl text-white"></i>
-                        <span class="text-white text-xl font-semibold">+ <span class="count" data-target="5000">0</span> Orders</span>
+<!-- Review Section with Unique Design -->
+<section class="py-12 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600">
+    <div class="container mx-auto px-6 lg:px-20 mt-8 text-center text-white">
+        <h2 class="text-4xl font-bold mb-8">Our Achievements</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
+            <!-- Progress Bars -->
+            <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="space-y-8">
+                    <!-- Progress Bar 1 -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 transform transition duration-300 hover:scale-105">
+                        <div class="flex items-center justify-between">
+                            <i class="fas fa-box text-4xl text-purple-600"></i>
+                            <span class="text-lg font-semibold text-gray-800">Orders</span>
+                        </div>
+                        <div class="w-full h-2 bg-gray-300 rounded-full mt-4">
+                            <div class="h-2 bg-purple-600 rounded-full progress-bar" style="width: 0%"></div>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <span class="text-lg font-semibold">0</span>
+                            <span class="text-lg font-semibold">5000</span>
+                        </div>
                     </div>
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
-                        <i class="fas fa-user-cog text-4xl text-white"></i>
-                        <span class="text-white text-xl font-semibold">+ <span class="count" data-target="50">0</span> Skilled Designers</span>
+
+                    <!-- Progress Bar 2 -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 transform transition duration-300 hover:scale-105">
+                        <div class="flex items-center justify-between">
+                            <i class="fas fa-user-cog text-4xl text-purple-600"></i>
+                            <span class="text-lg font-semibold text-gray-800">Skilled Designers</span>
+                        </div>
+                        <div class="w-full h-2 bg-gray-300 rounded-full mt-4">
+                            <div class="h-2 bg-purple-600 rounded-full progress-bar" style="width: 0%"></div>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <span class="text-lg font-semibold">0</span>
+                            <span class="text-lg font-semibold">50</span>
+                        </div>
                     </div>
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
-                        <i class="fas fa-clipboard-check text-4xl text-white"></i>
-                        <span class="text-white text-xl font-semibold">+ <span class="count" data-target="20">0</span> Experienced Quality Controllers</span>
-                    </div>
-                </div>
-                <div class="space-y-6">
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
-                        <i class="fas fa-globe text-4xl text-white"></i>
-                        <span class="text-white text-xl font-semibold">+ <span class="count" data-target="10">0</span> Countries Covered</span>
-                    </div>
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
-                        <i class="fas fa-smile text-4xl text-white"></i>
-                        <span class="text-white text-xl font-semibold">+ <span class="count" data-target="1000">0</span> Happy Clients Worldwide</span>
-                    </div>
-                    <div class="bg-green-800 p-6 rounded-2xl shadow-lg flex items-center space-x-4 transform transition duration-300 hover:scale-105">
-                        <i class="fas fa-briefcase text-4xl text-white"></i>
-                        <span class="text-white text-xl font-semibold">+ <span class="count" data-target="15">0</span> Years of Experience</span>
+
+                    <!-- Progress Bar 3 -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 transform transition duration-300 hover:scale-105">
+                        <div class="flex items-center justify-between">
+                            <i class="fas fa-clipboard-check text-4xl text-purple-600"></i>
+                            <span class="text-lg font-semibold text-gray-800">Quality Controllers</span>
+                        </div>
+                        <div class="w-full h-2 bg-gray-300 rounded-full mt-4">
+                            <div class="h-2 bg-purple-600 rounded-full progress-bar" style="width: 0%"></div>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <span class="text-lg font-semibold">0</span>
+                            <span class="text-lg font-semibold">20</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Image Section -->
-            <div class="flex justify-center">
-                <img src="public/images/world.png" alt="Achievements" class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
+
+            <!-- Country Section -->
+            <div class="space-y-8">
+                <div class="bg-white rounded-xl shadow-xl p-6 transform transition duration-300 hover:scale-105">
+                    <div class="flex items-center justify-between">
+                        <i class="fas fa-globe text-4xl text-purple-600"></i>
+                        <span class="text-lg font-semibold text-gray-800">Countries Covered</span>
+                    </div>
+                    <div class="w-full h-2 bg-gray-300 rounded-full mt-4">
+                        <div class="h-2 bg-purple-600 rounded-full progress-bar" style="width: 0%"></div>
+                    </div>
+                    <div class="flex justify-between mt-4">
+                        <span class="text-lg font-semibold">0</span>
+                        <span class="text-lg font-semibold">10</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- Counter Animation & Progress Bar Animation Script -->
     <script>
-        // Counter Animation Script
-        const counters = document.querySelectorAll('.count');
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animated progress bars
+            const progressBars = document.querySelectorAll('.progress-bar');
 
-        counters.forEach(counter => {
-            const target = +counter.getAttribute('data-target');
-            const increment = target / 2000; // Adjust speed by changing 200
+            progressBars.forEach(bar => {
+                const target = parseInt(bar.closest('.p-6').querySelector('div:last-child').children[1].innerText);
+                let currentWidth = 0;
+                const increment = target / 2000; // Adjust speed by changing 2000
 
-            const updateCount = () => {
-                const current = +counter.innerText;
-
-                if (current < target) {
-                    counter.innerText = Math.ceil(current + increment);
-                    setTimeout(updateCount, 10); // Adjust the speed
-                } else {
-                    counter.innerText = target;
-                }
-            };
-
-            updateCount();
+                const updateBar = () => {
+                    if (currentWidth < target) {
+                        currentWidth += increment;
+                        bar.style.width = `${Math.min(currentWidth, target)}%`;
+                        requestAnimationFrame(updateBar);
+                    } else {
+                        bar.style.width = `${target}%`;
+                    }
+                };
+                updateBar();
+            });
         });
-
-        function showImage(imagePath) {
-            document.getElementById('product-image').src = `assets/image/${imagePath}`;
-        }
     </script>
 </section>
+
 
 
 <!-- Why Choose Us -->
@@ -284,14 +273,14 @@ include 'inc/hd.php';
 
         <!-- Content Section -->
         <div class="w-full lg:w-7/12 bg-white p-10 rounded-xl shadow-xl transform transition duration-300 hover:scale-105">
-            <span class="bg-gray-700 text-white px-4 py-2 rounded-full text-sm font-semibold">Dentigo</span>
+            <span class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold">Dentigo</span>
             <h2 class="text-4xl font-bold mt-4 text-gray-800">Why Choose Us</h2>
             <p class="text-gray-600 mt-2">We provide top-quality dental solutions trusted by professionals worldwide.</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                 <!-- Reliability -->
                 <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-check-circle text-4xl text-gray-700"></i>
+                    <i class="fa-solid fa-check-circle text-4xl text-blue-500"></i>
                     <div>
                         <h6 class="text-xl font-semibold text-gray-800">Reliability</h6>
                         <p class="text-gray-600 text-sm">Trusted by dental professionals for consistent quality and on-time deliveries.</p>
@@ -300,7 +289,7 @@ include 'inc/hd.php';
 
                 <!-- Advanced Technology -->
                 <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-microchip text-4xl text-gray-700"></i>
+                    <i class="fa-solid fa-microchip text-4xl text-blue-500"></i>
                     <div>
                         <h6 class="text-xl font-semibold text-gray-800">Advanced Technology</h6>
                         <p class="text-gray-600 text-sm">Utilizing cutting-edge CAD/CAM systems to ensure accuracy in every design.</p>
@@ -309,7 +298,7 @@ include 'inc/hd.php';
 
                 <!-- Certified Expertise -->
                 <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-user-md text-4xl text-gray-700"></i>
+                    <i class="fa-solid fa-user-md text-4xl text-blue-500"></i>
                     <div>
                         <h6 class="text-xl font-semibold text-gray-800">Certified Expertise</h6>
                         <p class="text-gray-600 text-sm">A team of certified dentists and technicians ensures every product meets global benchmarks.</p>
@@ -318,7 +307,7 @@ include 'inc/hd.php';
 
                 <!-- Global Reach -->
                 <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-globe text-4xl text-gray-700"></i>
+                    <i class="fa-solid fa-globe text-4xl text-blue-500"></i>
                     <div>
                         <h6 class="text-xl font-semibold text-gray-800">Global Reach</h6>
                         <p class="text-gray-600 text-sm">Serving dental labs and clinics worldwide with tailored and efficient solutions.</p>
@@ -338,7 +327,7 @@ include 'inc/hd.php';
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
         <!-- Rush Orders -->
         <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:rotate-3 hover:bg-yellow-100">
-            <div class="text-4xl text-yellow-500 mb-4 animate-pulse">
+            <div class="text-4xl text-blue-500 mb-4 animate-pulse">
                 <i class="fas fa-bolt"></i>
             </div>
             <h3 class="text-xl font-semibold">Rush Orders</h3>
@@ -346,7 +335,7 @@ include 'inc/hd.php';
         </div>
         <!-- Same Day -->
         <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:-rotate-3 hover:bg-green-100">
-            <div class="text-4xl text-green-500 mb-4 animate-bounce">
+            <div class="text-4xl text-blue-500 mb-4 animate-bounce">
                 <i class="fas fa-truck"></i>
             </div>
             <h3 class="text-xl font-semibold">Same Day</h3>
@@ -362,7 +351,7 @@ include 'inc/hd.php';
         </div>
         <!-- Manufacturing Product Delivery -->
         <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:-rotate-6 hover:bg-red-100">
-            <div class="text-4xl text-red-500 mb-4 animate-wiggle">
+            <div class="text-4xl text-blue-500 mb-4 animate-wiggle">
                 <i class="fas fa-industry"></i>
             </div>
             <h3 class="text-xl font-semibold">Manufacturing Product Delivery</h3>
@@ -459,7 +448,7 @@ include 'inc/hd.php';
 
             testimonialElement.innerHTML = `
                 <div class="flex items-center justify-center mb-6">
-                    <img class="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-xl" src="public/images/user.png" alt="${client.name}">
+                    <img class="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-xl" src="public/images/profile.png" alt="${client.name}">
                 </div>
                 <p class="md:text-xl text-lg text-gray-800 mb-4 italic px-6 leading-relaxed">"${client.comments.join(' ')}"</p>
                 <h3 class="font-semibold md:text-xl text-xl text-gray-900">${client.name}</h3>

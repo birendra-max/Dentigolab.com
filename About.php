@@ -127,7 +127,7 @@ include 'inc/hd.php';
             <!-- Image Content -->
             <div class="w-full lg:w-5/12 mt-10 lg:mt-0" data-aos="fade-up">
                 <div class="overflow-hidden rounded-2xl shadow-lg">
-                    <img src="public/images/about4.jpg" alt="About Us" class="rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+                    <img src="public\images\about4.jpg" alt="About Us" class="rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
                 </div>
             </div>
         </div>
@@ -232,69 +232,7 @@ include 'inc/hd.php';
     </div>
 </section>
 
-<!-- Our Seamless Process -->
-<section class="py-24 bg-gradient-to-r from-indigo-100 via-teal-100 to-blue-200">
-    <div class="container mx-auto px-6 lg:px-12">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-            <!-- Left Column: Process Steps -->
-            <div class="space-y-12">
-                <h2 class="text-4xl font-extrabold text-gray-800 text-center lg:text-left leading-tight">
-                    Our Seamless Process
-                </h2>
-                <p class="text-lg text-gray-600 text-center lg:text-left mb-8">
-                    Our approach is a blend of **cutting-edge technology**, **premium materials**, and **expert craftsmanship** to deliver top-notch results.
-                </p>
-
-                <!-- Process Step 1 -->
-                <div class="flex items-center space-x-6 transition-all duration-300 hover:scale-105 hover:bg-indigo-200 p-6 rounded-lg shadow-xl bg-white">
-                    <div class="w-14 h-14 flex items-center justify-center bg-teal-500 text-white rounded-full">
-                        <span class="text-lg font-semibold">1</span>
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-semibold text-gray-800">Advanced Technology</h4>
-                        <p class="text-gray-600 mt-2">
-                            We utilize the latest technology to ensure precise, reliable, and efficient outcomes for every project.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Process Step 2 -->
-                <div class="flex items-center space-x-6 transition-all duration-300 hover:scale-105 hover:bg-indigo-200 p-6 rounded-lg shadow-xl bg-white">
-                    <div class="w-14 h-14 flex items-center justify-center bg-blue-500 text-white rounded-full">
-                        <span class="text-lg font-semibold">2</span>
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-semibold text-gray-800">Premium Materials</h4>
-                        <p class="text-gray-600 mt-2">
-                            Only the best materials are chosen to ensure long-lasting and aesthetically pleasing results.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Process Step 3 -->
-                <div class="flex items-center space-x-6 transition-all duration-300 hover:scale-105 hover:bg-indigo-200 p-6 rounded-lg shadow-xl bg-white">
-                    <div class="w-14 h-14 flex items-center justify-center bg-purple-500 text-white rounded-full">
-                        <span class="text-lg font-semibold">3</span>
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-semibold text-gray-800">Skilled Experts</h4>
-                        <p class="text-gray-600 mt-2">
-                            Our team of certified professionals ensures excellence in every step of the process, guaranteeing top-quality results.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Column: Image Section -->
-            <div class="relative w-full h-80 lg:h-auto overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-all duration-300">
-                <img src="public/images/about6.webp" alt="Our process" class="object-cover w-full h-full" />
-                <div class="absolute inset-0 bg-black opacity-25 hover:opacity-0 transition-all duration-300"></div>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 <!-- Our Vision -->
 <section class="py-16" data-aos="fade-up">
@@ -325,7 +263,7 @@ include 'inc/hd.php';
             <!-- Right Side Image -->
             <div class="w-full lg:w-1/3 flex justify-center lg:justify-end">
                 <div class="max-w-md shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
-                    <img src="public/images/about7.webp" alt="Image" class="w-full h-auto object-cover">
+                    <img src="public/images/about7.jpg" alt="Image" class="w-full h-auto object-cover">
                 </div>
             </div>
 
@@ -350,7 +288,7 @@ include 'inc/hd.php';
                     <!-- Dropdown Item 1 -->
                     <div class="border-b border-gray-200">
                         <button class="w-full text-left flex justify-between items-center text-lg font-semibold text-gray-800 py-4 hover:bg-blue-50 rounded-md transition-all ease-in-out focus:outline-none" onclick="toggleDropdown('precision')">
-                            <span>Unmatched Precision</span>
+                            <span>Zero Compromise</span>
                             <svg id="precision-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>

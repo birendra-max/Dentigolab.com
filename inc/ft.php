@@ -23,6 +23,7 @@
                 <li><a href="blogs.php" class=" text-white hover:text-white">Blogs</a></li>
                 <li><a href="#" class=" text-white hover:text-white">Support</a></li>
                 <li><a href="#" class=" text-white hover:text-white">24/6</a></li>
+                <li><a href="#" class=" text-white hover:text-white">FAQ</a></li>
             </ul>
             <div class="flex space-x-10 justify-center items-center py-4">
                 <!-- Facebook -->
