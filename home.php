@@ -60,12 +60,8 @@ include 'inc/hd.php';
     </div>
 </section>
 
-<!-- Font Awesome CDN for icons -->
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-
 <!-- About us section  -->
-<section class="flex min-h-screen items-center justify-center text-gray-900 md:px-0 px-4 py-8 mt-24">
+<section class="flex min-h-screen items-center justify-center text-gray-900 md:px-0 px-4 py-8">
     <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-gray-300 bg-white shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-500 ease-in-out">
         <!-- Image Section -->
         <div class="w-full md:w-1/3 relative h-[65vh]">
