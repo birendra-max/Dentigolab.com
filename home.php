@@ -6,30 +6,62 @@ include 'inc/hd.php';
     document.title = 'Home | Dentigolab Designs'
 </script>
 
+<style>
+    #hero {
+        background-image: url('public/images/Product Design Final home Dentigo.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+</style>
 
-<section class="relative w-full h-[80vh] flex items-center justify-center bg-gray-900 px-4 py-4" id="home">
-    <div class="absolute inset-0 h-full">
-        <img src="public/images/Product Design Final home Dentigo.jpg" alt="Background Image" class="w-full h-full object-cover  object-center brightness-50">
-    </div>
+<section class="bg-gray-900 text-white">
+    <div class="relative"> <!-- Use min-h-screen to ensure the section is always at least the height of the screen -->
+        <!-- Background Image -->
+        <img alt="A luxurious poolside view with lounge chairs and umbrellas" class="absolute inset-0  w-full h-full" src="public/images/Product Design Final home Dentigo.jpg" />
 
-    <div class="relative z-10 w-full max-w-7xl mx-auto text-center px-4 py-2 md:px-8">
-        <div class="bg-black bg-opacity-70 backdrop-blur-sm rounded-3xl p-6 md:p-8 shadow-2xl">
-            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Welcome to Dentigo</h2>
-            <p class="text-md text-gray-300 mb-4">High-quality dental solutions tailored for your needs.</p>
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="prod&services.php" class="px-6 py-2 bg-[#f4c77d] text-black font-semibold rounded-lg shadow-lg hover:bg-[#eab662] hover:scale-105 transition-all">
-                    Explore Services
-                </a>
-                <a href="whychooseus.php" class="px-6 py-2 bg-[#e94057] text-white font-semibold rounded-lg shadow-lg hover:bg-[#d2374a] hover:scale-105 transition-all">
-                    <i class="fas fa-thumbs-up mr-2"></i>Why Choose Us
-                </a>
-                <a href="faq.php" class="px-6 py-2 bg-[#f27121] text-white font-semibold rounded-lg shadow-lg hover:bg-[#e76c1f] hover:scale-105 transition-all">
-                    <i class="fas fa-question-circle mr-2"></i>FAQ
-                </a>
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Content Section -->
+        <div class="relative z-10 flex flex-col items-center md:items-start justify-center min-h-screen text-center px-4 ">
+            <div class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4 md:p-6 flex flex-col md:flex-row items-center md:space-y-0 md:space-x-6">
+                <div>
+                    <button class="flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105" onclick="alert('Explore Services clicked')">
+                        <i class="fas fa-search mr-2"></i> Explore Services
+                    </button>
+
+                    <!-- Why Choose Us Button -->
+                    <button class="flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 my-2" onclick="alert('Why Choose Us clicked')">
+                        <i class="fas fa-thumbs-up mr-2"></i> Why Choose Us
+                    </button>
+                </div>
+                <br>
+
+                <div>
+                    <!-- FAQ Button -->
+                    <button class="flex items-center px-6 py-3 bg-yellow-600 hover:bg-yellow-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105" onclick="alert('FAQ clicked')">
+                        <i class="fas fa-question-circle mr-2"></i> FAQ
+                    </button>
+
+                    <!-- Sign Up Button -->
+                    <button class="flex items-center px-6 py-3 bg-red-600 hover:bg-red-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 my-2" onclick="alert('Sign Up clicked')">
+                        <i class="fas fa-user-plus mr-2"></i> Sign Up
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Font Awesome CDN for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 
 <!-- About us section  -->
@@ -155,90 +187,97 @@ include 'inc/hd.php';
     </div>
 </section>
 
-<!-- Review Section with Unique Design -->
-<section class="py-12 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600">
-    <div class="container mx-auto px-6 lg:px-20 mt-8 text-center text-white">
-        <h2 class="text-4xl font-bold mb-8">Our Achievements</h2>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
-            <!-- Progress Bars -->
-            <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="space-y-8">
-                    <!-- Progress Bar 1 -->
-                    <div class="bg-white rounded-xl shadow-xl p-6 transform transition duration-300 hover:scale-105">
-                        <div class="flex items-center justify-between">
-                            <i class="fas fa-box text-4xl text-purple-600"></i>
-                            <span class="text-lg font-semibold text-gray-800">Orders</span>
-                        </div>
-                        <div class="w-full h-2 bg-gray-300 rounded-full mt-4">
-                            <div class="h-2 bg-purple-600 rounded-full progress-bar" style="width: 0%"></div>
-                        </div>
-                        <div class="flex justify-between mt-4">
-                            <span class="text-lg font-semibold">0</span>
-                            <span class="text-lg font-semibold">5000</span>
-                        </div>
-                    </div>
 
-                    <!-- Progress Bar 2 -->
-                    <div class="bg-white rounded-xl shadow-xl p-6 transform transition duration-300 hover:scale-105">
-                        <div class="flex items-center justify-between">
-                            <i class="fas fa-user-cog text-4xl text-purple-600"></i>
-                            <span class="text-lg font-semibold text-gray-800">Skilled Designers</span>
-                        </div>
-                        <div class="w-full h-2 bg-gray-300 rounded-full mt-4">
-                            <div class="h-2 bg-purple-600 rounded-full progress-bar" style="width: 0%"></div>
-                        </div>
-                        <div class="flex justify-between mt-4">
-                            <span class="text-lg font-semibold">0</span>
-                            <span class="text-lg font-semibold">50</span>
-                        </div>
+<!-- Achievements Section -->
+<section class="py-12">
+    <div class="container mx-auto px-6 lg:px-20 mt-8 text-center">
+        <h2 class="text-4xl font-bold mb-12 text-black">Our Achievements</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+            <!-- Projects Completed -->
+            <div class="flex flex-col items-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out">
+                <div class="w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center mb-6 shadow-md">
+                    <i class="fas fa-box text-3xl"></i>
+                </div>
+                <dt class="text-xl font-semibold text-black">Orders Completed</dt>
+                <div class="relative w-full mt-4">
+                    <div class="h-2 rounded-full bg-gray-200 overflow-hidden">
+                        <div class="h-full bg-blue-500 progress-bar" style="width: 0%"></div>
                     </div>
-
-                    <!-- Progress Bar 3 -->
-                    <div class="bg-white rounded-xl shadow-xl p-6 transform transition duration-300 hover:scale-105">
-                        <div class="flex items-center justify-between">
-                            <i class="fas fa-clipboard-check text-4xl text-purple-600"></i>
-                            <span class="text-lg font-semibold text-gray-800">Quality Controllers</span>
-                        </div>
-                        <div class="w-full h-2 bg-gray-300 rounded-full mt-4">
-                            <div class="h-2 bg-purple-600 rounded-full progress-bar" style="width: 0%"></div>
-                        </div>
-                        <div class="flex justify-between mt-4">
-                            <span class="text-lg font-semibold">0</span>
-                            <span class="text-lg font-semibold">20</span>
-                        </div>
-                    </div>
+                    <dd class="mt-4 text-4xl font-bold text-black" data-count="5000">0</dd>
                 </div>
             </div>
 
-            <!-- Country Section -->
-            <div class="space-y-8">
-                <div class="bg-white rounded-xl shadow-xl p-6 transform transition duration-300 hover:scale-105">
-                    <div class="flex items-center justify-between">
-                        <i class="fas fa-globe text-4xl text-purple-600"></i>
-                        <span class="text-lg font-semibold text-gray-800">Countries Covered</span>
+            <!-- Expert Designers -->
+            <div class="flex flex-col items-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out">
+                <div class="w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center mb-6 shadow-md">
+                    <i class="fas fa-user-cog text-3xl "></i>
+                </div>
+                <dt class="text-xl font-semibold text-black">Skilled Designers</dt>
+                <div class="relative w-full mt-4">
+                    <div class="h-2 rounded-full bg-gray-200 overflow-hidden">
+                        <div class="h-full bg-green-500 progress-bar" style="width: 0%"></div>
                     </div>
-                    <div class="w-full h-2 bg-gray-300 rounded-full mt-4">
-                        <div class="h-2 bg-purple-600 rounded-full progress-bar" style="width: 0%"></div>
+                    <dd class="mt-4 text-4xl font-bold text-black" data-count="50">0</dd>
+                </div>
+            </div>
+
+            <!-- Experienced Quality Controllers-->
+            <div class="flex flex-col items-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out">
+                <div class="w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center mb-6 shadow-md">
+                    <i class="fas fa-clipboard-check text-3xl"></i>
+                </div>
+                <dt class="text-xl font-semibold text-black">Experienced Quality Controllers</dt>
+                <div class="relative w-full mt-4">
+                    <div class="h-2 rounded-full bg-gray-200 overflow-hidden">
+                        <div class="h-full bg-yellow-500 progress-bar" style="width: 0%"></div>
                     </div>
-                    <div class="flex justify-between mt-4">
-                        <span class="text-lg font-semibold">0</span>
-                        <span class="text-lg font-semibold">10</span>
+                    <dd class="mt-4 text-4xl font-bold text-black" data-count="20">0</dd>
+                </div>
+            </div>
+
+            <!-- Countries Covered -->
+            <div class="flex flex-col items-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out">
+                <div class="w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center mb-6 shadow-md">
+                    <i class="fas fa-globe text-3xl"></i>
+                </div>
+                <dt class="text-xl font-semibold text-black">Countries Covered</dt>
+                <div class="relative w-full mt-4">
+                    <div class="h-2 rounded-full bg-gray-200 overflow-hidden">
+                        <div class="h-full bg-red-500 progress-bar" style="width: 0%"></div>
                     </div>
+                    <dd class="mt-4 text-4xl font-bold text-black" data-count="10">0</dd>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Counter Animation & Progress Bar Animation Script -->
+    <!-- Script for Count Up and Progress Bar Animation -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Animated progress bars
+            const counters = document.querySelectorAll('[data-count]');
             const progressBars = document.querySelectorAll('.progress-bar');
 
+            // Counter Up Animation
+            function countUp(element) {
+                const target = parseInt(element.getAttribute('data-count'));
+                let current = 0;
+                const increment = target / 100;
+                const interval = setInterval(function() {
+                    current += increment;
+                    if (current >= target) {
+                        element.textContent = target.toLocaleString() + "+";
+                        clearInterval(interval);
+                    } else {
+                        element.textContent = Math.floor(current).toLocaleString() + "+";
+                    }
+                }, 30);
+            }
+
+            // Progress Bar Animation
             progressBars.forEach(bar => {
-                const target = parseInt(bar.closest('.p-6').querySelector('div:last-child').children[1].innerText);
+                const target = parseInt(bar.closest('.p-10').querySelector('dd').getAttribute('data-count'));
                 let currentWidth = 0;
-                const increment = target / 2000; // Adjust speed by changing 2000
+                const increment = target / 2000;
 
                 const updateBar = () => {
                     if (currentWidth < target) {
@@ -251,9 +290,24 @@ include 'inc/hd.php';
                 };
                 updateBar();
             });
+
+            // Intersection Observer to trigger animations on scroll
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        countUp(entry.target);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.2
+            });
+
+            counters.forEach(counter => observer.observe(counter));
         });
     </script>
 </section>
+
 
 
 
