@@ -15,11 +15,11 @@
             <!-- Tab Headers -->
             <ul class="flex flex-col sm:flex-row border-b bg-gray-100 rounded-t-lg shadow-lg overflow-hidden mb-6">
                 <li @click="openTab = 1" :class="{ 'bg-teal-500 text-white': openTab === 1 }"
-                    class="cursor-pointer flex-1 sm:flex-none text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold">
+                    class="cursor-pointer flex-1 sm:flex-none text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold md:mr-8">
                     Design & Digital Workflow
                 </li>
                 <li @click="openTab = 2" :class="{ 'bg-teal-500 text-white': openTab === 2 }"
-                    class="cursor-pointer flex-1 sm:flex-none text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold">
+                    class="cursor-pointer flex-1 sm:flex-none text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold md:mr-8">
                     Manufacturing & Production
                 </li>
                 <li @click="openTab = 3" :class="{ 'bg-teal-500 text-white': openTab === 3 }"

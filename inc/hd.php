@@ -51,7 +51,7 @@
                             class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold' id="about">About Us</a>
                     </li>
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
-                        <a href='Prod&Services.php' target="_self"
+                        <a href='prod&services.php' target="_self"
                             class='text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold' id="prodser">Products & Services</a>
                     </li>
                     <li class='max-lg:border-b border-gray-300 max-lg:py-4 px-4'>
