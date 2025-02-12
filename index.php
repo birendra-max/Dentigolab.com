@@ -33,27 +33,27 @@ include 'inc/hd.php';
         <div class="relative z-10 flex flex-col items-center md:items-start justify-center min-h-screen text-center px-4 ">
             <div class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4 md:p-6 flex flex-col md:flex-row items-center md:space-y-0 md:space-x-6">
                 <div>
-                    <button class="flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105" onclick="alert('Explore Services clicked')">
+                    <a href="prod&services.php" class="flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
                         <i class="fas fa-search mr-2"></i> Explore Services
-                    </button>
+                    </a>
 
                     <!-- Why Choose Us Button -->
-                    <button class="flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 my-2" onclick="alert('Why Choose Us clicked')">
+                    <a href="whychooseus.php" class="flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 my-2">
                         <i class="fas fa-thumbs-up mr-2"></i> Why Choose Us
-                    </button>
+                    </a>
                 </div>
                 <br>
 
                 <div>
                     <!-- FAQ Button -->
-                    <button class="flex items-center px-6 py-3 bg-yellow-600 hover:bg-yellow-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105" onclick="alert('FAQ clicked')">
+                    <a href="whychooseus.php/#faq" class="flex items-center px-6 py-3 bg-yellow-600 hover:bg-yellow-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
                         <i class="fas fa-question-circle mr-2"></i> FAQ
-                    </button>
+                    </a>
 
                     <!-- Sign Up Button -->
-                    <button class="flex items-center px-6 py-3 bg-red-600 hover:bg-red-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 my-2" onclick="alert('Sign Up clicked')">
+                    <a href="" class="flex items-center px-6 py-3 bg-red-600 hover:bg-red-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 my-2" onclick="alert('Sign Up clicked')">
                         <i class="fas fa-user-plus mr-2"></i> Sign Up
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

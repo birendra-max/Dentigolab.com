@@ -13,7 +13,7 @@
         <div x-data="{ openTab: 1 }" class="w-full bg-white p-6 rounded-lg shadow-lg border border-gray-200">
 
             <!-- Tab Headers -->
-            <ul class="flex flex-col sm:flex-row border-b bg-gray-100 rounded-t-lg shadow-lg overflow-hidden mb-6">
+            <ul class="flex flex-col justify-center sm:flex-row border-b bg-gray-100 rounded-t-lg shadow-lg overflow-hidden mb-6">
                 <li @click="openTab = 1" :class="{ 'bg-teal-500 text-white': openTab === 1 }"
                     class="cursor-pointer flex-1 sm:flex-none text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold md:mr-8">
                     Design & Digital Workflow

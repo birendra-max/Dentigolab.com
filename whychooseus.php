@@ -97,10 +97,12 @@ include 'inc/hd.php';
 </section>
 
 
-<?php
-include 'faq.php';
-?>
+<section id="faq">
+    <?php
+    include 'faq.php';
+    ?>
 
+</section>
 
 
 <br>
