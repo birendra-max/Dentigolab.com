@@ -166,15 +166,14 @@ include 'inc/hd.php';
 </section>
 
 
-
 <section class="py-12">
     <div class="container mx-auto px-6">
         <h2 class="text-4xl font-extrabold text-center text-gray-900 mb-12">Our Services</h2>
-        <div class="grid md:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-12">
             <!-- Left Side Image & Feature -->
             <div class="relative group overflow-hidden rounded-lg shadow-lg">
                 <img src="public/images/serr.avif" class="w-full h-full rounded-lg transform transition duration-300 group-hover:scale-105" alt="Feature img">
-                <div class="absolute bottom-4 left-4 bg-white p-6 rounded-lg shadow-lg w-3/4">
+                <div class="absolute bottom-4 md:left-4 bg-white p-2 rounded-lg shadow-lg w-3/4">
                     <div class="flex items-center space-x-4">
                         <div class="text-blue-500 text-3xl">
                             <i class="fas fa-digital-tachograph"></i>

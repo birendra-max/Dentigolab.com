@@ -16,14 +16,29 @@
 <footer class="w-full py-6 bg-black">
     <div class="mx-auto max-w-7xl px-4 sm:px-6">
         <div class="max-w-3xl mx-auto">
-            <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 mb-2 border-b border-gray-200">
-                <li><a href="privacy&policy.php" class="text-white hover:text-white"> Privacy Policy</a></li>
-                <li><a href="prod&services.php" class="text-white hover:text-white">Products</a></li>
-                <li><a href="#" class="text-white hover:text-white">Resources</a></li>
-                <li><a href="blogs.php" class="text-white hover:text-white">Blogs</a></li>
-                <li><a href="#" class="text-white hover:text-white">Support</a></li>
-                <li><a href="#" class="text-white hover:text-white">24/6</a></li>
-                <li><a href="#" class="text-white hover:text-white">FAQ</a></li>
+            <!-- Footer Navigation Links -->
+            <ul class="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 transition-all duration-300 mb-4 md:mb-2 border-b border-gray-200 justify-items-center">
+                <li>
+                    <a href="privacy&policy.php" class="text-white hover:text-teal-400 transition duration-300">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="prod&services.php" class="text-white hover:text-teal-400 transition duration-300">Products</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white hover:text-teal-400 transition duration-300">Resources</a>
+                </li>
+                <li>
+                    <a href="blogs.php" class="text-white hover:text-teal-400 transition duration-300">Blogs</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white hover:text-teal-400 transition duration-300">Support</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white hover:text-teal-400 transition duration-300">24/6</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white hover:text-teal-400 transition duration-300">FAQ</a>
+                </li>
             </ul>
 
             <!-- Social Media Icons -->
@@ -39,10 +54,12 @@
                 </a>
             </div>
 
-            <span class="text-lg text-white text-center block">©<a href="https://pagedone.io/">Dentigo.com</a> 2024, All rights reserved.</span>
+            <!-- Footer Bottom Text -->
+            <span class="text-lg text-white text-center block">©<a href="https://pagedone.io/" class="hover:underline">Dentigo.com</a> 2024, All rights reserved.</span>
         </div>
     </div>
 </footer>
+
 
 
 </body>

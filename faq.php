@@ -1,7 +1,7 @@
 <script src="public/js/alpine.js" defer></script>
 
-<section class="py-16 w-[80%] m-auto">
-    <div class="container mx-auto px-6 lg:px-12">
+<section class="py-16 w-full md:w-[80%] m-auto">
+    <div class="container mx-auto md:px-6 lg:px-12">
         <h2 class="text-4xl font-extrabold text-center text-gray-900 mb-8">
             Frequently Asked Questions (FAQ)
         </h2>
@@ -13,14 +13,17 @@
         <div x-data="{ openTab: 1 }" class="w-full bg-white p-6 rounded-lg shadow-lg border border-gray-200">
 
             <!-- Tab Headers -->
-            <ul class="flex border-b bg-gray-100 rounded-t-lg shadow-lg overflow-hidden mb-6">
-                <li @click="openTab = 1" :class="{ 'bg-teal-500 text-white': openTab === 1 }" class="mr-1 cursor-pointer flex-1 text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold">
+            <ul class="flex flex-col sm:flex-row border-b bg-gray-100 rounded-t-lg shadow-lg overflow-hidden mb-6">
+                <li @click="openTab = 1" :class="{ 'bg-teal-500 text-white': openTab === 1 }"
+                    class="cursor-pointer flex-1 sm:flex-none text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold">
                     Design & Digital Workflow
                 </li>
-                <li @click="openTab = 2" :class="{ 'bg-teal-500 text-white': openTab === 2 }" class="mr-1 cursor-pointer flex-1 text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold">
+                <li @click="openTab = 2" :class="{ 'bg-teal-500 text-white': openTab === 2 }"
+                    class="cursor-pointer flex-1 sm:flex-none text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold">
                     Manufacturing & Production
                 </li>
-                <li @click="openTab = 3" :class="{ 'bg-teal-500 text-white': openTab === 3 }" class="mr-1 cursor-pointer flex-1 text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold">
+                <li @click="openTab = 3" :class="{ 'bg-teal-500 text-white': openTab === 3 }"
+                    class="cursor-pointer flex-1 sm:flex-none text-center py-3 transition-all duration-300 hover:bg-teal-200 hover:text-teal-700 rounded-t-lg font-bold">
                     Shipping & Payments
                 </li>
             </ul>

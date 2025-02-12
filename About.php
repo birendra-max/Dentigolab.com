@@ -55,28 +55,28 @@ include 'inc/hd.php';
 <!-- End Hero -->
 
 <!-- Who We Are? -->
-<section class="relative py-20">
+<section class="relative py-16 sm:py-20">
     <div class="container mx-auto px-6 lg:px-12">
-        <div class="flex items-center space-x-12">
-            <div class="overflow-hidden w-1/2">
-                <div class="px-8 md:px-12 mx-auto lg:py-12 h-svh flex flex-col justify-center bg-zinc-50">
-                    <div class="flex flex-row mx-auto">
+        <div class="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12">
+            <!-- Image Section -->
+            <div class="w-full lg:w-1/2 flex justify-center overflow-hidden">
+                <div class="px-4 sm:px-8 md:px-12 mx-auto lg:py-12 h-auto flex flex-col justify-center bg-zinc-50">
+                    <div class="flex flex-col sm:flex-row gap-6 mx-auto">
                         <a href="#_">
                             <img src="public/images/about2.jpg" class="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_">
                         </a>
                         <a href="#_">
                             <img src="public/images/about3.webp" class="rounded-xl -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_">
                         </a>
-                        <!--- Ends component -->
                     </div>
                 </div>
             </div>
 
             <!-- Text Section -->
-            <div class="w-1/2 px-4" data-aos="fade-left">
+            <div class="w-full lg:w-1/2 px-4 sm:px-8" data-aos="fade-left">
                 <h6 class="text-lg text-teal-600 font-semibold">About Us</h6>
-                <h2 class="text-4xl font-bold text-gray-800 leading-tight mb-4">Who We Are?</h2>
-                <p>
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 leading-tight mb-4">Who We Are?</h2>
+                <p class="text-base sm:text-lg">
                     Dentigo is a state-of-the-art dental lab with over 50 years of experience serving India, now expanding to serve clients worldwide. Our expertise lies in designing and manufacturing high-quality dental restorations, combining advanced technology with the skills of certified dentists and experienced technicians. Our mission is to support the dental community with reliable solutions that improve patient outcomes.
                 </p>
 
@@ -93,9 +93,8 @@ include 'inc/hd.php';
 </section>
 
 
-
 <!-- What We Do -->
-<section class="-mt-32" data-aos="fade-up">
+<section data-aos="fade-up">
     <div class="container mx-auto px-6 md:px-12 lg:px-20 relative">
         <div class="flex flex-wrap justify-between items-end">
 
