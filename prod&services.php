@@ -7,22 +7,28 @@ include 'inc/hd.php';
 </script>
 
 <!-- Hero -->
-<div class="bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800">
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 bg-gradient-to-b from-violet-600/10 via-transparent">
+<section class="relative bg-gradient-to-b from-violet-600/10 via-transparent bg-gray-800">
+    <div class="absolute inset-0">
+        <video autoplay muted loop class="w-full h-full object-cover">
+            <source src="public/images/prodhero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+    </div>
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 relative z-10">
+        <div class="bg-black/40 p-8 rounded-lg">
+            <div class="max-w-3xl text-center mx-auto">
+                <h1 class="block font-medium text-gray-200 text-2xl sm:text-5xl md:text-6xl lg:text-3xl">
+                    Welcome to Dentigo – Precision & Excellence in Every Restoration
+                </h1>
+            </div>
 
-        <!-- Title -->
-        <div class="max-w-3xl text-center mx-auto">
-            <h1 class="block font-medium text-gray-200 text-2xl sm:text-5xl md:text-6xl lg:text-3xl">
-                Welcome to Dentigo – Precision & Excellence in Every Restoration
-            </h1>
-        </div>
-        <!-- End Title -->
-
-        <div class="max-w-3xl text-center mx-auto">
-            <p class="text-md text-white/70">At Dentigo, we understand that every restoration is more than just a product—it’s a patient’s smile, confidence, and comfort. As skilled dental technicians, we are committed to delivering high-precision dental restorations that combine craftsmanship, advanced technology, and expert knowledge. Whether you need crowns, bridges, implants, or digital solutions, we ensure every case meets the highest standards of accuracy, strength, and aesthetics.</p>
+            <div class="max-w-3xl text-center mx-auto">
+                <p class="text-md text-white/70">At Dentigo, we understand that every restoration is more than just a product—it’s a patient’s smile, confidence, and comfort. As skilled dental technicians, we are committed to delivering high-precision dental restorations that combine craftsmanship, advanced technology, and expert knowledge. Whether you need crowns, bridges, implants, or digital solutions, we ensure every case meets the highest standards of accuracy, strength, and aesthetics.</p>
+            </div>
         </div>
     </div>
-</div>
+</section>
 <!-- End Hero -->
 
 <section class="relative w-full py-16 text-white" id="free-trial">
@@ -30,50 +36,50 @@ include 'inc/hd.php';
         <!-- Features Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#f4c77d] rounded-full mb-4">
-                    <i class="fas fa-box-open text-2xl text-black"></i>
+                <div class="w-16 h-16 flex items-center justify-center bg-blue-500 rounded-full mb-4">
+                    <i class="fas fa-box-open text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-semibold text-[#f4c77d] mb-3">One Free Sample Case</h3>
+                <h3 class="text-xl font-semibold text-blue-500 mb-3">One Free Sample Case</h3>
                 <p class="text-gray-300 text-sm">Choose from crowns, bridges, or another restoration type that fits your needs.</p>
             </div>
 
             <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#4caf50] rounded-full mb-4">
+                <div class="w-16 h-16 flex items-center justify-center bg-blue-500 rounded-full mb-4">
                     <i class="fas fa-shield-alt text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-semibold text-green-400 mb-3">Precision Testing</h3>
+                <h3 class="text-xl font-semibold text-blue-500 mb-3">Precision Testing</h3>
                 <p class="text-gray-300 text-sm">We use 100% FDA-approved materials and provide samples in specific materials if required.</p>
             </div>
 
             <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#3b82f6] rounded-full mb-4">
+                <div class="w-16 h-16 flex items-center justify-center bg-blue-500 rounded-full mb-4">
                     <i class="fas fa-vials text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-semibold text-blue-400 mb-3">Real-World Testing</h3>
+                <h3 class="text-xl font-semibold text-blue-500 mb-3">Real-World Testing</h3>
                 <p class="text-gray-300 text-sm">Evaluate our designs in your lab and proceed with more cases once satisfied.</p>
             </div>
 
             <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#eab308] rounded-full mb-4">
-                    <i class="fas fa-truck-fast text-2xl text-black"></i>
+                <div class="w-16 h-16 flex items-center justify-center bg-blue-500 rounded-full mb-4">
+                    <i class="fas fa-truck-fast text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-semibold text-yellow-400 mb-3">Fast Turnaround & Delivery</h3>
+                <h3 class="text-xl font-semibold text-blue-500 mb-3">Fast Turnaround & Delivery</h3>
                 <p class="text-gray-300 text-sm">Get your samples quickly so you can experience our quality without delays.</p>
             </div>
 
             <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#e94057] rounded-full mb-4">
+                <div class="w-16 h-16 flex items-center justify-center bg-blue-500 rounded-full mb-4">
                     <i class="fas fa-clock text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-semibold text-red-400 mb-3">Design Turnaround Options</h3>
+                <h3 class="text-xl font-semibold text-blue-500 mb-3">Design Turnaround Options</h3>
                 <p class="text-gray-300 text-sm">We offer three speeds: <span class="text-white font-semibold">2 hours, 6 hours, or 12 hours</span> based on your urgency.</p>
             </div>
 
             <div class="flex flex-col items-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105 text-center">
-                <div class="w-16 h-16 flex items-center justify-center bg-[#8e44ad] rounded-full mb-4">
+                <div class="w-16 h-16 flex items-center justify-center bg-blue-500 rounded-full mb-4">
                     <i class="fas fa-rocket text-2xl text-white"></i>
                 </div>
-                <h3 class="text-xl font-semibold text-purple-400 mb-3">Priority Manufacturing</h3>
+                <h3 class="text-xl font-semibold text-blue-500 mb-3">Priority Manufacturing</h3>
                 <p class="text-gray-300 text-sm">All cases are processed on priority, ensuring shipments within <span class="text-white font-semibold">4-7 days</span> max.</p>
             </div>
         </div>
@@ -93,7 +99,7 @@ include 'inc/hd.php';
 
 
 <section>
-    <div class="bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-400 text-white py-16 px-4 rounded-lg shadow-lg mt-12">
+    <div class="bg-gradient-to-r from-blue-500 via-indigo-500 to-blue-400 text-white py-16 px-4 rounded-lg shadow-lg mt-12">
         <div class="max-w-6xl mx-auto text-center">
             <h2 class="text-3xl font-bold mb-4">Our Expertise – Where Art Meets Science</h2>
             <p class="text-lg mb-12">At Dentigo, precision and excellence are at the heart of every restoration we create. Here's a closer look at what we offer:</p>
@@ -149,7 +155,7 @@ include 'inc/hd.php';
     </section>
 
     <!-- Contact CTA -->
-    <section class="bg-blue-600 text-white py-16 px-6 rounded-lg shadow-lg mt-12">
+    <section class="bg-blue-500 text-white py-16 px-6 rounded-lg shadow-lg mt-12">
         <div class="max-w-4xl mx-auto text-center">
             <h3 class="text-3xl font-semibold mb-4">📩 Have Questions? Let’s Talk!</h3>
             <p class="text-lg mb-8">Contact us today and let’s discuss how we can support your lab’s success with top-quality dental restorations. We’re excited to collaborate with you!</p>
@@ -258,7 +264,7 @@ include 'inc/hd.php';
 
             <!-- Text Section with Professional Styling -->
             <div class="w-full lg:w-6/12 text-center lg:text-left bg-white p-10 lg:p-16 rounded-lg shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-                <h2 class="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6 transform transition-all duration-500 hover:text-teal-600">
+                <h2 class="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6 transform transition-all duration-500 hover:text-blue-500">
                     High-Precision Digital Dental Designs
                 </h2>
                 <p class="text-lg lg:text-xl text-gray-800 mb-8 max-w-lg mx-auto lg:mx-0 opacity-80">
@@ -273,18 +279,18 @@ include 'inc/hd.php';
             </div>
 
             <!-- Call-to-Action Button Section with Larger Background Image -->
-            <div class="w-full lg:w-6/12 h-[500px] lg:h-[600px] bg-cover bg-center rounded-lg overflow-hidden relative transform transition-transform duration-500 hover:scale-105" style="background-image: url('public/images/d1.jpeg');">
+            <div class="w-full lg:w-6/12 h-[500px] lg:h-[600px] bg-cover bg-center rounded-lg overflow-hidden relative transform transition-transform duration-500 hover:scale-105" style="background-image: url('public/images/High-Precision Digital Dental Designs.jpg');">
                 <div class="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-900 opacity-50">
                 </div>
 
-                <div class="absolute bottom-6 left-6 bg-white p-10 rounded-lg shadow-2xl w-5/6 lg:w-3/4 max-w-lg">
+                <div class="absolute bottom-6 left-6 bg-white p-4 rounded-lg shadow-2xl w-5/6 lg:w-3/4 max-w-full">
                     <div class="flex items-center space-x-6">
                         <div class="text-teal-500 text-4xl">
                             <i class="fas fa-digital-tachograph"></i>
                         </div>
                         <div>
                             <h5 class="text-2xl font-semibold text-gray-800"> Let’s Work Together!</h5>
-                            <p class="text-lg text-gray-600 mt-2">Get in touch to discuss outsourcing your dental designs & products today.</p>
+                            <p class="text-md text-gray-600 mt-2">Get in touch to discuss outsourcing your dental designs & products today.</p>
                             <a href="contact.php" class="text-teal-500 font-semibold flex items-center mt-4 hover:text-teal-700 transition-colors duration-300">
                                 Contact Us Today <span class="ml-2">&rarr;</span>
                             </a>

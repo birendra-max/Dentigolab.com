@@ -6,15 +6,23 @@ include 'inc/hd.php';
 </script>
 
 <!-- Hero -->
-<div class="bg-gray-900 text-white py-24">
-    <div class="max-w-screen-xl mx-auto px-8 lg:px-16 space-y-16">
+<div class="relative text-white py-24">
+    <!-- Video Background -->
+    <div class="absolute inset-0">
+        <video autoplay muted loop class="w-full h-full object-cover">
+            <source src="public/images/abouthero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+    </div>
 
-        <!-- Title Section -->
+    <!-- Content -->
+    <div class="max-w-screen-xl mx-auto px-8 lg:px-16 space-y-16 relative z-10">
         <div class="text-center space-y-4">
-            <h1 class="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-violet-600">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
                 About Us
             </h1>
-            <!-- About Us Text -->
             <div class="text-center max-w-3xl mx-auto">
                 <p class="text-xl text-gray-300 mb-8">
                     At Dentigo, we help dental professionals across the world enhance their practice by providing top-quality CAD/CAM designs and custom prosthetics. We focus on precision, speed, and delivering excellence at competitive prices.
@@ -22,7 +30,7 @@ include 'inc/hd.php';
             </div>
         </div>
 
-        <!-- Why Choose Us Section -->
+
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 text-center">
             <div class="bg-gradient-to-r from-teal-600 to-teal-400 rounded-xl p-6 shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
                 <i class="fas fa-user-md text-4xl text-white mb-4"></i>
@@ -44,18 +52,15 @@ include 'inc/hd.php';
         </div>
     </div>
 </div>
-
 <!-- End Hero -->
 
 <!-- Who We Are? -->
 <section class="relative py-20">
     <div class="container mx-auto px-6 lg:px-12">
         <div class="flex items-center space-x-12">
-            <!-- Image Section -->
             <div class="overflow-hidden w-1/2">
                 <div class="px-8 md:px-12 mx-auto lg:py-12 h-svh flex flex-col justify-center bg-zinc-50">
                     <div class="flex flex-row mx-auto">
-                        <!--- Starts component -->
                         <a href="#_">
                             <img src="public/images/about2.jpg" class="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom" alt="#_">
                         </a>
@@ -191,15 +196,15 @@ include 'inc/hd.php';
 
 
 <!-- Our Delivery Options -->
-<section class="py-16 text-black">
+<section class="py-8 text-black px-2">
     <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold">Our Delivery Options</h2>
+        <h2 class="text-2xl lg:text-4xl font-bold">Our Delivery Options</h2>
         <p class="text-lg mt-2">Efficient, Flexible, and Designed to Meet Your Needs.</p>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
         <!-- Rush Orders -->
         <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:rotate-3 hover:bg-yellow-100">
-            <div class="text-4xl text-yellow-500 mb-4 animate-pulse">
+            <div class="text-4xl text-blue-500 mb-4 animate-pulse">
                 <i class="fas fa-bolt"></i>
             </div>
             <h3 class="text-xl font-semibold">Rush Orders</h3>
@@ -207,7 +212,7 @@ include 'inc/hd.php';
         </div>
         <!-- Same Day -->
         <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:-rotate-3 hover:bg-green-100">
-            <div class="text-4xl text-green-500 mb-4 animate-bounce">
+            <div class="text-4xl text-blue-500 mb-4 animate-bounce">
                 <i class="fas fa-truck"></i>
             </div>
             <h3 class="text-xl font-semibold">Same Day</h3>
@@ -223,7 +228,7 @@ include 'inc/hd.php';
         </div>
         <!-- Manufacturing Product Delivery -->
         <div class="bg-white text-gray-900 p-6 rounded-2xl shadow-lg flex flex-col items-center transform transition duration-300 hover:scale-105 hover:-rotate-6 hover:bg-red-100">
-            <div class="text-4xl text-red-500 mb-4 animate-wiggle">
+            <div class="text-4xl text-blue-500 mb-4 animate-wiggle">
                 <i class="fas fa-industry"></i>
             </div>
             <h3 class="text-xl font-semibold">Manufacturing Product Delivery</h3>
@@ -231,6 +236,41 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
+
+<style>
+    @keyframes wiggle {
+
+        0%,
+        100% {
+            transform: rotate(-3deg);
+        }
+
+        50% {
+            transform: rotate(3deg);
+        }
+    }
+
+    .animate-wiggle {
+        animation: wiggle 0.3s ease-in-out infinite;
+    }
+
+    @keyframes spin-slow {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .animate-spin-slow {
+        animation: spin-slow 6s linear infinite;
+    }
+</style>
+
+<!-- Make the testminola first litel bit  -->
+
 
 
 

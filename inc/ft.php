@@ -18,14 +18,26 @@
         <div class="max-w-3xl mx-auto">
             <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 mb-2 border-b border-gray-200">
                 <li><a href="privacy&policy.php" class="text-white hover:text-white"> Privacy Policy</a></li>
-                <li><a href="prod&services.php" class=" text-white hover:text-white">Products</a></li>
-                <li><a href="#" class=" text-white hover:text-white">Resources</a></li>
-                <li><a href="blogs.php" class=" text-white hover:text-white">Blogs</a></li>
-                <li><a href="#" class=" text-white hover:text-white">Support</a></li>
-                <li><a href="#" class=" text-white hover:text-white">24/6</a></li>
-                <li><a href="#" class=" text-white hover:text-white">FAQ</a></li>
+                <li><a href="prod&services.php" class="text-white hover:text-white">Products</a></li>
+                <li><a href="#" class="text-white hover:text-white">Resources</a></li>
+                <li><a href="blogs.php" class="text-white hover:text-white">Blogs</a></li>
+                <li><a href="#" class="text-white hover:text-white">Support</a></li>
+                <li><a href="#" class="text-white hover:text-white">24/6</a></li>
+                <li><a href="#" class="text-white hover:text-white">FAQ</a></li>
             </ul>
-            
+
+            <!-- Social Media Icons -->
+            <div class="flex justify-center gap-8 mb-4">
+                <a href="https://facebook.com" target="_blank" class="text-white hover:text-blue-600 text-3xl">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me" target="_blank" class="text-white hover:text-green-500 text-3xl">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="text-white hover:text-pink-500 text-3xl">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
 
             <span class="text-lg text-white text-center block">©<a href="https://pagedone.io/">Dentigo.com</a> 2024, All rights reserved.</span>
         </div>
