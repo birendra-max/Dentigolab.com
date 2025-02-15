@@ -88,11 +88,11 @@
     </header>
 
 
-    <style>
+    <!-- <style>
         a:hover {
             filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
         }
-    </style>
+    </style> -->
 
 
     <script>

@@ -1,19 +1,19 @@
 <script src="public/js/alpine.js" defer></script>
 
-<section class="py-16 w-full md:w-[80%] mx-auto">
-    <div class="container mx-auto px-6 lg:px-12">
-        <h2 class="text-4xl font-extrabold text-center text-gray-900 mb-8">
+<section class="py-12 px-4 sm:px-6 lg:px-12 w-full max-w-7xl mx-auto">
+    <div class="container mx-auto">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-center text-gray-900 mb-6">
             Frequently Asked Questions (FAQ)
         </h2>
-        <p class="text-lg text-center text-gray-700 mb-12 max-w-3xl mx-auto">
+        <p class="text-base sm:text-lg text-center text-gray-700 mb-6 max-w-3xl mx-auto">
             At Dentigo, we believe in transparency and ensuring all your questions are answered. Whether you're a dental technician, lab owner, or clinician, here's everything you need to know about working with us.
         </p>
 
         <!-- Alpine.js Tab Section -->
-        <div x-data="{ openTab: 1 }" class="w-full bg-white p-6 rounded-lg  shadow-sm border border-gray-200">
+        <div x-data="{ openTab: 1 }" class="w-full md:p-4 p-2 rounded-lg shadow-md bg-white">
 
-            <!-- Browser-Style Tab Headers -->
-            <div class="flex space-x-2 border-b relative">
+            <!-- Tab Headers (Responsive) -->
+            <div class="flex flex-wrap justify-center gap-2 border-b pb-2">
                 <template x-for="(tab, index) in [
                     { id: 1, title: 'Design & Digital Workflow' },
                     { id: 2, title: 'Manufacturing & Production' },
@@ -21,10 +21,10 @@
                 ]" :key="tab.id">
                     <button
                         @click="openTab = tab.id"
-                        class="px-6 py-3 text-md font-semibold transition-all duration-300 rounded-t-lg shadow-sm relative"
+                        class="px-4 py-2 sm:px-6 sm:py-3 text-lg sm:text-md font-bold transition-all duration-300 rounded-t-lg shadow-sm"
                         :class="{ 
                             'bg-white text-gray-900 border border-gray-300 border-b-0 shadow-md': openTab === tab.id,
-                            'bg-gray-200 text-gray-600 hover:bg-gray-300': openTab !== tab.id 
+                            'bg-gray-100 text-gray-600 hover:bg-gray-200': openTab !== tab.id 
                         }">
                         <span x-text="tab.title"></span>
                     </button>
@@ -32,10 +32,10 @@
             </div>
 
             <!-- Tab Content -->
-            <div class="p-6 bg-gray-50 border border-gray-300 rounded-b-lg shadow-md">
+            <div class="p-2 bg-gradient-to-r from-blue-50 to-blue-100 border border-gray-300 rounded-b-lg shadow-md">
                 <!-- Design & Digital Workflow Tab -->
                 <div x-show="openTab === 1">
-                    <div class="space-y-6">
+                    <div class="space-y-2">
                         <div x-data="{ open: false }" class="bg-white p-6 rounded-lg  shadow-sm">
                             <div class="flex justify-between items-center cursor-pointer" @click="open = !open">
                                 <p class="text-lg font-semibold text-gray-800">What design services do you offer?</p>
@@ -129,7 +129,7 @@
 
                 <!-- Manufacturing & Production Tab -->
                 <div x-show="openTab === 2">
-                    <div class="space-y-6">
+                    <div class="space-y-2">
                         <div x-data="{ open: false }" class="bg-white p-6 rounded-lg  shadow-sm">
                             <div class="flex justify-between items-center cursor-pointer" @click="open = !open">
                                 <p class="text-lg font-semibold text-gray-800">What materials do you use for crowns and bridges?</p>
@@ -223,7 +223,7 @@
 
                 <!-- Shipping & Payments Tab -->
                 <div x-show="openTab === 3">
-                    <div class="space-y-6">
+                    <div class="space-y-2">
                         <div x-data="{ open: false }" class="bg-white p-6 rounded-lg  shadow-sm">
                             <div class="flex justify-between items-center cursor-pointer" @click="open = !open">
                                 <p class="text-lg font-semibold text-gray-800">What shipping methods do you offer?</p>
