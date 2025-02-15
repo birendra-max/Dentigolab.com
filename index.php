@@ -7,118 +7,130 @@ include 'inc/hd.php';
 </script>
 
 
-<section class="font-roboto md:px-8 px-2 py-4 " id="hero">
-    <div class="bg-white text-blue-900 font-sans py-8  shadow-xl rounded-xl">
-        <div class="container mx-auto p-4">
-            <div class="flex flex-col md:flex-row items-center justify-between">
-                <div class="md:w-1/3 mb-8 md:mb-0">
-                    <div class="bg-blue-900 text-white p-4 rounded-md mb-4">
-                        <h2 class="text-xl font-bold">OUR SERVICES</h2>
+<section class="font-roboto">
+    <section class="md:px-8 px-2 py-4" id="hero">
+        <div class="bg-white text-blue-900 font-sans py-8 shadow-xl rounded-xl">
+            <div class="container mx-auto p-4">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div class="md:w-1/3 mb-8 md:mb-0">
+                        <div class="bg-blue-900 text-white p-4 rounded-md mb-4">
+                            <h2 class="text-xl font-bold">OUR SERVICES</h2>
+                        </div>
+                        <ul class="list-none space-y-2">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> Fixed Restorations
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> Implant-Supported Restorations
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> Removable Restorations
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> Custom Full-Arch Restorations
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> Orthodontic Appliances
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> 3D-Printed Models
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> Dental Equipment
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> Material Customization
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> All Dental Products Manufacturer
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i> 24/7 Support Available
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="list-none space-y-2">
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> Fixed Restorations
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> Implant-Supported Restorations
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> Removable Restorations
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> Custom Full-Arch Restorations
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> Orthodontic Appliances
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> 3D-Printed Models
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> Dental Equipment
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> Material Customization
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> All Dental Products Manufacturer
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i> 24/7 Support Available
-                        </li>
-                    </ul>
-                </div>
-                <div class="md:w-1/3 flex flex-col items-center">
-                    <div class="text-center mb-4">
-                        <h1 class="text-4xl font-bold">FREE FIRST <span class="text-5xl">5</span> UNITS</h1>
-                    </div>
-                    <div class="text-center mb-4">
-                        <h2 class="text-xl font-bold">DELIVERY OPTIONS</h2>
-                        <div class="flex flex-col items-center space-y-4">
-                            <div class="flex items-center justify-center space-x-4">
-                                <div class="text-center">
-                                    <i class="fas fa-truck fa-2x"></i>
-                                    <p>2 HOURS</p>
+                    <div class="md:w-1/3 flex flex-col items-center">
+                        <div class="text-center mb-4">
+                            <h1 class="text-4xl font-bold">FREE FIRST <span class="text-5xl">5</span> UNITS</h1>
+                        </div>
+                        <div class="text-center mb-4">
+                            <h2 class="text-xl font-bold">DELIVERY OPTIONS</h2>
+                            <div class="flex flex-col items-center space-y-4">
+                                <div class="flex items-center justify-center space-x-4">
+                                    <div class="text-center">
+                                        <i class="fas fa-truck fa-2x"></i>
+                                        <p>2 HOURS</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <i class="fas fa-truck fa-2x"></i>
+                                        <p>6 HOURS</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <i class="fas fa-truck fa-2x"></i>
+                                        <p>12 HOURS</p>
+                                    </div>
                                 </div>
                                 <div class="text-center">
-                                    <i class="fas fa-truck fa-2x"></i>
-                                    <p>6 HOURS</p>
+                                    <i class="fas fa-calendar-alt fa-2x"></i>
+                                    <p>7 DAYS</p>
                                 </div>
-                                <div class="text-center">
-                                    <i class="fas fa-truck fa-2x"></i>
-                                    <p>12 HOURS</p>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <i class="fas fa-calendar-alt fa-2x"></i>
-                                <p>7 DAYS</p>
                             </div>
                         </div>
                     </div>
+                    <div class="md:w-1/3 flex flex-col items-center">
+                        <div class="flex justify-center">
+                            <img alt="Profile of a woman in blue scrubs looking to the right" class="rounded-full" height="300" src="https://storage.googleapis.com/a1aa/image/EOZosWocoFLEm1NbCdQU6E7GzS9og1sB79Hbags44XY.jpg" width="300" />
+                        </div>
+                        <a href="mailto:info@dentigolab.com" class="flex items-center border-2 border-blue-700 rounded-full px-4 py-2 mt-4">
+                            <i class="fas fa-envelope text-blue-700 text-2xl"></i>
+                            <div class="ml-2 text-blue-700">
+                                <div class="font-bold">OUTSOURCING LAB IN INDIA</div>
+                                <div>INFO@DENTIGODENTALLAB</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="md:w-1/3 flex justify-center">
-                    <img alt="Profile of a woman in blue scrubs looking to the right" class="rounded-full" height="300" src="https://storage.googleapis.com/a1aa/image/EOZosWocoFLEm1NbCdQU6E7GzS9og1sB79Hbags44XY.jpg" width="300" />
-                </div>
-            </div>
-            <div class="mt-8">
-                <div class="flex flex-wrap justify-center space-x-4">
-                    <div class="text-center mb-4">
-                        <img alt="ALL-ON-4 dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/hRbJTOR8G__yVdAUBeVOhSgUQnFDlmZo1_xT-AatRh8.jpg" width="100" />
-                        <p>ALL-ON-4</p>
-                    </div>
-                    <div class="text-center mb-4">
-                        <img alt="PFM dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/xaAGD51prYf_RudxWXswCtCo22F74ptaZ3LGKPkJhLs.jpg" width="100" />
-                        <p>PFM</p>
-                    </div>
-                    <div class="text-center mb-4">
-                        <img alt="NG dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/rOjWctpgouA9jZ0R614HlHhHJepVmDODPHs4USxfrSo.jpg" width="100" />
-                        <p>NG</p>
-                    </div>
-                    <div class="text-center mb-4">
-                        <img alt="CT dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/YtK6L3k6kxXchutwHCbewq1p0aHmraQG8q8qBYQWmwQ.jpg" width="100" />
-                        <p>CT</p>
-                    </div>
-                    <div class="text-center mb-4">
-                        <img alt="MODEL dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/vaGMqOfkvSs2UaBp7_nhi9nmRY1FXI1LImUQJhnqxKo.jpg" width="100" />
-                        <p>MODEL</p>
-                    </div>
-                    <div class="text-center mb-4">
-                        <img alt="DWAX dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/1J31VFlZIpe1Bu692n7EsnWjcqU2UEDGzvGM4uoyrAo.jpg" width="100" />
-                        <p>DWAX</p>
-                    </div>
-                    <div class="text-center mb-4">
-                        <img alt="CI dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/KU_oHG81T6NWrEKSfB_Aa0ekDGZV_xethiMbNN4ChMM.jpg" width="100" />
-                        <p>CI</p>
-                    </div>
-                    <div class="text-center mb-4">
-                        <img alt="DENTURE dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/M6-0ueFnPbMnGqznQaYFsZVUjBUjg760YQ3zCa3WwgQ.jpg" width="100" />
-                        <p>DENTURE</p>
+                <div class="mt-8">
+                    <div class="flex flex-wrap justify-center space-x-4">
+                        <div class="text-center mb-4">
+                            <img alt="ALL-ON-4 dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/hRbJTOR8G__yVdAUBeVOhSgUQnFDlmZo1_xT-AatRh8.jpg" width="100" />
+                            <p>ALL-ON-4</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <img alt="PFM dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/xaAGD51prYf_RudxWXswCtCo22F74ptaZ3LGKPkJhLs.jpg" width="100" />
+                            <p>PFM</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <img alt="NG dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/rOjWctpgouA9jZ0R614HlHhHJepVmDODPHs4USxfrSo.jpg" width="100" />
+                            <p>NG</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <img alt="CT dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/YtK6L3k6kxXchutwHCbewq1p0aHmraQG8q8qBYQWmwQ.jpg" width="100" />
+                            <p>CT</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <img alt="MODEL dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/vaGMqOfkvSs2UaBp7_nhi9nmRY1FXI1LImUQJhnqxKo.jpg" width="100" />
+                            <p>MODEL</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <img alt="DWAX dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/1J31VFlZIpe1Bu692n7EsnWjcqU2UEDGzvGM4uoyrAo.jpg" width="100" />
+                            <p>DWAX</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <img alt="CI dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/KU_oHG81T6NWrEKSfB_Aa0ekDGZV_xethiMbNN4ChMM.jpg" width="100" />
+                            <p>CI</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <img alt="DENTURE dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/M6-0ueFnPbMnGqznQaYFsZVUjBUjg760YQ3zCa3WwgQ.jpg" width="100" />
+                            <p>DENTURE</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </section>
+
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -178,7 +190,7 @@ include 'inc/hd.php';
             <span class="text-sm font-semibold text-green-600">Dent Services</span>
             <h2 class="text-3xl lg:text-4xl font-bold text-gray-900">Our Dental Services</h2>
         </div>
-        
+
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <!-- Service Items -->
             <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
@@ -282,7 +294,7 @@ include 'inc/hd.php';
 
         </div>
     </div>
-    
+
     <script>
         function animateCounters() {
             document.querySelectorAll(".counter").forEach(counter => {
