@@ -6,185 +6,107 @@ include 'inc/hd.php';
     document.title = 'Digital Workflows | Dentigolab Designs'
 </script>
 
+<section class="relative py-8">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-16">
 
-<section class="py-24 relative" data-aos="fade-up">
-    <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-        <div class="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
-
-            <!-- Left Content -->
-            <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
-                <div class="w-full flex-col justify-center items-start gap-8 flex">
-                    <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                        <h2 class="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-                            Collaborate with <span class="text-blue-600">Dentigolab</span>
-                        </h2>
-                        <p class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                            At Dentigolab, we streamline the collaboration process for digital designs, manufacturing, and online purchases. Whether you’re a digital partner or a lab, we ensure <strong>precision, quality, and efficiency</strong> every step of the way.
-                        </p>
-                    </div>
-
-                    <!-- Feature Pills -->
-                    <div class="mt-8 flex flex-wrap gap-2 justify-center lg:justify-start" data-aos="fade-up" data-aos-delay="150">
-                        <span class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all transform hover:scale-105">Reliability</span>
-                        <span class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all transform hover:scale-105">Advanced Technology</span>
-                        <span class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all transform hover:scale-105">Certified Expertise</span>
-                        <span class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all transform hover:scale-105">Global Reach</span>
-                    </div>
-                </div>
-
-                <!-- Action Button -->
-                <button
-                    class="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                    <span class="px-1.5 text-white text-sm font-medium leading-6">Read More</span>
-                </button>
-            </div>
-
-            <!-- Right Image -->
-            <div class="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
-                <div class="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
-                    <img class="rounded-xl object-cover" src="public/images/teeth1.jpg" alt="about Us image" />
-                </div>
-                <img class="sm:ml-0 ml-auto rounded-xl object-cover" src="public/images/teeth2.jpg" alt="about Us image" />
+        <!-- Left Content -->
+        <div class="lg:w-1/2 space-y-6 text-center lg:text-left" data-aos="fade-right">
+            <h2 class="text-gray-900 text-5xl font-bold leading-tight">
+                The Future of <span class="text-blue-600">Digital Dentistry</span> Starts Here
+            </h2>
+            <p class="text-gray-600 text-lg leading-relaxed">
+                Partner with <strong>Dentigolab</strong> for precision-driven dental solutions.
+                Experience advanced technology, seamless collaboration, and top-tier craftsmanship in every digital workflow.
+            </p>
+            <!-- CTA Buttons -->
+            <div class="mt-8">
+                <a href="#" class="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-lg hover:bg-indigo-700 transition-all transform hover:scale-105">
+                    Get Started
+                </a>
+                <a href="#" class="ml-4 text-blue-600 font-semibold hover:underline">Learn More</a>
             </div>
         </div>
+
+        <!-- Right Image -->
+        <div class="lg:w-1/2 relative flex justify-center" data-aos="fade-left">
+            <div class="relative w-full max-w-sm">
+                <div class="absolute -top-8 -left-8 bg-blue-200 w-36 h-36 rounded-full opacity-40"></div>
+                <div class="absolute -bottom-8 -right-8 bg-indigo-200 w-24 h-24 rounded-full opacity-40"></div>
+                <img src="public/images/teeth1.jpg" alt="Dentigolab Image" class="w-full rounded-lg shadow-xl">
+                <img src="public/images/teeth2.jpg" alt="Dentigolab Image" class="absolute bottom-0 -right-4 w-3/5 rounded-lg shadow-lg border-4 border-white transform rotate-3">
+            </div>
+        </div>
+
     </div>
 </section>
 
 
-<section class=" py-20">
-    <div class="container mx-auto px-6">
-        <div class="flex flex-col lg:flex-row gap-12 items-center">
+<!-- Collaboration Process section  -->
 
-            <!-- Left: Image -->
-            <div class="lg:w-1/2 flex flex-col items-center relative space-y-6 mb-8 lg:mb-0">
-                <img src="public/images/col2.avif" alt="Research lab"
-                    class="w-full lg:w-4/5 rounded-lg shadow-lg transform hover:scale-105 transition duration-300" data-aos="fade-right">
-            </div>
+<section class="py-24">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-16">
+        
+        <!-- Left: Steps Content -->
+        <div class="lg:w-1/2 space-y-6" x-data="{ openStep: 1, steps: [
+                { id: 1, title: 'Step 1: Get Started', description: 'Submit a free trial case and evaluate our quality.', icon: 'lucide-user-plus', iconBg: 'bg-blue-100 text-blue-700' },
+                { id: 2, title: 'Step 2: Upload Case', description: 'Easily submit your scans through our portal.', icon: 'lucide-upload', iconBg: 'bg-green-100 text-green-700' },
+                { id: 3, title: 'Step 3: Design & Manufacture', description: 'Our lab produces high-precision dental products.', icon: 'lucide-cpu', iconBg: 'bg-yellow-100 text-yellow-700' },
+                { id: 4, title: 'Step 4: Review & Approve', description: 'Check and finalize your digital designs before production.', icon: 'lucide-check-circle', iconBg: 'bg-purple-100 text-purple-700' },
+                { id: 5, title: 'Step 5: Fast Delivery', description: 'Receive your designs and products on time with full support.', icon: 'lucide-truck', iconBg: 'bg-red-100 text-red-700' }
+            ]}">
 
-            <!-- Right: Steps Content -->
-            <div class="lg:w-1/2 w-full" x-data="{ openStep: null }">
+            <div class="text-center lg:text-left">
                 <span class="bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-widest">
-                    How to Collaborate with Us
+                    Collaboration Process
                 </span>
-                <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-900 mt-4">Steps for Collaboration</h2>
+                <h2 class="text-4xl font-extrabold text-gray-900 mt-4 leading-tight">
+                    Simple Steps to Partner with <span class="text-blue-600">Dentigolab</span>
+                </h2>
+                <p class="text-gray-600 text-lg mt-2">
+                    Follow these quick steps to begin a seamless, high-quality collaboration with us.
+                </p>
+            </div>
 
-                <div class="mt-8 space-y-4">
-
-                    <!-- Step 1 -->
-                    <div class="bg-white rounded-lg shadow-md transition">
-                        <button @click="openStep === 1 ? openStep = null : openStep = 1"
-                            class="w-full flex items-center justify-between p-6 text-left">
-                            <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 bg-blue-100 text-blue-700 flex items-center justify-center rounded-full">
-                                    <i class="lucide lucide-user-plus w-6 h-6"></i>
+            <div class="space-y-2">
+                <template x-for="step in steps" :key="step.id">
+                    <div class="bg-white rounded-lg shadow-md transition transform hover:scale-[1.02]">
+                        <button class="w-full flex items-center justify-between px-4 py-3 rounded-lg bg-gray-100 hover:bg-gray-200 transition" 
+                            @click="openStep = openStep === step.id ? null : step.id">
+                            <div class="flex items-center gap-3">
+                                <div :class="step.iconBg" class="w-10 h-10 flex items-center justify-center rounded-full shadow-md">
+                                    <i :class="step.icon" class="w-5 h-5"></i>
                                 </div>
-                                <h4 class="text-xl font-semibold text-gray-900">Step 1: Get Started with a Trial</h4>
+                                <h4 class="text-md font-semibold text-gray-900" x-text="step.title"></h4>
                             </div>
-                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
-                                :class="{ 'rotate-180': openStep === 1 }"></i>
+                            <i class="lucide-chevron-down w-5 h-5 transition-transform duration-300"
+                               :class="{ 'rotate-180': openStep === step.id }"></i>
                         </button>
-                        <div x-show="openStep === 1" x-collapse class="px-6 pb-6 text-gray-600">
-                            <p>Submit your first case for a free trial and experience the accuracy of our CAD/CAM solutions.</p>
-                            <p>Upload scans for crowns, bridges, veneers, or implants.</p>
-                            <p>Receive a trial design to evaluate our quality and TAT.</p>
-                            <p>Request a product trial to test the superior quality of our manufacturing.</p>
-                            <p>Choose from crowns, clear aligners, implant bars, or other products.</p>
-                            <p>We’ll send you a sample product to ensure it meets your standards.</p>
+                        <div x-show="openStep === step.id" x-collapse class="bg-gray-50 border-l-4 border-blue-500 px-4 py-2 text-gray-700 text-sm leading-relaxed rounded-lg shadow-inner transition-all">
+                            <p x-text="step.description"></p>
                         </div>
                     </div>
-
-                    <!-- Step 2 -->
-                    <div class="bg-white rounded-lg shadow-md transition">
-                        <button @click="openStep === 2 ? openStep = null : openStep = 2"
-                            class="w-full flex items-center justify-between p-6 text-left">
-                            <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 bg-green-100 text-green-700 flex items-center justify-center rounded-full">
-                                    <i class="lucide lucide-upload w-6 h-6"></i>
-                                </div>
-                                <h4 class="text-xl font-semibold text-gray-900">Step 2: Seamless Case Submission</h4>
-                            </div>
-                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
-                                :class="{ 'rotate-180': openStep === 2 }"></i>
-                        </button>
-                        <div x-show="openStep === 2" x-collapse class="px-6 pb-6 text-gray-600">
-                            <p>Use our Dentigolab Portal to submit your digital scans or case details.</p>
-                            <p>Easy drag-and-drop functionality for uploads.</p>
-                            <p>Specify your design preferences, restoration type, or product details.</p>
-                            <p>Track case progress and receive real-time updates on your dashboard.</p>
-                        </div>
-                    </div>
-
-                    <!-- Step 3 -->
-                    <div class="bg-white rounded-lg shadow-md transition">
-                        <button @click="openStep === 3 ? openStep = null : openStep = 3"
-                            class="w-full flex items-center justify-between p-6 text-left">
-                            <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 bg-yellow-100 text-yellow-700 flex items-center justify-center rounded-full">
-                                    <i class="lucide lucide-cpu w-6 h-6"></i>
-                                </div>
-                                <h4 class="text-xl font-semibold text-gray-900">Step 3: Design & Manufacture</h4>
-                            </div>
-                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
-                                :class="{ 'rotate-180': openStep === 3 }"></i>
-                        </button>
-                        <div x-show="openStep === 3" x-collapse class="px-6 pb-6 text-gray-600">
-                            <p>Our skilled designers create precise, aesthetic, and functional CAD designs tailored to your case.</p>
-                            <p>Our state-of-the-art lab produces crowns, bridges, aligners, and other products using FDA-approved materials.</p>
-                        </div>
-                    </div>
-
-                    <!-- Step 4 -->
-                    <div class="bg-white rounded-lg shadow-md transition">
-                        <button @click="openStep === 4 ? openStep = null : openStep = 4"
-                            class="w-full flex items-center justify-between p-6 text-left">
-                            <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 bg-purple-100 text-purple-700 flex items-center justify-center rounded-full">
-                                    <i class="lucide lucide-check-circle w-6 h-6"></i>
-                                </div>
-                                <h4 class="text-xl font-semibold text-gray-900">Step 4: Review & Approve</h4>
-                            </div>
-                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
-                                :class="{ 'rotate-180': openStep === 4 }"></i>
-                        </button>
-                        <div x-show="openStep === 4" x-collapse class="px-6 pb-6 text-gray-600">
-                            <p>Preview the designs or products before final delivery.</p>
-                            <p>Request adjustments or modifications at no additional charge during the trial.</p>
-                        </div>
-                    </div>
-
-                    <!-- Step 5 -->
-                    <div class="bg-white rounded-lg shadow-md transition">
-                        <button @click="openStep === 5 ? openStep = null : openStep = 5"
-                            class="w-full flex items-center justify-between p-6 text-left">
-                            <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 bg-red-100 text-red-700 flex items-center justify-center rounded-full">
-                                    <i class="lucide lucide-truck w-6 h-6"></i>
-                                </div>
-                                <h4 class="text-xl font-semibold text-gray-900">Step 5: Delivery & Support</h4>
-                            </div>
-                            <i class="lucide lucide-chevron-down w-6 h-6 transition-transform"
-                                :class="{ 'rotate-180': openStep === 5 }"></i>
-                        </button>
-                        <div x-show="openStep === 5" x-collapse class="px-6 pb-6 text-gray-600">
-                            <p>Designs and products are delivered within industry-leading turnaround times.</p>
-                            <p>Our support team is available 24/7 to assist with any questions or concerns.</p>
-                        </div>
-                    </div>
-
-                </div>
+                </template>
             </div>
 
         </div>
+
+        <!-- Right: Image Section -->
+        <div class="lg:w-1/2 flex justify-center relative" data-aos="fade-left">
+            <div class="relative w-full max-w-sm">
+                <div class="absolute -top-8 -left-8 bg-blue-200 w-24 h-24 rounded-full opacity-40"></div>
+                <div class="absolute -bottom-8 -right-8 bg-indigo-200 w-16 h-16 rounded-full opacity-40"></div>
+                <img src="public/images/col2.avif" alt="Dentigolab Collaboration"
+                    class="w-full rounded-lg shadow-xl transform hover:scale-105 transition duration-300">
+            </div>
+        </div>
+
     </div>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+
 </section>
-
-<!-- Alpine.js for dropdowns -->
-<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x/dist/cdn.min.js"></script>
-<script src="https://unpkg.com/lucide@latest"></script>
-<script>
-    lucide.createIcons();
-</script>
-
 
 
 <section class="py-20">
@@ -248,9 +170,6 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
-
-<!-- Font Awesome CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 
 <br>
 <br>

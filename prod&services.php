@@ -99,7 +99,7 @@ include 'inc/hd.php';
 
 
 <section>
-    <div class="bg-gradient-to-r from-blue-500 via-indigo-500 to-blue-400 text-white py-16 px-4 rounded-lg shadow-lg mt-12">
+    <div class="bg-gradient-to-r from-blue-50 to-blue-100 py-16 px-4 rounded-lg shadow-lg mt-12">
         <div class="max-w-6xl mx-auto text-center">
             <h2 class="text-3xl font-bold mb-4">Our Expertise – Where Art Meets Science</h2>
             <p class="text-lg mb-12">At Dentigo, precision and excellence are at the heart of every restoration we create. Here's a closer look at what we offer:</p>
@@ -256,7 +256,6 @@ include 'inc/hd.php';
     </div>
 </section>
 
-
 <section class="relative py-20">
     <div class="container mx-auto px-6 lg:px-12">
         <div class="flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 lg:space-x-16">
@@ -266,14 +265,14 @@ include 'inc/hd.php';
                 <h2 class="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6 transform transition-all duration-500 hover:text-blue-500">
                     High-Precision Digital Dental Designs
                 </h2>
-                <p class="text-lg lg:text-xl text-gray-800 mb-8 max-w-lg mx-auto lg:mx-0 opacity-80">
-                    Unlock the future of dental restoration with cutting-edge digital workflows that ensure precision, quality, and reliability.
+                <p class="text-lg lg:text-md text-black mb-8 max-w-lg mx-auto lg:mx-0 opacity-80">
+                    Elevate your dental restorations with state-of-the-art digital workflows. Experience unmatched precision, quality, and efficiency.
                 </p>
-                <ul class="list-none pl-0 space-y-6 text-lg lg:text-xl text-gray-700 opacity-80">
-                    <li>🔹 High-Precision Digital Dental Designs – Crowns, Bridges, Implants & More</li>
-                    <li>🔹 Outsource with Confidence – We Design, You Deliver!</li>
-                    <li>🔹 Get High-Quality Restorations at Competitive Prices</li>
-                    <li>🔹 Let’s Work Together – Start Outsourcing Today!</li>
+                <ul class="list-none pl-0 space-y-6 text-lg lg:text-md text-black opacity-80">
+                    <li>✔️ Cutting-edge digital designs for crowns, bridges, and implants</li>
+                    <li>✔️ Reliable outsourcing—We design, you deliver with confidence</li>
+                    <li>✔️ High-quality restorations at competitive prices</li>
+                    <li>✔️ Seamless collaboration—Start outsourcing today!</li>
                 </ul>
             </div>
 
@@ -289,7 +288,7 @@ include 'inc/hd.php';
                         </div>
                         <div>
                             <h5 class="text-2xl font-semibold text-gray-800"> Let’s Work Together!</h5>
-                            <p class="text-md text-gray-600 mt-2">Get in touch to discuss outsourcing your dental designs & products today.</p>
+                            <p class="text-md text-gray-600 mt-2">Reach out today to discuss seamless outsourcing for your dental designs and restorations.</p>
                             <a href="contact.php" class="text-teal-500 font-semibold flex items-center mt-4 hover:text-teal-700 transition-colors duration-300">
                                 Contact Us Today <span class="ml-2">&rarr;</span>
                             </a>
@@ -300,6 +299,7 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
+
 
 
 

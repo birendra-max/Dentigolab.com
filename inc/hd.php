@@ -8,12 +8,13 @@
     <meta name="keywords" content="digital dental design, dental manufacturing, CAD/CAM solutions, crowns, bridges, dentures, full-arch restorations, dental prosthetics, dental design services, dental milling services, dental labs, dental outsourcing, digital dentistry, dental restorations, dental implants, end-to-end digital workflow, dental technology, dental communication, dental support, dental accuracy, dental efficiency, dental growth, dental partnership, dental quality, dental trust">
     <meta name="author" content="Dentigo">
     <title>Dentigo</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="public/js/jQuery.js"></script>
     <link rel="shortcut icon" href="public/images/dentigologo.png" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="public/js/alpine.js"></script>
     <style>
         html {
             margin: 0;
@@ -23,7 +24,7 @@
     </style>
 </head>
 
-<body class="bg-white">
+<body class="bg-gradient-to-br from-blue-50 to-white">
 
     <header class="sticky top-0 z-50 flex shadow-lg px-4 sm:px-12 bg-black min-h-[90px] tracking-wider">
         <div class="flex items-center justify-between w-full">

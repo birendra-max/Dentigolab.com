@@ -13,8 +13,6 @@ include 'inc/hd.php';
             <source src="public/images/abouthero.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <!-- Light overlay for better readability without blocking video -->
-        <div class="absolute inset-0 bg-black bg-opacity-30"></div>
     </div>
 </section>
 

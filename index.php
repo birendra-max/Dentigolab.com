@@ -172,7 +172,7 @@ include 'inc/hd.php';
 
 
 <!-- Services Section  -->
-<section class="py-4 bg-gradient-to-r from-blue-50 to-blue-100">
+<section class="py-16 bg-gradient-to-r from-blue-50 to-blue-100">
     <div class="container mx-auto px-6 lg:px-16">
         <div class="text-center mb-12">
             <span class="text-sm font-semibold text-green-600">Dent Services</span>
@@ -237,6 +237,7 @@ include 'inc/hd.php';
         </div>
     </div>
 </section>
+
 
 
 
