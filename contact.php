@@ -282,11 +282,6 @@ include 'inc/hd.php';
 include 'faq.php';
 ?>
 
-
-<br>
-<br>
-<br>
-
 <?php
 include 'inc/ft.php';
 ?>

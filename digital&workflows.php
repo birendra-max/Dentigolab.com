@@ -171,9 +171,6 @@ include 'inc/hd.php';
     </div>
 </section>
 
-<br>
-<br>
-<br>
 
 <?php
 include 'inc/ft.php';

@@ -301,12 +301,6 @@ include 'inc/hd.php';
 </section>
 
 
-
-
-<br>
-<br>
-<br>
-
 <?php
 include 'inc/ft.php';
 ?>

@@ -381,11 +381,6 @@ include 'inc/hd.php';
     }
 </style>
 
-
-<br>
-<br>
-<br>
-
 <?php
 include 'inc/ft.php';
 ?>
