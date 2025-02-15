@@ -123,9 +123,9 @@ include 'inc/hd.php';
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         gsap.from("#hero", {
-            opacity: 0.5, // Start at 0 opacity
-            y: 50, // Start 30px below
-            duration: 1, // Animation duration
+            opacity: 0.5,
+            y: 50,
+            duration: 1,
             ease: "power2.out"
         });
     });
@@ -258,9 +258,9 @@ include 'inc/hd.php';
 
 
 <!-- Achievements Section -->
-<section class="py-24 px-6 md:px-12 bg-gray-50">
+<section class="py-24 px-6 md:px-12">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        
+
         <!-- Left Side: Heading & Description -->
         <div class="text-center md:text-left">
             <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Achievements</h2>
@@ -271,73 +271,73 @@ include 'inc/hd.php';
 
         <!-- Right Side: Achievements List -->
         <div class="grid grid-cols-2 gap-6 md:gap-8">
-            
+
             <!-- Orders Completed -->
-            <div class="achievement-item bg-white p-6 shadow-md rounded-lg text-center">
+            <div class="achievement-item bg-white p-2 shadow-md rounded-lg text-center">
                 <p class="text-lg text-gray-600">Orders Completed</p>
                 <p class="text-4xl font-bold text-indigo-600 counter" data-target="5000">0+</p>
             </div>
 
             <!-- Skilled Designers -->
-            <div class="achievement-item bg-white p-6 shadow-md rounded-lg text-center">
+            <div class="achievement-item bg-white p-2 shadow-md rounded-lg text-center">
                 <p class="text-lg text-gray-600">Skilled Designers</p>
                 <p class="text-4xl font-bold text-indigo-600 counter" data-target="50">0+</p>
             </div>
 
             <!-- Experienced Quality Controllers -->
-            <div class="achievement-item bg-white p-6 shadow-md rounded-lg text-center">
+            <div class="achievement-item bg-white p-2 shadow-md rounded-lg text-center">
                 <p class="text-lg text-gray-600">Experienced Quality Controllers</p>
                 <p class="text-4xl font-bold text-indigo-600 counter" data-target="20">0+</p>
             </div>
 
             <!-- Countries Covered -->
-            <div class="achievement-item bg-white p-6 shadow-md rounded-lg text-center">
+            <div class="achievement-item bg-white p-2 shadow-md rounded-lg text-center">
                 <p class="text-lg text-gray-600">Countries Covered</p>
                 <p class="text-4xl font-bold text-indigo-600 counter" data-target="10">0+</p>
             </div>
 
         </div>
     </div>
+    
+    <script>
+        function animateCounters() {
+            document.querySelectorAll(".counter").forEach(counter => {
+                let target = +counter.getAttribute("data-target");
+                let duration = 2; // Duration of count animation
+
+                function startCount() {
+                    let count = {
+                        value: 0
+                    };
+
+                    gsap.to(count, {
+                        value: target,
+                        duration: duration,
+                        ease: "power1.out",
+                        onUpdate: function() {
+                            counter.textContent = Math.floor(count.value) + "+";
+                        },
+                        onComplete: function() {
+                            setTimeout(() => {
+                                counter.textContent = "0+";
+                                startCount(); // Restart after 1 sec
+                            }, 1000);
+                        }
+                    });
+                }
+
+                startCount(); // Start the animation loop
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", animateCounters);
+    </script>
 </section>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script>
-    function animateCounters() {
-        document.querySelectorAll(".counter").forEach(counter => {
-            let target = +counter.getAttribute("data-target");
-            let duration = 2; // Duration of count animation
-
-            function startCount() {
-                let count = { value: 0 };
-
-                gsap.to(count, {
-                    value: target,
-                    duration: duration,
-                    ease: "power1.out",
-                    onUpdate: function () {
-                        counter.textContent = Math.floor(count.value) + "+";
-                    },
-                    onComplete: function () {
-                        setTimeout(() => {
-                            counter.textContent = "0+";
-                            startCount(); // Restart after 1 sec
-                        }, 1000);
-                    }
-                });
-            }
-
-            startCount(); // Start the animation loop
-        });
-    }
-
-    document.addEventListener("DOMContentLoaded", animateCounters);
-</script>
-
 
 
 
 <!-- Why Choose Us -->
-<section class=" py-16 px-12">
+<section class=" py-16 md:px-12 px-2">
     <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
         <!-- Image Section -->
         <div class="w-full lg:w-6/12 relative">
@@ -352,7 +352,7 @@ include 'inc/hd.php';
 
         <!-- Content Section -->
         <div class="w-full lg:w-7/12 bg-white p-10 rounded-xl shadow-xl transform transition duration-300 hover:scale-105">
-            <span class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold">Dentigo</span>
+            <span class="bg-blue-500 text-white px- py-2 rounded-full text-sm font-semibold">Dentigo</span>
             <h2 class="text-4xl font-bold mt-4 text-gray-800">Why Choose Us</h2>
             <p class="text-gray-600 mt-2">We provide top-quality dental solutions trusted by professionals worldwide.</p>
 
