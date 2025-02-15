@@ -7,7 +7,7 @@ include 'inc/hd.php';
 </script>
 
 
-<section class="font-roboto md:px-8 px-2 py-4" id="hero">
+<section class="font-roboto md:px-8 px-2 py-4 " id="hero">
     <div class="bg-white text-blue-900 font-sans py-8  shadow-xl rounded-xl">
         <div class="container mx-auto p-4">
             <div class="flex flex-col md:flex-row items-center justify-between">
@@ -172,89 +172,72 @@ include 'inc/hd.php';
 
 
 <!-- Services Section  -->
-<section class="">
-    <div class="container mx-auto px-6 lg:px-18">
+<section class="py-4 bg-gradient-to-r from-blue-50 to-blue-100">
+    <div class="container mx-auto px-6 lg:px-16">
         <div class="text-center mb-12">
             <span class="text-sm font-semibold text-green-600">Dent Services</span>
-            <h2 class="text-2xl lg:text-4xl font-bold text-gray-900">Our Dental Services</h2>
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900">Our Dental Services</h2>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-desktop text-blue-500"></i>
-                </div>
-                <h6 class="text-xl font-semibold text-gray-800">Complete Dental Solutions</h6>
-                <p class="text-gray-600 mt-2">Offering a full range of dental services, including designs, manufacturing, and equipment.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Service Items -->
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-desktop text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Complete Solutions</h6>
+                <p class="text-sm text-gray-600 mt-2">Comprehensive dental designs & manufacturing.</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-blue-500 text-5xl mb-4">
-                    <i class="fas fa-capsules text-blue-500"></i>
-                </div>
-                <h6 class="text-xl font-semibold text-gray-800">Digital Workflow Integration</h6>
-                <p class="text-gray-600 mt-2">Using advanced CAD/CAM systems and 3D printing to streamline workflows.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
-            </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-blue-500 text-5xl mb-4">
-                    <i class="fas fa-suitcase-medical text-blue-500"></i>
-                </div>
-                <h6 class="text-xl font-semibold text-gray-800">Outsourcing Support</h6>
-                <p class="text-gray-600 mt-2">Simplifying outsourcing processes for international dental labs.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
-            </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-blue-500 text-5xl mb-4">
-                    <i class="fas fa-stethoscope text-blue-500"></i>
-                </div>
-                <h6 class="text-xl font-semibold text-gray-800">Affordable Pricing</h6>
-                <p class="text-gray-600 mt-2">Providing competitive pricing while maintaining top-quality standards.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
-            </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-blue-500 text-5xl mb-4">
-                    <i class="fas fa-microscope text-blue-500"></i>
-                </div>
-                <h6 class="text-xl font-semibold text-gray-800">Experienced Team</h6>
-                <p class="text-gray-600 mt-2">A team of skilled professionals with expertise in digital workflows.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
-            </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-blue-500 text-5xl mb-4">
-                    <i class="fas fa-flask text-blue-500"></i> <!-- Flasks icon -->
-                </div>
 
-                <h6 class="text-xl font-semibold text-gray-800">Custom Workflow Integration</h6>
-                <p class="text-gray-600 mt-2">Adapting workflows to meet client needs.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-capsules text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Digital Workflow</h6>
+                <p class="text-sm text-gray-600 mt-2">Advanced CAD/CAM & 3D printing systems.</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-blue-500 text-5xl mb-4">
-                    <i class="fas fa-cogs text-blue-500"></i>
-                </div>
-                <h6 class="text-xl font-semibold text-gray-800">Flexible Material Options</h6>
-                <p class="text-gray-600 mt-2">Offering diverse material choices to meet specific patient and clinical requirements.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
+
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-suitcase-medical text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Outsourcing Support</h6>
+                <p class="text-sm text-gray-600 mt-2">Simplifying lab outsourcing worldwide.</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-blue-500 text-5xl mb-4">
-                    <i class="fas fa-graduation-cap text-blue-500"></i>
-                </div>
-                <h6 class="text-xl font-semibold text-gray-800">Training & Skill Development</h6>
-                <p class="text-gray-600 mt-2">Ongoing training programs for our team to stay updated with the latest dental technologies.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
+
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-stethoscope text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Affordable Pricing</h6>
+                <p class="text-sm text-gray-600 mt-2">Competitive prices without compromising quality.</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start transform transition duration-300 hover:scale-105">
-                <div class="text-green-600 text-5xl mb-4">
-                    <i class="fas fa-handshake text-blue-500"></i>
-                </div>
-                <h6 class="text-xl font-semibold text-gray-800">Commitment to Partnerships</h6>
-                <p class="text-gray-600 mt-2">Building trust and long-term relationships with clients through consistent service and reliable solutions.</p>
-                <a href="#" class="text-blue-500 mt-3 font-medium hover:underline">More details <i class="fas fa-angle-right text-blue-500"></i></a>
+
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-microscope text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Experienced Team</h6>
+                <p class="text-sm text-gray-600 mt-2">Experts in digital dental workflows.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-flask text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Custom Integration</h6>
+                <p class="text-sm text-gray-600 mt-2">Tailored workflows to meet client needs.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-cogs text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Material Options</h6>
+                <p class="text-sm text-gray-600 mt-2">Wide range of materials for any requirement.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-graduation-cap text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Training & Development</h6>
+                <p class="text-sm text-gray-600 mt-2">Continuous learning for our experts.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-2xl">
+                <i class="fas fa-handshake text-4xl text-blue-600 mb-4"></i>
+                <h6 class="text-lg font-semibold text-gray-800">Commitment to Partnerships</h6>
+                <p class="text-sm text-gray-600 mt-2">Building trust and long-term relationships.</p>
             </div>
         </div>
     </div>
 </section>
+
 
 
 <!-- Achievements Section -->
