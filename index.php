@@ -6,73 +6,147 @@ include 'inc/hd.php';
     document.title = 'Home | Dentigolab Designs'
 </script>
 
-<style>
-    #hero {
-        background-image: url('public/images/Product Design Final home Dentigo.jpg');
-        background-size: cover;
-        background-position: center;
-    }
-</style>
 
-<section class="bg-gray-900 text-white">
-    <div class="relative"> <!-- Use min-h-screen to ensure the section is always at least the height of the screen -->
-        <!-- Background Image -->
-        <img alt="A luxurious poolside view with lounge chairs and umbrellas" class="absolute inset-0  w-full h-full" src="public/images/Product Design Final home Dentigo.jpg" />
-
-        <!-- Overlay -->
-        <div class="absolute inset-0 bg-black opacity-50"></div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!-- Content Section -->
-        <div class="relative z-10 flex flex-col items-center md:items-start justify-center min-h-screen text-center px-4 ">
-            <div class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4 md:p-6 flex flex-col md:flex-row items-center md:space-y-0 md:space-x-6">
-                <div>
-                    <a href="prod&services.php" class="flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
-                        <i class="fas fa-search mr-2"></i> Explore Services
-                    </a>
-
-                    <!-- Why Choose Us Button -->
-                    <a href="whychooseus.php" class="flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 my-2">
-                        <i class="fas fa-thumbs-up mr-2"></i> Why Choose Us
-                    </a>
+<section class="font-roboto md:px-8 px-2 py-4" id="hero">
+    <div class="bg-white text-blue-900 font-sans py-8  shadow-xl rounded-xl">
+        <div class="container mx-auto p-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/3 mb-8 md:mb-0">
+                    <div class="bg-blue-900 text-white p-4 rounded-md mb-4">
+                        <h2 class="text-xl font-bold">OUR SERVICES</h2>
+                    </div>
+                    <ul class="list-none space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> Fixed Restorations
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> Implant-Supported Restorations
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> Removable Restorations
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> Custom Full-Arch Restorations
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> Orthodontic Appliances
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> 3D-Printed Models
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> Dental Equipment
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> Material Customization
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> All Dental Products Manufacturer
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2"></i> 24/7 Support Available
+                        </li>
+                    </ul>
                 </div>
-                <br>
-
-                <div>
-                    <!-- FAQ Button -->
-                    <a href="whychooseus.php/#faq" class="flex items-center px-6 py-3 bg-yellow-600 hover:bg-yellow-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
-                        <i class="fas fa-question-circle mr-2"></i> FAQ
-                    </a>
-
-                    <!-- Sign Up Button -->
-                    <a href="" class="flex items-center px-6 py-3 bg-red-600 hover:bg-red-700 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 my-2" onclick="alert('Sign Up clicked')">
-                        <i class="fas fa-user-plus mr-2"></i> Sign Up
-                    </a>
+                <div class="md:w-1/3 flex flex-col items-center">
+                    <div class="text-center mb-4">
+                        <h1 class="text-4xl font-bold">FREE FIRST <span class="text-5xl">5</span> UNITS</h1>
+                    </div>
+                    <div class="text-center mb-4">
+                        <h2 class="text-xl font-bold">DELIVERY OPTIONS</h2>
+                        <div class="flex flex-col items-center space-y-4">
+                            <div class="flex items-center justify-center space-x-4">
+                                <div class="text-center">
+                                    <i class="fas fa-truck fa-2x"></i>
+                                    <p>2 HOURS</p>
+                                </div>
+                                <div class="text-center">
+                                    <i class="fas fa-truck fa-2x"></i>
+                                    <p>6 HOURS</p>
+                                </div>
+                                <div class="text-center">
+                                    <i class="fas fa-truck fa-2x"></i>
+                                    <p>12 HOURS</p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <i class="fas fa-calendar-alt fa-2x"></i>
+                                <p>7 DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <img alt="Profile of a woman in blue scrubs looking to the right" class="rounded-full" height="300" src="https://storage.googleapis.com/a1aa/image/EOZosWocoFLEm1NbCdQU6E7GzS9og1sB79Hbags44XY.jpg" width="300" />
+                </div>
+            </div>
+            <div class="mt-8">
+                <div class="flex flex-wrap justify-center space-x-4">
+                    <div class="text-center mb-4">
+                        <img alt="ALL-ON-4 dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/hRbJTOR8G__yVdAUBeVOhSgUQnFDlmZo1_xT-AatRh8.jpg" width="100" />
+                        <p>ALL-ON-4</p>
+                    </div>
+                    <div class="text-center mb-4">
+                        <img alt="PFM dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/xaAGD51prYf_RudxWXswCtCo22F74ptaZ3LGKPkJhLs.jpg" width="100" />
+                        <p>PFM</p>
+                    </div>
+                    <div class="text-center mb-4">
+                        <img alt="NG dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/rOjWctpgouA9jZ0R614HlHhHJepVmDODPHs4USxfrSo.jpg" width="100" />
+                        <p>NG</p>
+                    </div>
+                    <div class="text-center mb-4">
+                        <img alt="CT dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/YtK6L3k6kxXchutwHCbewq1p0aHmraQG8q8qBYQWmwQ.jpg" width="100" />
+                        <p>CT</p>
+                    </div>
+                    <div class="text-center mb-4">
+                        <img alt="MODEL dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/vaGMqOfkvSs2UaBp7_nhi9nmRY1FXI1LImUQJhnqxKo.jpg" width="100" />
+                        <p>MODEL</p>
+                    </div>
+                    <div class="text-center mb-4">
+                        <img alt="DWAX dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/1J31VFlZIpe1Bu692n7EsnWjcqU2UEDGzvGM4uoyrAo.jpg" width="100" />
+                        <p>DWAX</p>
+                    </div>
+                    <div class="text-center mb-4">
+                        <img alt="CI dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/KU_oHG81T6NWrEKSfB_Aa0ekDGZV_xethiMbNN4ChMM.jpg" width="100" />
+                        <p>CI</p>
+                    </div>
+                    <div class="text-center mb-4">
+                        <img alt="DENTURE dental model" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/M6-0ueFnPbMnGqznQaYFsZVUjBUjg760YQ3zCa3WwgQ.jpg" width="100" />
+                        <p>DENTURE</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- About us section  -->
-<section class="flex min-h-screen items-center justify-center text-gray-900 md:px-0 px-4 py-8">
-    <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-gray-300 bg-white shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-500 ease-in-out">
-        <!-- Image Section -->
-        <div class="w-full md:w-1/3 relative h-[65vh]">
-            <img src="public/images/dentigo.jpg" alt="Doctor" class="h-full w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out">
-        </div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        gsap.from("#hero", {
+            opacity: 0.5, // Start at 0 opacity
+            y: 50, // Start 30px below
+            duration: 1, // Animation duration
+            ease: "power2.out"
+        });
+    });
+</script>
 
+<!-- About us section  -->
+<section class="flex h-auto items-center justify-center text-gray-900 md:px-0 px-4 py-24">
+    <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-yellow-300 bg-white overflow-hidden transition-transform transform hover:scale-105 duration-500 ease-in-out max-h-[600px]">
+        <!-- Image Section -->
+        <div class="w-full md:w-1/4 relative">
+            <img alt="Doctor in a dental clinic" class="h-full w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out" height="400" src="public/images/dentigo.jpg" width="600" />
+        </div>
         <!-- Content Section -->
-        <div class="w-full md:w-2/3 flex flex-col justify-between p-6 md:p-8">
+        <div class="w-full md:w-2/3 flex flex-col justify-between p-6 md:p-8 overflow-auto">
             <div class="space-y-4">
-                <p class="text-sm uppercase text-indigo-600 tracking-widest">Dentistry Solutions</p>
-                <h1 class="text-2xl md:text-3xl font-bold leading-tight">Welcome to Dentigo</h1>
+                <p class="text-sm uppercase text-indigo-600 tracking-widest">
+                    Dentistry Solutions
+                </p>
+                <h1 class="text-2xl md:text-3xl font-bold leading-tight">
+                    Welcome to Dentigo
+                </h1>
                 <p class="text-gray-700">
                     Dentigo provides top-quality dental Designs, Manufacturing, and Equipment solutions worldwide. Based in India, we proudly serve dental labs with reliable and efficient services.
                 </p>
@@ -86,10 +160,9 @@ include 'inc/hd.php';
                     At Dentigo, we work closely with our clients to make sure every product meets their expectations. We focus on building strong, long-term relationships with consistent service and dependable results.
                 </p>
             </div>
-
             <!-- CTA Button -->
-            <div class="mt-6">
-                <a href="about.php" class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300">
+            <div class="mt-4">
+                <a class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300" href="about.php">
                     Discover More
                 </a>
             </div>
@@ -99,7 +172,7 @@ include 'inc/hd.php';
 
 
 <!-- Services Section  -->
-<section class="py-8">
+<section class="">
     <div class="container mx-auto px-6 lg:px-18">
         <div class="text-center mb-12">
             <span class="text-sm font-semibold text-green-600">Dent Services</span>
@@ -185,124 +258,80 @@ include 'inc/hd.php';
 
 
 <!-- Achievements Section -->
-<section class="py-12">
-    <div class="container mx-auto px-6 lg:px-20 mt-8 text-center">
-        <h2 class="text-4xl font-bold mb-12 text-black">Our Achievements</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
-            <!-- Projects Completed -->
-            <div class="flex flex-col items-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out">
-                <div class="w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center mb-6 shadow-md">
-                    <i class="fas fa-box text-3xl"></i>
-                </div>
-                <dt class="text-xl font-semibold text-black">Orders Completed</dt>
-                <div class="relative w-full mt-4">
-                    <div class="h-2 rounded-full bg-gray-200 overflow-hidden">
-                        <div class="h-full bg-blue-500 progress-bar" style="width: 0%"></div>
-                    </div>
-                    <dd class="mt-4 text-4xl font-bold text-black" data-count="5000">0</dd>
-                </div>
+<section class="py-24 px-6 md:px-12 bg-gray-50">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        
+        <!-- Left Side: Heading & Description -->
+        <div class="text-center md:text-left">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Achievements</h2>
+            <p class="text-lg text-gray-600 leading-relaxed">
+                We take pride in delivering high-quality dental solutions worldwide. Our commitment to excellence has helped us grow and serve clients across the globe.
+            </p>
+        </div>
+
+        <!-- Right Side: Achievements List -->
+        <div class="grid grid-cols-2 gap-6 md:gap-8">
+            
+            <!-- Orders Completed -->
+            <div class="achievement-item bg-white p-6 shadow-md rounded-lg text-center">
+                <p class="text-lg text-gray-600">Orders Completed</p>
+                <p class="text-4xl font-bold text-indigo-600 counter" data-target="5000">0+</p>
             </div>
 
-            <!-- Expert Designers -->
-            <div class="flex flex-col items-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out">
-                <div class="w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center mb-6 shadow-md">
-                    <i class="fas fa-user-cog text-3xl "></i>
-                </div>
-                <dt class="text-xl font-semibold text-black">Skilled Designers</dt>
-                <div class="relative w-full mt-4">
-                    <div class="h-2 rounded-full bg-gray-200 overflow-hidden">
-                        <div class="h-full bg-green-500 progress-bar" style="width: 0%"></div>
-                    </div>
-                    <dd class="mt-4 text-4xl font-bold text-black" data-count="50">0</dd>
-                </div>
+            <!-- Skilled Designers -->
+            <div class="achievement-item bg-white p-6 shadow-md rounded-lg text-center">
+                <p class="text-lg text-gray-600">Skilled Designers</p>
+                <p class="text-4xl font-bold text-indigo-600 counter" data-target="50">0+</p>
             </div>
 
-            <!-- Experienced Quality Controllers-->
-            <div class="flex flex-col items-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out">
-                <div class="w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center mb-6 shadow-md">
-                    <i class="fas fa-clipboard-check text-3xl"></i>
-                </div>
-                <dt class="text-xl font-semibold text-black">Experienced Quality Controllers</dt>
-                <div class="relative w-full mt-4">
-                    <div class="h-2 rounded-full bg-gray-200 overflow-hidden">
-                        <div class="h-full bg-yellow-500 progress-bar" style="width: 0%"></div>
-                    </div>
-                    <dd class="mt-4 text-4xl font-bold text-black" data-count="20">0</dd>
-                </div>
+            <!-- Experienced Quality Controllers -->
+            <div class="achievement-item bg-white p-6 shadow-md rounded-lg text-center">
+                <p class="text-lg text-gray-600">Experienced Quality Controllers</p>
+                <p class="text-4xl font-bold text-indigo-600 counter" data-target="20">0+</p>
             </div>
 
             <!-- Countries Covered -->
-            <div class="flex flex-col items-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out">
-                <div class="w-16 h-16 rounded-full bg-blue-500 text-white flex items-center justify-center mb-6 shadow-md">
-                    <i class="fas fa-globe text-3xl"></i>
-                </div>
-                <dt class="text-xl font-semibold text-black">Countries Covered</dt>
-                <div class="relative w-full mt-4">
-                    <div class="h-2 rounded-full bg-gray-200 overflow-hidden">
-                        <div class="h-full bg-red-500 progress-bar" style="width: 0%"></div>
-                    </div>
-                    <dd class="mt-4 text-4xl font-bold text-black" data-count="10">0</dd>
-                </div>
+            <div class="achievement-item bg-white p-6 shadow-md rounded-lg text-center">
+                <p class="text-lg text-gray-600">Countries Covered</p>
+                <p class="text-4xl font-bold text-indigo-600 counter" data-target="10">0+</p>
             </div>
+
         </div>
     </div>
+</section>
 
-    <!-- Script for Count Up and Progress Bar Animation -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const counters = document.querySelectorAll('[data-count]');
-            const progressBars = document.querySelectorAll('.progress-bar');
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>
+    function animateCounters() {
+        document.querySelectorAll(".counter").forEach(counter => {
+            let target = +counter.getAttribute("data-target");
+            let duration = 2; // Duration of count animation
 
-            // Counter Up Animation
-            function countUp(element) {
-                const target = parseInt(element.getAttribute('data-count'));
-                let current = 0;
-                const increment = target / 100;
-                const interval = setInterval(function() {
-                    current += increment;
-                    if (current >= target) {
-                        element.textContent = target.toLocaleString() + "+";
-                        clearInterval(interval);
-                    } else {
-                        element.textContent = Math.floor(current).toLocaleString() + "+";
-                    }
-                }, 30);
-            }
+            function startCount() {
+                let count = { value: 0 };
 
-            // Progress Bar Animation
-            progressBars.forEach(bar => {
-                const target = parseInt(bar.closest('.p-10').querySelector('dd').getAttribute('data-count'));
-                let currentWidth = 0;
-                const increment = target / 2000;
-
-                const updateBar = () => {
-                    if (currentWidth < target) {
-                        currentWidth += increment;
-                        bar.style.width = `${Math.min(currentWidth, target)}%`;
-                        requestAnimationFrame(updateBar);
-                    } else {
-                        bar.style.width = `${target}%`;
-                    }
-                };
-                updateBar();
-            });
-
-            // Intersection Observer to trigger animations on scroll
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        countUp(entry.target);
-                        observer.unobserve(entry.target);
+                gsap.to(count, {
+                    value: target,
+                    duration: duration,
+                    ease: "power1.out",
+                    onUpdate: function () {
+                        counter.textContent = Math.floor(count.value) + "+";
+                    },
+                    onComplete: function () {
+                        setTimeout(() => {
+                            counter.textContent = "0+";
+                            startCount(); // Restart after 1 sec
+                        }, 1000);
                     }
                 });
-            }, {
-                threshold: 0.2
-            });
+            }
 
-            counters.forEach(counter => observer.observe(counter));
+            startCount(); // Start the animation loop
         });
-    </script>
-</section>
+    }
+
+    document.addEventListener("DOMContentLoaded", animateCounters);
+</script>
 
 
 

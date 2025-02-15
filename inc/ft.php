@@ -1,4 +1,5 @@
 </main>
+
 <div class="relative overflow-hidden w-full bg-black">
     <div class="px-6 py-4 sm:px-6 sm:py-4">
         <div class="max-w-2xl mx-auto text-center">
@@ -59,8 +60,6 @@
         </div>
     </div>
 </footer>
-
-
 
 </body>
 

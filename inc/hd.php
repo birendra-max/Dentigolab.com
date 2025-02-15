@@ -13,6 +13,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="public/js/jQuery.js"></script>
     <link rel="shortcut icon" href="public/images/dentigologo.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <style>
         html {
             margin: 0;
@@ -23,7 +24,6 @@
 </head>
 
 <body class="bg-white">
-
 
     <header class='sticky top-0 z-50 flex shadow-lg px-4 sm:px-12 bg-black  min-h-[90px] tracking-wider'>
         <div class='flex flex-wrap items-center justify-between gap-3 w-full'>
@@ -208,4 +208,4 @@
         })
     </script>
 
-    <main>
+    <main id="main">
