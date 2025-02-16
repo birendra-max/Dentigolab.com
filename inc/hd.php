@@ -89,31 +89,7 @@
 
 
     <style>
-        #home:hover {
-            filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
-        }
-
-        #about:hover {
-            filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
-        }
-
-        #prodser:hover {
-            filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
-        }
-
-        #digitalworkflow:hover {
-            filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
-        }
-
-        #portgallery:hover {
-            filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
-        }
-
-        #wcu:hover {
-            filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
-        }
-
-        #contact:hover {
+        #home:hover , #about:hover ,#prodser:hover , #digitalworkflow:hover ,#portgallery:hover ,#wcu:hover ,  #contact:hover {
             filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
         }
     </style>
