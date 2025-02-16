@@ -76,26 +76,32 @@
                         <path d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z" data-original="#000000"></path>
                     </svg>
                 </button>
-                <a href="index.php" target="_self" class="text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold" id="home">Home</a>
-                <a href="about.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="about">About Us</a>
-                <a href="prod&services.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="prodser">Products & Services</a>
-                <a href="digital&workflows.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="digitalworkflow">Digital Workflows</a>
-                <a href="portfolio&gallery.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="portgallery">Portfolio & Gallery</a>
-                <a href="whychooseus.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="wcu">Why Choose Us</a>
-                <a href="contact.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="contact">Contact</a>
+                <a href="index.php" target="_self" class="text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold" id="home1">Home</a>
+                <a href="about.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="about1">About Us</a>
+                <a href="prod&services.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="prodser1">Products & Services</a>
+                <a href="digital&workflows.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="digitalworkflow1">Digital Workflows</a>
+                <a href="portfolio&gallery.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="portgallery1">Portfolio & Gallery</a>
+                <a href="whychooseus.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="wcu1">Why Choose Us</a>
+                <a href="contact.php" target="_self" class="text-white text-lg hover:text-teal-500 transition-all duration-300 font-semibold" id="contact1">Contact</a>
             </div>
         </div>
     </header>
 
 
     <style>
-        #home:hover , #about:hover ,#prodser:hover , #digitalworkflow:hover ,#portgallery:hover ,#wcu:hover ,  #contact:hover {
+        #home:hover,
+        #about:hover,
+        #prodser:hover,
+        #digitalworkflow:hover,
+        #portgallery:hover,
+        #wcu:hover,
+        #contact:hover {
             filter: drop-shadow(10px 10px 11px #dfe0e2) drop-shadow(-10px -10px 11px #dfe0e2);
         }
     </style>
 
 
-    <script>
+    <!-- <script>
         $(document).ready(function() {
             var toggleOpen = document.getElementById('toggleOpen');
             var toggleClose = document.getElementById('toggleClose');
@@ -117,65 +123,160 @@
             if (pageTitle == 'Home | Dentigolab Designs') {
                 $('#home').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#home').addClass('text-blue-500 text-md font-blod hover:shadow-xl transition-all ease-in-out duration-300');
+
+                $('#home1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#home1').addClass('text-blue-500 text-md font-blod hover:shadow-xl transition-all ease-in-out duration-300');
             } else {
                 $("#home").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#home').removeClass('text-blue-500 text-md font-blod transition-all ease-in-out duration-300');
+
+                ("#home1").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#home1').removeClass('text-blue-500 text-md font-blod transition-all ease-in-out duration-300');
             }
 
 
             if (pageTitle == 'About | Dentigolab Designs') {
                 $('#about').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#about').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+                $('#about1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#about1').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             } else {
                 $("#about").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#about').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $("#about1").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#about1').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             }
 
 
             if (pageTitle == 'Product & Services | Dentigolab Designs') {
                 $('#prodser').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#prodser').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $('#prodser1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#prodser1').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             } else {
                 $("#prodser").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#prodser').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $("#prodser1").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#prodser1').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             }
 
 
             if (pageTitle == 'Digital Workflows | Dentigolab Designs') {
                 $('#digitalworkflow').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#digitalworkflow').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+                $('#digitalworkflow1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#digitalworkflow1').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             } else {
                 $("#digitalworkflow").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#digitalworkflow').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $("#digitalworkflow1").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#digitalworkflow1').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             }
 
 
             if (pageTitle == 'Portfolio & Gallery | Dentigolab Designs') {
                 $('#portgallery').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#portgallery').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $('#portgallery1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#portgallery1').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             } else {
                 $("#portgallery").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#portgallery').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $("#portgallery1").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#portgallery1').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             }
 
 
             if (pageTitle == 'Contact | Dentigolab Designs') {
                 $('#contact').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#contact').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $('#contact1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#contact1').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             } else {
                 $("#contact").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#contact').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $("#contact1").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#contact1').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             }
 
             if (pageTitle == 'Why Choose Us | Dentigolab Designs') {
                 $('#wcu').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#wcu').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+                $('#wcu1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#wcu1').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             } else {
                 $("#wcu").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#wcu').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
+
+                $("#wcu1").addClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
+                $('#wcu1').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             }
 
         })
+    </script> -->
+
+    <script>
+        $(document).ready(function() {
+            var toggleOpen = $('#toggleOpen');
+            var toggleClose = $('#toggleClose');
+            var collapseMenu = $('#collapseMenu');
+
+            // Toggle Menu Function
+            function handleClick() {
+                collapseMenu.toggleClass('hidden');
+            }
+
+            toggleOpen.on('click', handleClick);
+            toggleClose.on('click', handleClick);
+
+            let pageTitle = document.title;
+
+            function updateNav(activeId, activeIdMobile) {
+                $('#' + activeId).removeClass('text-white hover:text-teal-500 font-semibold')
+                    .addClass('text-blue-500 font-bold hover:shadow-xl');
+
+                $('#' + activeIdMobile).removeClass('text-white hover:text-teal-500 font-semibold')
+                    .addClass('text-blue-500 font-bold hover:shadow-xl');
+            }
+
+            function resetNav(navId, navIdMobile) {
+                $('#' + navId).addClass('text-white hover:text-teal-500 font-semibold')
+                    .removeClass('text-blue-500 font-bold hover:shadow-xl');
+
+                $('#' + navIdMobile).addClass('text-white hover:text-teal-500 font-semibold')
+                    .removeClass('text-blue-500 font-bold hover:shadow-xl');
+            }
+
+            // Define pages and respective navigation IDs
+            let navLinks = {
+                "Home | Dentigolab Designs": ["home", "home1"],
+                "About | Dentigolab Designs": ["about", "about1"],
+                "Product & Services | Dentigolab Designs": ["prodser", "prodser1"],
+                "Digital Workflows | Dentigolab Designs": ["digitalworkflow", "digitalworkflow1"],
+                "Portfolio & Gallery | Dentigolab Designs": ["portgallery", "portgallery1"],
+                "Contact | Dentigolab Designs": ["contact", "contact1"],
+                "Why Choose Us | Dentigolab Designs": ["wcu", "wcu1"]
+            };
+
+            // Reset all nav items first
+            $.each(navLinks, function(key, value) {
+                resetNav(value[0], value[1]);
+            });
+
+            // Highlight the active page
+            if (navLinks[pageTitle]) {
+                updateNav(navLinks[pageTitle][0], navLinks[pageTitle][1]);
+            }
+        });
     </script>
+
 
     <main id="menu">

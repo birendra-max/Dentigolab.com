@@ -16,14 +16,14 @@ include 'inc/hd.php';
         <div class="absolute inset-0 bg-black opacity-50"></div>
     </div>
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8 relative z-10">
-        <div class="bg-black/40 p-8 rounded-lg">
+        <div class="bg-black/40 md:p-8 p-4 rounded-lg">
             <div class="max-w-3xl text-center mx-auto">
-                <h1 class="block font-medium text-gray-200 text-2xl sm:text-5xl md:text-6xl lg:text-3xl">
+                <h1 class="block font-medium text-gray-200 text-2xl sm:text-5xl md:text-6xl lg:text-3xl my-4">
                     Welcome to Dentigo – Precision & Excellence in Every Restoration
                 </h1>
             </div>
 
-            <div class="max-w-3xl text-center mx-auto">
+            <div class="max-w-3xl text-center mx-auto my-2">
                 <p class="text-md text-white/70">At Dentigo, we understand that every restoration is more than just a product—it’s a patient’s smile, confidence, and comfort. As skilled dental technicians, we are committed to delivering high-precision dental restorations that combine craftsmanship, advanced technology, and expert knowledge. Whether you need crowns, bridges, implants, or digital solutions, we ensure every case meets the highest standards of accuracy, strength, and aesthetics.</p>
             </div>
         </div>

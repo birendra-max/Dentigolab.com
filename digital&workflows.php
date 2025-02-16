@@ -101,11 +101,6 @@ include 'inc/hd.php';
         </div>
 
     </div>
-    
-    <script>
-        lucide.createIcons();
-    </script>
-
 </section>
 
 
