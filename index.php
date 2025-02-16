@@ -145,13 +145,15 @@ include 'inc/hd.php';
 
 <!-- About us section  -->
 <section class="flex h-auto items-center justify-center text-gray-900 md:px-0 px-4 py-24">
-    <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-yellow-300 bg-white overflow-hidden transition-transform transform hover:scale-105 duration-500 ease-in-out max-h-[600px]">
-        <!-- Image Section -->
-        <div class="w-full md:w-1/4 relative">
-            <img alt="Doctor in a dental clinic" class="h-full w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out" height="400" src="public/images/dentigo.jpg" width="600" />
+    <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-yellow-300 bg-white overflow-hidden transition-transform transform hover:scale-105 duration-500 ease-in-out md:max-h-[500px]">
+        <!-- Image Section with Smaller Height -->
+        <div class="w-full md:w-1/3 relative">
+            <img alt="Doctor in a dental clinic" 
+                class="h-[100%] md:h-[100%] w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out" 
+                src="public/images/dentigo.jpg" />
         </div>
         <!-- Content Section -->
-        <div class="w-full md:w-2/3 flex flex-col justify-between p-6 md:p-8 overflow-auto">
+        <div class="w-full md:w-2/3 flex flex-col p-6 md:p-8 overflow-auto">
             <div class="space-y-4">
                 <p class="text-sm uppercase text-indigo-600 tracking-widest">
                     Dentistry Solutions
@@ -171,16 +173,16 @@ include 'inc/hd.php';
                 <p class="text-gray-700">
                     At Dentigo, we work closely with our clients to make sure every product meets their expectations. We focus on building strong, long-term relationships with consistent service and dependable results.
                 </p>
-            </div>
-            <!-- CTA Button -->
-            <div class="mt-4">
-                <a class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300" href="about.php">
+                <!-- Button (No Full Width) -->
+                <a class="inline-block mt-2 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300" href="about.php">
                     Discover More
                 </a>
             </div>
         </div>
     </div>
 </section>
+
+
 
 
 <!-- Services Section  -->
