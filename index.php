@@ -79,7 +79,7 @@ include 'inc/hd.php';
                     </div>
                     <div class="md:w-1/3 flex flex-col items-center">
                         <div class="flex justify-center">
-                            <img alt="Profile of a woman in blue scrubs looking to the right" class="rounded-full" height="300" src="https://storage.googleapis.com/a1aa/image/EOZosWocoFLEm1NbCdQU6E7GzS9og1sB79Hbags44XY.jpg" width="300" />
+                            <img alt="Profile of a woman in blue scrubs looking to the right" class="rounded-full" height="300" src="public/images/nursehome.jpg" width="300" />
                         </div>
                         <a href="mailto:info@dentigolab.com" class="flex items-center border-2 border-blue-700 rounded-full px-4 py-2 mt-4">
                             <i class="fas fa-envelope text-blue-700 text-2xl"></i>
