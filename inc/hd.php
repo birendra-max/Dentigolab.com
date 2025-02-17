@@ -51,7 +51,7 @@
                     <span class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg transform translate-y-0.5 transition duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:translate-y-1 group-hover:duration-[250ms] group-active:translate-y-px"></span>
                     <span class="absolute top-0 left-0 w-full h-full rounded-lg bg-gradient-to-l from-[hsl(217,33%,16%)] via-[hsl(217,33%,32%)] to-[hsl(217,33%,16%)]"></span>
                     <div class="relative flex items-center justify-between py-3 px-2 text-sm text-white rounded-lg transform -translate-y-1 bg-gradient-to-r from-[#f27121] via-[#e94057] to-[#8a2387] gap-3 transition duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:-translate-y-1.5 group-hover:duration-[250ms] group-active:-translate-y-0.5 brightness-100 group-hover:brightness-110">
-                        <span class="select-none">Login</span>
+                        <a href="http://localhost/Dentigo.com/Admin/login.php" class="select-none">Login</a>
                         <svg viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 -mr-1 transition duration-250 group-hover:translate-x-1">
                             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
@@ -120,7 +120,7 @@
 
             let pageTitle = document.title;
 
-            if (pageTitle == 'Home | Dentigolab Designs') {
+            if (pageTitle == 'Home | Dentigo Designs') {
                 $('#home').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#home').addClass('text-blue-500 text-md font-blod hover:shadow-xl transition-all ease-in-out duration-300');
 
@@ -135,7 +135,7 @@
             }
 
 
-            if (pageTitle == 'About | Dentigolab Designs') {
+            if (pageTitle == 'About | Dentigo Designs') {
                 $('#about').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#about').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
                 $('#about1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
@@ -149,7 +149,7 @@
             }
 
 
-            if (pageTitle == 'Product & Services | Dentigolab Designs') {
+            if (pageTitle == 'Product & Services | Dentigo Designs') {
                 $('#prodser').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#prodser').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
 
@@ -164,7 +164,7 @@
             }
 
 
-            if (pageTitle == 'Digital Workflows | Dentigolab Designs') {
+            if (pageTitle == 'Digital Workflows | Dentigo Designs') {
                 $('#digitalworkflow').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#digitalworkflow').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
                 $('#digitalworkflow1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
@@ -178,7 +178,7 @@
             }
 
 
-            if (pageTitle == 'Portfolio & Gallery | Dentigolab Designs') {
+            if (pageTitle == 'Portfolio & Gallery | Dentigo Designs') {
                 $('#portgallery').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#portgallery').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
 
@@ -193,7 +193,7 @@
             }
 
 
-            if (pageTitle == 'Contact | Dentigolab Designs') {
+            if (pageTitle == 'Contact | Dentigo Designs') {
                 $('#contact').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#contact').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
 
@@ -207,7 +207,7 @@
                 $('#contact1').removeClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
             }
 
-            if (pageTitle == 'Why Choose Us | Dentigolab Designs') {
+            if (pageTitle == 'Why Choose Us | Dentigo Designs') {
                 $('#wcu').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
                 $('#wcu').addClass('text-blue-500 text-md font-bold transition-all ease-in-out duration-300');
                 $('#wcu1').removeClass('text-white text-md hover:text-teal-500 transition-all duration-300 font-semibold');
@@ -257,13 +257,13 @@
 
             // Define pages and respective navigation IDs
             let navLinks = {
-                "Home | Dentigolab Designs": ["home", "home1"],
-                "About | Dentigolab Designs": ["about", "about1"],
-                "Product & Services | Dentigolab Designs": ["prodser", "prodser1"],
-                "Digital Workflows | Dentigolab Designs": ["digitalworkflow", "digitalworkflow1"],
-                "Portfolio & Gallery | Dentigolab Designs": ["portgallery", "portgallery1"],
-                "Contact | Dentigolab Designs": ["contact", "contact1"],
-                "Why Choose Us | Dentigolab Designs": ["wcu", "wcu1"]
+                "Home | Dentigo Designs": ["home", "home1"],
+                "About | Dentigo Designs": ["about", "about1"],
+                "Product & Services | Dentigo Designs": ["prodser", "prodser1"],
+                "Digital Workflows | Dentigo Designs": ["digitalworkflow", "digitalworkflow1"],
+                "Portfolio & Gallery | Dentigo Designs": ["portgallery", "portgallery1"],
+                "Contact | Dentigo Designs": ["contact", "contact1"],
+                "Why Choose Us | Dentigo Designs": ["wcu", "wcu1"]
             };
 
             // Reset all nav items first

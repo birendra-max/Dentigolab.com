@@ -3,7 +3,7 @@ include 'inc/hd.php';
 ?>
 
 <script>
-    document.title = 'Why Choose Us | Dentigolab Designs'
+    document.title = 'Why Choose Us | Dentigo Designs'
 </script>
 
 

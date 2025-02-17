@@ -3,7 +3,7 @@ include 'inc/hd.php';
 ?>
 
 <script>
-    document.title = 'Portfolio & Gallery | Dentigolab Designs'
+    document.title = 'Portfolio & Gallery | Dentigo Designs'
 </script>
 
 <section class="container mx-auto w-full sm:w-4/5 lg:w-3/4 p-10 sm:p-12 mt-4 text-center">
@@ -28,6 +28,12 @@ include 'inc/hd.php';
             <h3 class="text-xl font-semibold text-gray-800 mt-4 mb-2">Helping You Grow</h3>
             <p class="text-gray-600 text-sm">Whether you need design support or full production, we help you scale while maintaining precision and consistency.</p>
         </div>
+    </div>
+
+    <div>
+        <?php
+        include 'inc/Marquee.php';
+        ?>
     </div>
 
     <div class="mt-10">

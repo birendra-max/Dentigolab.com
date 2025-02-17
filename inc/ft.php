@@ -2,7 +2,7 @@
 
 <div class="relative overflow-hidden w-full bg-black">
     <div class="px-4 py-6 sm:px-8">
-        <div class="max-w-3xl mx-auto text-center">
+        <div class="max-w-4xl mx-auto text-center">
             <a href="index.php" class="flex justify-center">
                 <img src="public/images/dentigologo.png" alt="Dentigo Logo"
                     class="w-40 sm:w-56 md:w-64 transition-transform duration-300 hover:scale-105"

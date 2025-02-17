@@ -3,10 +3,11 @@ include 'inc/hd.php';
 ?>
 
 <script>
-    document.title = 'Home | Dentigolab Designs'
+    document.title = 'Home | Dentigo Designs'
 </script>
 
 
+<!-- 
 <section class="font-roboto">
     <section class="md:px-8 px-2 py-4" id="hero">
         <div class="bg-white text-blue-900 font-sans py-8 shadow-xl rounded-xl">
@@ -129,7 +130,20 @@ include 'inc/hd.php';
             </div>
         </div>
     </section>
+</section> -->
+
+<section class="relative h-screen flex flex-col justify-start items-center text-white text-center">
+    <div class="relative h-[85vh] w-[100%] overflow-hidden">
+        <img src="public/images/Product List 3.png" alt="" class="h-full w-full">
+
+        <!-- Content inside the div -->
+        <div class="absolute inset-0 flex justify-center items-center">
+            <p class="text-xl font-bold">Your Content Here</p>
+        </div>
+    </div>
 </section>
+
+
 
 
 <script>
@@ -148,8 +162,8 @@ include 'inc/hd.php';
     <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-yellow-300 bg-white overflow-hidden transition-transform transform hover:scale-105 duration-500 ease-in-out md:max-h-[500px]">
         <!-- Image Section with Smaller Height -->
         <div class="w-full md:w-1/3 relative">
-            <img alt="Doctor in a dental clinic" 
-                class="h-[100%] md:h-[100%] w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out" 
+            <img alt="Doctor in a dental clinic"
+                class="h-[100%] md:h-[100%] w-full object-cover transition-transform transform hover:scale-110 duration-500 ease-in-out"
                 src="public/images/dentigo.jpg" />
         </div>
         <!-- Content Section -->

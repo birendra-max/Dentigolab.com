@@ -3,7 +3,7 @@ include 'inc/hd.php';
 ?>
 
 <script>
-    document.title = 'Digital Workflows | Dentigolab Designs'
+    document.title = 'Digital Workflows | Dentigo Designs'
 </script>
 
 <section class="relative py-8">
@@ -15,7 +15,7 @@ include 'inc/hd.php';
                 The Future of <span class="text-blue-600">Digital Dentistry</span> Starts Here
             </h2>
             <p class="text-gray-600 text-lg leading-relaxed">
-                Partner with <strong>Dentigolab</strong> for precision-driven dental solutions.
+                Partner with <strong>Dentigo</strong> for precision-driven dental solutions.
                 Experience advanced technology, seamless collaboration, and top-tier craftsmanship in every digital workflow.
             </p>
             <!-- CTA Buttons -->
@@ -32,8 +32,8 @@ include 'inc/hd.php';
             <div class="relative w-full max-w-sm">
                 <div class="absolute -top-8 -left-8 bg-blue-200 w-36 h-36 rounded-full opacity-40"></div>
                 <div class="absolute -bottom-8 -right-8 bg-indigo-200 w-24 h-24 rounded-full opacity-40"></div>
-                <img src="public/images/teeth1.jpg" alt="Dentigolab Image" class="w-full rounded-lg shadow-xl">
-                <img src="public/images/teeth2.jpg" alt="Dentigolab Image" class="absolute bottom-0 -right-4 w-3/5 rounded-lg shadow-lg border-4 border-white transform rotate-3">
+                <img src="public/images/teeth1.jpg" alt="Dentigo Image" class="w-full rounded-lg shadow-xl">
+                <img src="public/images/teeth2.jpg" alt="Dentigo Image" class="absolute bottom-0 -right-4 w-3/5 rounded-lg shadow-lg border-4 border-white transform rotate-3">
             </div>
         </div>
 
@@ -59,8 +59,8 @@ include 'inc/hd.php';
                 <span class="bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-widest">
                     Collaboration Process
                 </span>
-                <h2 class="text-4xl font-extrabold text-gray-900 mt-4 leading-tight">
-                    Simple Steps to Partner with <span class="text-blue-600">Dentigolab</span>
+                <h2 class="text-3xl font-extrabold text-gray-900 mt-4 leading-tight">
+                    Simple Steps to Partner with <span class="text-blue-600">Dentigo</span>
                 </h2>
                 <p class="text-gray-600 text-lg mt-2">
                     Follow these quick steps to begin a seamless, high-quality collaboration with us.
@@ -95,7 +95,7 @@ include 'inc/hd.php';
             <div class="relative w-full max-w-sm">
                 <div class="absolute -top-8 -left-8 bg-blue-200 w-24 h-24 rounded-full opacity-40"></div>
                 <div class="absolute -bottom-8 -right-8 bg-indigo-200 w-16 h-16 rounded-full opacity-40"></div>
-                <img src="public/images/col2.avif" alt="Dentigolab Collaboration"
+                <img src="public/images/col2.avif" alt="Dentigo Collaboration"
                     class="w-full rounded-lg shadow-xl transform hover:scale-105 transition duration-300">
             </div>
         </div>
@@ -107,7 +107,7 @@ include 'inc/hd.php';
 <section class="py-20">
     <div class="container mx-auto px-6">
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-gray-900">Why Choose Dentigolab?</h2>
+            <h2 class="text-4xl font-bold text-gray-900">Why Choose Dentigo?</h2>
             <a href="about.php" class="mt-4 inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline">
                 Discover Now
                 <i class="fas fa-arrow-right w-5 h-5"></i>

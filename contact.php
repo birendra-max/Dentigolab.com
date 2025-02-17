@@ -3,7 +3,7 @@ include 'inc/hd.php';
 ?>
 
 <script>
-    document.title = 'Contact | Dentigolab Designs'
+    document.title = 'Contact | Dentigo Designs'
 </script>
 
 
@@ -11,7 +11,7 @@ include 'inc/hd.php';
     <!-- Section Title and Description -->
     <div class="max-w-6xl mx-auto text-center mb-12 px-4">
         <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Let’s Connect & Collaborate</h2>
-        <p class="text-lg text-gray-600">We believe in strong partnerships and seamless communication. Whether you have a question, need support, or are looking to collaborate, we’re here for you!</p>
+        <p class="text-md text-gray-600">We believe in strong partnerships and seamless communication. Whether you have a question, need support, or are looking to collaborate, we’re here for you!</p>
     </div>
 
     <!-- Grid Section for Boxes -->
@@ -40,14 +40,18 @@ include 'inc/hd.php';
         <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 duration-300 ease-in-out border-t-4 border-blue-500 flex flex-col items-center">
             <h3 class="text-lg font-semibold text-gray-800 mb-4">Business Hours</h3>
             <ul class="text-gray-700 space-y-3 text-sm">
-                <li><i class="fas fa-headset text-blue-600 mr-2 text-xl"></i><strong>Support:</strong> Available 24/7 – We’re always here to support you!
+                <li>
+                    <i class="fas fa-headset text-blue-600 mr-2 text-xl"></i><strong>Support:</strong> Available 24/7
+                </li>
+                <li>
+                    <i class="fas fa-comment-dots text-green-600 text-xl"></i> We’re always here to support you!
                 </li>
             </ul>
         </div>
 
         <!-- Join Dentigo Box -->
         <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 duration-300 ease-in-out border-t-4 border-blue-500 flex flex-col items-center">
-            <h2 class="text-lg font-semibold text-gray-800 mb-4">Join Dentigo – Let’s Create Success Together!</h2>
+            <h2 class="text-md font-semibold text-gray-800 mb-4">Join Dentigo – Let’s Create Success Together!</h2>
             <p class="text-sm text-gray-600 mb-6">
                 We’re not just another provider—we’re your partner in growth. Tell us a little about yourself, and let’s build something extraordinary together!
             </p>

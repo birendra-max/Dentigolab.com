@@ -3,7 +3,7 @@ include 'inc/hd.php';
 ?>
 
 <script>
-    document.title = 'Product & Services | Dentigolab Designs'
+    document.title = 'Product & Services | Dentigo Designs'
 </script>
 
 <!-- Hero -->
@@ -233,7 +233,7 @@ include 'inc/hd.php';
                     </div>
                     <div>
                         <h5 class="text-xl font-semibold">Case Management Tools</h5>
-                        <p class="text-sm text-gray-600">Real-time updates through our Dentigolab Portal for tracking and managing your cases efficiently.</p>
+                        <p class="text-sm text-gray-600">Real-time updates through our Dentigo Portal for tracking and managing your cases efficiently.</p>
                         <a href="#" class="text-blue-500 font-semibold flex items-center mt-2 hover:text-blue-700">
                             Read More <span class="ml-2">&rarr;</span>
                         </a>

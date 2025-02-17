@@ -152,10 +152,10 @@ include 'inc/hd.php';
             <!-- Team Member -->
             <div class="group text-center transform transition duration-500 hover:scale-105">
                 <div class="relative mb-5">
-                    <img src="https://pagedone.io/asset/uploads/1696238411.png" alt="Dr Shatakshi Rastogi"
+                    <img src="https://pagedone.io/asset/uploads/1696238411.png" alt="Dr. Shatakshi Rastogi"
                         class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
                 </div>
-                <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Dr Shatakshi Rastogi</h4>
+                <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Dr. Shatakshi Rastogi</h4>
                 <span class=" group-hover:text-gray-900">Operation Manager</span>
             </div>
 
