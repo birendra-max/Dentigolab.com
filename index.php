@@ -158,7 +158,7 @@ include 'inc/hd.php';
 </script>
 
 <!-- About us section  -->
-<section class="flex h-auto items-center justify-center text-gray-900 md:px-0 px-4 py-24">
+<section class="flex h-auto items-center justify-center text-gray-900 md:px-0 px-4">
     <div class="flex flex-col md:flex-row max-w-7xl rounded-xl border border-yellow-300 bg-white overflow-hidden transition-transform transform hover:scale-105 duration-500 ease-in-out md:max-h-[500px]">
         <!-- Image Section with Smaller Height -->
         <div class="w-full md:w-1/3 relative">
