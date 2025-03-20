@@ -68,7 +68,7 @@ include 'inc/hd.php';
         <div class="flex flex-col lg:flex-row container">
             <!-- Left Side Image -->
             <div class="flex-1 flex items-center justify-center">
-                <img src="public/images/contact.jpg" alt="Dental Design" class="rounded-lg shadow-lg max-w-full h-auto">
+                <img src="public/images/CONTACT .png" alt="Dental Design" class="rounded-lg shadow-lg max-w-full h-auto">
             </div>
             <!-- Right Side Form -->
             <div class="flex-1 p-6">

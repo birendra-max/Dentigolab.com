@@ -28,6 +28,8 @@ include 'inc/hd.php';
            'public/images/Dentigo smile libary 4.png', 
            'public/images/Dentigo smile libary 5.png', 
            'public/images/Dentigo smile libary 6.png',
+           'public/images/Costmised libaries dentigo.png',
+           'public/images/Costmised libaries dentigo V.png',
          ]
        }"
         x-init="setInterval(() => { current = current < images.length - 1 ? current + 1 : 0 }, 3000)">

@@ -291,7 +291,7 @@ include 'inc/hd.php';
 
             <!-- Left Side Image -->
             <div class="relative" data-aos="fade-right">
-                <img src="https://staging.boostdigitalmarketing.com/wp-content/uploads/2023/02/UticaDentalLabV4-13.png" alt="Dental Lab"
+                <img src="public/images/The Dentigo Advantage.png" alt="Dental Lab"
                     class="w-full h-auto object-cover rounded-xl shadow-xl transform transition-transform duration-300 hover:scale-105">
             </div>
 

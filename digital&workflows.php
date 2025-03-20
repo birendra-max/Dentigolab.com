@@ -44,8 +44,8 @@ include 'inc/hd.php';
 <!-- Collaboration Process section  -->
 
 <section class="py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-16">
-        
+    <div class="max-w-9xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-16">
+
         <!-- Left: Steps Content -->
         <div class="lg:w-1/2 space-y-6" x-data="{ openStep: 1, steps: [
                 { id: 1, title: 'Step 1: Get Started', description: 'Submit a free trial case and evaluate our quality.', icon: 'lucide-user-plus', iconBg: 'bg-blue-100 text-blue-700' },
@@ -67,21 +67,21 @@ include 'inc/hd.php';
                 </p>
             </div>
 
-            <div class="space-y-2">
+            <div class="space-y-4 mt-8">
                 <template x-for="step in steps" :key="step.id">
-                    <div class="bg-white rounded-lg shadow-md transition transform hover:scale-[1.02]">
-                        <button class="w-full flex items-center justify-between px-4 py-3 rounded-lg bg-gray-100 hover:bg-gray-200 transition" 
+                    <div class="bg-white rounded-lg shadow-lg transition transform hover:scale-[1.02]">
+                        <button class="w-full flex items-center justify-between px-6 py-4 rounded-lg bg-gray-100 hover:bg-gray-200 transition"
                             @click="openStep = openStep === step.id ? null : step.id">
-                            <div class="flex items-center gap-3">
-                                <div :class="step.iconBg" class="w-10 h-10 flex items-center justify-center rounded-full shadow-md">
-                                    <i :class="step.icon" class="w-5 h-5"></i>
+                            <div class="flex items-center gap-4">
+                                <div :class="step.iconBg" class="w-12 h-12 flex items-center justify-center rounded-full shadow-md">
+                                    <i :class="step.icon" class="w-6 h-6"></i>
                                 </div>
-                                <h4 class="text-md font-semibold text-gray-900" x-text="step.title"></h4>
+                                <h4 class="text-lg font-semibold text-gray-900" x-text="step.title"></h4>
                             </div>
                             <i class="lucide-chevron-down w-5 h-5 transition-transform duration-300"
-                               :class="{ 'rotate-180': openStep === step.id }"></i>
+                                :class="{ 'rotate-180': openStep === step.id }"></i>
                         </button>
-                        <div x-show="openStep === step.id" x-collapse class="bg-gray-50 border-l-4 border-blue-500 px-4 py-2 text-gray-700 text-sm leading-relaxed rounded-lg shadow-inner transition-all">
+                        <div x-show="openStep === step.id" x-collapse class="bg-gray-50 border-l-4 border-blue-500 px-6 py-4 text-gray-700 text-sm leading-relaxed rounded-lg shadow-inner transition-all">
                             <p x-text="step.description"></p>
                         </div>
                     </div>
@@ -91,17 +91,18 @@ include 'inc/hd.php';
         </div>
 
         <!-- Right: Image Section -->
-        <div class="lg:w-1/2 flex justify-center relative" data-aos="fade-left">
-            <div class="relative w-full max-w-sm">
-                <div class="absolute -top-8 -left-8 bg-blue-200 w-24 h-24 rounded-full opacity-40"></div>
-                <div class="absolute -bottom-8 -right-8 bg-indigo-200 w-16 h-16 rounded-full opacity-40"></div>
-                <img src="public/images/col2.avif" alt="Dentigo Collaboration"
+        <div class="lg:w-1/2 flex justify-center relative mt-8 lg:mt-0" data-aos="fade-left">
+            <div class="relative w-full">
+                <div class="absolute -top-12 -left-12 bg-blue-200 w-32 h-32 rounded-full opacity-40"></div>
+                <div class="absolute -bottom-12 -right-12 bg-indigo-200 w-40 h-40 rounded-full opacity-40"></div>
+                <img src="public/images/Digital Workflow.jpg" alt="Dentigo Collaboration"
                     class="w-full rounded-lg shadow-xl transform hover:scale-105 transition duration-300">
             </div>
         </div>
 
     </div>
 </section>
+
 
 
 <section class="py-20">

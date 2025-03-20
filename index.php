@@ -355,10 +355,10 @@ include 'inc/hd.php';
     <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
         <!-- Image Section -->
         <div class="w-full lg:w-6/12 relative">
-            <img src="public/images/computer.avif" class="w-full rounded-lg shadow-xl transform transition duration-300 hover:scale-105" alt="service img">
+            <img src="public/images/Why Choose Us.jpg" class="w-full rounded-lg shadow-xl transform transition duration-300 hover:scale-105" alt="service img">
             <div class="absolute inset-0 flex items-center justify-center">
                 <a class="bg-white text-gray-700 p-4 rounded-full shadow-lg hover:bg-gray-200 transition"
-                    href="https://www.youtube.com/embed/KjpuOGDx_4E?si=fNVd64KesOcBrkRn">
+                    href="">
                     <i class="fa-solid fa-play text-2xl"></i>
                 </a>
             </div>
