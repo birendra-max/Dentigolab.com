@@ -21,19 +21,19 @@ include 'inc/hd.php';
     <div class="relative z-10 w-full max-w-screen-lg mx-auto px-6 lg:px-12">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div class="bg-white bg-opacity-90 rounded-xl p-6 shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all text-center text-gray-800">
-                <i class="fas fa-user-md text-5xl text-teal-600 mb-4"></i>
+                <i class="fas fa-user-md text-5xl text-blue-600 mb-4"></i>
                 <h3 class="text-2xl font-semibold">Experienced & Professional Team</h3>
                 <p class="mt-2 text-gray-600">Bringing precision and quality to your dental designs.</p>
             </div>
 
             <div class="bg-white bg-opacity-90 rounded-xl p-6 shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all text-center text-gray-800">
-                <i class="fas fa-handshake text-5xl text-teal-600 mb-4"></i>
+                <i class="fas fa-handshake text-5xl text-blue-600 mb-4"></i>
                 <h3 class="text-2xl font-semibold">Reliable Outsourcing Partner</h3>
                 <p class="mt-2 text-gray-600">We are your trusted partner in delivering high-quality restorations.</p>
             </div>
 
             <div class="bg-white bg-opacity-90 rounded-xl p-6 shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all text-center text-gray-800">
-                <i class="fas fa-clock text-5xl text-teal-600 mb-4"></i>
+                <i class="fas fa-clock text-5xl text-blue-600 mb-4"></i>
                 <h3 class="text-2xl font-semibold">Fast & Affordable</h3>
                 <p class="mt-2 text-gray-600">Get high-quality restorations with quick turnaround times at affordable prices.</p>
             </div>
@@ -125,54 +125,21 @@ include 'inc/hd.php';
 </section>
 
 <!-- Meet Our Team -->
-<section class="py-24 mt-12">
-    <div class="mx-auto max-w-6xl px-6 lg:px-8 text-center">
+<section class="py-16 mt-12">
+    <div class="mx-auto max-w-8xl px-6 lg:px-8 text-center">
         <!-- Section Title -->
-        <div class="mb-16">
+        <div class="mb-8">
             <h2 class="font-manrope text-5xl font-bold text-gray-900">Meet Our Team</h2>
             <p class="text-lg text-gray-600 mt-4">A team of dedicated professionals committed to excellence.</p>
         </div>
 
         <!-- Team Members Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 justify-center">
-            <!-- Team Member -->
-            <div class="group text-center transform transition duration-500 hover:scale-105">
-                <div class="relative mb-5">
-                    <img src="https://pagedone.io/asset/uploads/1696238374.png" alt="Manish Kumar"
-                        class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
+        <div class=" py-2 md:px-12 px-2">
+            <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
+                <!-- Image Section -->
+                <div class="w-full lg:w-12/12 relative">
+                    <img src="public/images/Meet Our Team.jpg" class="w-full rounded-lg shadow-xl transform transition duration-300 hover:scale-105" alt="service img">
                 </div>
-                <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Manish Kumar</h4>
-                <span class="group-hover:text-gray-900">CAD/CAM Specialist</span>
-            </div>
-
-            <!-- Team Member -->
-            <div class="group text-center transform transition duration-500 hover:scale-105">
-                <div class="relative mb-5">
-                    <img src="https://pagedone.io/asset/uploads/1696238396.png" alt="Poonam"
-                        class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
-                </div>
-                <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Miss. Poonam</h4>
-                <span class=" group-hover:text-gray-900">Quality Control Expert</span>
-            </div>
-
-            <!-- Team Member -->
-            <div class="group text-center transform transition duration-500 hover:scale-105">
-                <div class="relative mb-5">
-                    <img src="https://pagedone.io/asset/uploads/1696238411.png" alt="Dr. Shatakshi Rastogi"
-                        class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
-                </div>
-                <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Dr. Shatakshi Rastogi</h4>
-                <span class=" group-hover:text-gray-900">Operation Manager</span>
-            </div>
-
-            <!-- Team Member -->
-            <div class="group text-center transform transition duration-500 hover:scale-105">
-                <div class="relative mb-5">
-                    <img src="https://pagedone.io/asset/uploads/1696238446.png" alt="Dev Yadav"
-                        class="w-44 h-44 rounded-full mx-auto border border-gray-300 shadow-lg object-cover">
-                </div>
-                <h4 class="text-2xl font-semibold text-gray-900 group-hover:text-indigo-600">Dev Yadav</h4>
-                <span class="group-hover:text-gray-900">Digital Workflow Manager</span>
             </div>
         </div>
     </div>
@@ -275,7 +242,7 @@ include 'inc/hd.php';
             <!-- Right Side Image -->
             <div class="relative" data-aos="fade-left">
                 <div class="rounded-xl overflow-hidden shadow-xl transform transition duration-300 hover:scale-105">
-                    <img src="public/images/about7.jpg" alt="Our Commitment to Quality" class="w-full h-auto object-cover">
+                    <img src="public/images/Dentigo Design v2.png" alt="Our Commitment to Quality" class="w-full h-auto object-cover">
                 </div>
             </div>
 

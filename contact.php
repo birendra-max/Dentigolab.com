@@ -255,6 +255,16 @@ include 'inc/hd.php';
 include 'faq.php';
 ?>
 
+<!-- Thank you section -->
+<section class=" py-16 md:px-12 px-2">
+    <div class="container mx-auto flex justify-center items-center gap-8">
+        <!-- Image Section -->
+        <div class="w-full lg:w-10/12 relative ">
+            <img src="public/images/THANK YOU.jpg" class="w-full rounded-lg shadow-xl transform transition duration-300 hover:scale-105" alt="service img">
+        </div>
+    </div>
+</section>
+
 <?php
 include 'inc/ft.php';
 ?>

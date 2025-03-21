@@ -117,42 +117,6 @@ include 'inc/hd.php';
 </section>
 
 
-<section class="py-12 px-6 to-white">
-    <div class="container mx-auto flex flex-col items-center gap-14 text-center">
-
-        <!-- Section Title -->
-        <div class="max-w-4xl">
-            <h2 class="text-4xl font-bold text-gray-900 leading-tight"> Partner with Us for Exclusive Benefits</h2>
-            <p class="text-lg text-gray-700 mt-4">Looking for custom solutions, bulk orders, or expert support? Let’s collaborate to bring your vision to life.</p>
-        </div>
-
-        <!-- Feature Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
-            <div class="p-8 bg-white rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition duration-300">
-                <h3 class="text-xl font-semibold text-gray-900">📦 Bulk & Project Orders</h3>
-                <p class="text-gray-600 mt-2">Get personalized assistance for bulk purchases or specialized projects.</p>
-            </div>
-
-            <div class="p-8 bg-white rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition duration-300">
-                <h3 class="text-xl font-semibold text-gray-900">⚙️ Custom Solutions</h3>
-                <p class="text-gray-600 mt-2">Tailor-made services to match your unique requirements perfectly.</p>
-            </div>
-
-            <div class="p-8 bg-white rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition duration-300">
-                <h3 class="text-xl font-semibold text-black">🛠 Technical Support</h3>
-                <p class="text-gray-600 mt-2">Our experts are ready to assist with any technical inquiries.</p>
-            </div>
-        </div>
-
-        <!-- CTA Section -->
-        <div class="bg-gradient-to-r from-blue-50 to-blue-100 text-black p-10 rounded-2xl shadow-lg max-w-4xl">
-            <h3 class="text-3xl font-semibold">🎁 Get Started with a Free Trial</h3>
-            <p class="text-lg mt-4">Experience our premium services with no obligation. Sign up today and see the difference.</p>
-            <a href="#signup-form" class="mt-6 inline-block bg-white text-blue-600 text-lg font-semibold px-8 py-4 rounded-lg shadow-md hover:bg-gray-100 transition transform hover:scale-105">Sign Up for Free</a>
-        </div>
-
-    </div>
-</section>
 
 
 <section id="faq">

@@ -172,7 +172,7 @@ include 'inc/hd.php';
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-12">
             <!-- Left Side Image & Feature -->
             <div class="relative group overflow-hidden rounded-lg shadow-lg">
-                <img src="public/images/serr.avif" class="w-full h-full rounded-lg transform transition duration-300 group-hover:scale-105" alt="Feature img">
+                <img src="public/images/Our Services.jpg" class="w-full h-full rounded-lg transform transition duration-300 group-hover:scale-105" alt="Feature img">
                 <div class="absolute bottom-4 md:left-4 bg-white p-2 rounded-lg shadow-lg w-3/4">
                     <div class="flex items-center space-x-4">
                         <div class="text-blue-500 text-3xl">

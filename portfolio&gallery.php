@@ -19,6 +19,7 @@ include 'inc/hd.php';
 </section>
 
 <section class="w-full bg-gray-100 py-10">
+<h2 class="text-4xl font-bold text-gray-900 mb-6 text-center my-4">Dental-Optimized. Performance-Driven. Powered by Custom Libraries.</h2>
     <div class="max-w-7xl mx-auto relative"
         x-data="{ 
          current: 0, 

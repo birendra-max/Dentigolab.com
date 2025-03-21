@@ -289,7 +289,7 @@ include 'inc/hd.php';
             <!-- Orders Completed -->
             <div class="achievement-item bg-white p-2 shadow-md rounded-lg text-center">
                 <p class="text-lg text-gray-600">Orders Completed</p>
-                <p class="text-4xl font-bold text-indigo-600 counter" data-target="5000">0+</p>
+                <p class="text-4xl font-bold text-indigo-600 counter" data-target="1100">0+</p>
             </div>
 
             <!-- Skilled Designers -->
@@ -354,59 +354,8 @@ include 'inc/hd.php';
 <section class=" py-16 md:px-12 px-2">
     <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
         <!-- Image Section -->
-        <div class="w-full lg:w-6/12 relative">
+        <div class="w-full lg:w-12/12 relative">
             <img src="public/images/Why Choose Us.jpg" class="w-full rounded-lg shadow-xl transform transition duration-300 hover:scale-105" alt="service img">
-            <div class="absolute inset-0 flex items-center justify-center">
-                <a class="bg-white text-gray-700 p-4 rounded-full shadow-lg hover:bg-gray-200 transition"
-                    href="">
-                    <i class="fa-solid fa-play text-2xl"></i>
-                </a>
-            </div>
-        </div>
-
-        <!-- Content Section -->
-        <div class="w-full lg:w-7/12 bg-white p-10 rounded-xl shadow-xl transform transition duration-300 hover:scale-105">
-            <span class="bg-blue-500 text-white px- py-2 rounded-full text-sm font-semibold">Dentigo</span>
-            <h2 class="text-4xl font-bold mt-4 text-gray-800">Why Choose Us</h2>
-            <p class="text-gray-600 mt-2">We provide top-quality dental solutions trusted by professionals worldwide.</p>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                <!-- Reliability -->
-                <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-check-circle text-4xl text-blue-500"></i>
-                    <div>
-                        <h6 class="text-xl font-semibold text-gray-800">Reliability</h6>
-                        <p class="text-gray-600 text-sm">Trusted by dental professionals for consistent quality and on-time deliveries.</p>
-                    </div>
-                </div>
-
-                <!-- Advanced Technology -->
-                <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-microchip text-4xl text-blue-500"></i>
-                    <div>
-                        <h6 class="text-xl font-semibold text-gray-800">Advanced Technology</h6>
-                        <p class="text-gray-600 text-sm">Utilizing cutting-edge CAD/CAM systems to ensure accuracy in every design.</p>
-                    </div>
-                </div>
-
-                <!-- Certified Expertise -->
-                <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-user-md text-4xl text-blue-500"></i>
-                    <div>
-                        <h6 class="text-xl font-semibold text-gray-800">Certified Expertise</h6>
-                        <p class="text-gray-600 text-sm">A team of certified dentists and technicians ensures every product meets global benchmarks.</p>
-                    </div>
-                </div>
-
-                <!-- Global Reach -->
-                <div class="flex space-x-4 items-start">
-                    <i class="fa-solid fa-globe text-4xl text-blue-500"></i>
-                    <div>
-                        <h6 class="text-xl font-semibold text-gray-800">Global Reach</h6>
-                        <p class="text-gray-600 text-sm">Serving dental labs and clinics worldwide with tailored and efficient solutions.</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
