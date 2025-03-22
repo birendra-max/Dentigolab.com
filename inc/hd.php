@@ -60,7 +60,7 @@
             </div>
 
             <!-- Login/Signup Button -->
-            <a href="client/login.php" class="flex items-center space-x-6">
+            <a href="http://portal.dentigolab.com" class="flex items-center space-x-6">
                 <button class="relative group border-none bg-transparent p-0 outline-none cursor-pointer font-mono font-light text-base">
                     <span class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg transform translate-y-0.5 transition duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:translate-y-1 group-hover:duration-[250ms] group-active:translate-y-px"></span>
                     <span class="absolute top-0 left-0 w-full h-full rounded-lg bg-gradient-to-l from-[hsl(217,33%,16%)] via-[hsl(217,33%,32%)] to-[hsl(217,33%,16%)]"></span>
